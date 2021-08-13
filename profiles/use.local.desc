@@ -1,0 +1,53 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+sci-libs/indilib:drivers - Installs sci-libs/indilib-drivers which is a metapackage for indilib 3rd party drivers.
+sci-libs/indilib:websocket - Enable support for WebSocket protocol
+sci-libs/indilib-drivers:aagcloudwatcher - Installs sci-libs/indilib-driver-aagcloudwatcher
+sci-libs/indilib-drivers:aagcloudwatcherng - Installs sci-libs/indilib-driver-aagcloudwatcherng
+sci-libs/indilib-drivers:ahpxc - Installs sci-libs/indilib-driver-ahp-xc
+sci-libs/indilib-drivers:aok - Installs sci-libs/indilib-driver-aok
+sci-libs/indilib-drivers:apogee - Installs sci-libs/indilib-driver-apogee
+sci-libs/indilib-drivers:armadillo - Installs sci-libs/indilib-driver-armadillo-platypus
+sci-libs/indilib-drivers:asi - Installs sci-libs/indilib-driver-asi
+sci-libs/indilib-drivers:asipower - Installs sci-libs/indilib-driver-asi-power
+sci-libs/indilib-drivers:astrolink4 - Installs sci-libs/indilib-driver-astrolink4
+sci-libs/indilib-drivers:astromechfoc - Installs sci-libs/indilib-driver-astromechfoc
+sci-libs/indilib-drivers:atik - Installs sci-libs/indilib-driver-atik
+sci-libs/indilib-drivers:avalon - Installs sci-libs/indilib-driver-avalon
+sci-libs/indilib-drivers:beefocus - Installs sci-libs/indilib-driver-beefocus
+sci-libs/indilib-drivers:bresserexos2 - Installs sci-libs/indilib-driver-bresserexos2
+sci-libs/indilib-drivers:celestronaux - Installs sci-libs/indilib-driver-celestronauxr
+sci-libs/indilib-drivers:dreamfocuser - Installs sci-libs/indilib-driver-dreamfocuser
+sci-libs/indilib-drivers:dsi - Installs sci-libs/indilib-driver-dsi
+sci-libs/indilib-drivers:duino - Installs sci-libs/indilib-driver-duino
+sci-libs/indilib-drivers:eqmod - Installs sci-libs/indilib-driver-eqmod
+sci-libs/indilib-drivers:ffmv - Installs sci-libs/indilib-driver-ffmv
+sci-libs/indilib-drivers:fishcamp - Installs sci-libs/indilib-driver-fishcamp
+sci-libs/indilib-drivers:fli - Installs sci-libs/indilib-driver-fli
+sci-libs/indilib-drivers:gige - Installs sci-libs/indilib-driver-gige
+sci-libs/indilib-drivers:gphoto2 - Installs sci-libs/indilib-driver-gphoto
+sci-libs/indilib-drivers:gpsd - Installs sci-libs/indilib-driver-gpsd
+sci-libs/indilib-drivers:gpsnmea - Installs sci-libs/indilib-driver-gpsnmea
+sci-libs/indilib-drivers:inovaplx - Installs sci-libs/indilib-driver-inovaplx
+sci-libs/indilib-drivers:limesdr - Installs sci-libs/indilib-driver-limesdr
+sci-libs/indilib-drivers:maxdomeii - Installs sci-libs/indilib-driver-maxdomeii
+sci-libs/indilib-drivers:mgen - Installs sci-libs/indilib-driver-mgen
+sci-libs/indilib-drivers:mi - Installs sci-libs/indilib-driver-mi
+sci-libs/indilib-drivers:nexdome - Installs sci-libs/indilib-driver-nexdome
+sci-libs/indilib-drivers:nightscape - Installs sci-libs/indilib-driver-nightscape
+sci-libs/indilib-drivers:pentax - Installs sci-libs/indilib-driver-pentax
+sci-libs/indilib-drivers:qhy - Installs sci-libs/indilib-driver-qhy
+sci-libs/indilib-drivers:qsi - Installs sci-libs/indilib-driver-qsi
+sci-libs/indilib-drivers:rtklib - Installs sci-libs/indilib-driver-rtklib
+sci-libs/indilib-drivers:sbig - Installs sci-libs/indilib-driver-sbig
+sci-libs/indilib-drivers:shelyak - Installs sci-libs/indilib-driver-shelyak
+sci-libs/indilib-drivers:spectracyber - Installs sci-libs/indilib-driver-spectracyber
+sci-libs/indilib-drivers:starbook - Installs sci-libs/indilib-driver-starbook
+sci-libs/indilib-drivers:starbookten - Installs sci-libs/indilib-driver-starbook-ten
+sci-libs/indilib-drivers:sv305 - Installs sci-libs/indilib-driver-starbook
+sci-libs/indilib-drivers:sx - Installs sci-libs/indilib-driver-sx
+sci-libs/indilib-drivers:talon6 - Installs sci-libs/indilib-driver-talon6
+sci-libs/indilib-drivers:toupbase - Installs sci-libs/indilib-driver-toupbase
+sci-libs/indilib-drivers:webcam - Installs sci-libs/indilib-driver-webcam
