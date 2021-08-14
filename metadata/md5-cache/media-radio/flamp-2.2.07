@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure
+DEPEND=x11-libs/fltk:1 x11-libs/libX11 x11-misc/xdg-utils xmlrpc? ( >=media-radio/flxmlrpc-1.0.0 ) virtual/pkgconfig
+DESCRIPTION=Amateur Radio Multicast Protocol
+EAPI=8
+HOMEPAGE=http://www.w1hkj.com/flamp-help/index.html
+IUSE=xmlrpc
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/fltk:1 x11-libs/libX11 x11-misc/xdg-utils xmlrpc? ( >=media-radio/flxmlrpc-1.0.0 )
+SLOT=0
+SRC_URI=mirror://sourceforge/fldigi/flamp-2.2.07.tar.gz
+_md5_=28d50003c048a8392b65e3808d827489
