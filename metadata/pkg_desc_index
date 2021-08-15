@@ -2,6 +2,7 @@ acct-group/indiserver 0: Group for sci-libs/indilib
 acct-user/indiserver 0: User for sci-libs/indilib
 dev-util/iaito 5.3.1: A Qt and C++ GUI for radare2 reverse engineering framework
 media-libs/librtprocess 0.11.0: Algorithms for RAW processing from RawTherapee
+media-radio/cqrlog 2.5.2: CQRLOG is an advanced ham radio logger based on MySQL database
 media-radio/flaa 1.0.2: Control Program for RigExpert Antenna Analyzers
 media-radio/flamp 2.2.07: Amateur Radio Multicast Protocol
 media-radio/flcluster 1.0.7: Amateur Radio DX Cluster Viewer
