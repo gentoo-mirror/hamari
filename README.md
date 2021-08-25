@@ -46,6 +46,11 @@ Acknowledgement: These ebuild are based on the work of
 Although QSSTV is contained in the standard repo it mandatorily requires
 pulseaudio. This package allows to substitute pulseaudio with apulse.
 
+### Xnecview
+
+Xnecview is a software for visualizing the input and output files of the NEC
+antenna simulation software.
+
 
 Astronomy :telescope:
 ---------------------
@@ -74,6 +79,13 @@ determination is based on radio measurements.
 
 Computer Forensics, Reverse engineering :mag:
 ---------------------------------------------
+
+### hyx
+
+hyx is a vim-like terminal hex editor.
+
+Acknowledgement: The ebuild is based on the [sft](https://github.com/SFTtech/gentoo-overlay)
+  overlay.
 
 ### iaito
 
