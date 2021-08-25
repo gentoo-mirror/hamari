@@ -1,5 +1,6 @@
 acct-group/indiserver 0: Group for sci-libs/indilib
 acct-user/indiserver 0: User for sci-libs/indilib
+app-editors/hyx 2021.06.09: a minimalistic console hex editor with vim-like controls
 dev-libs/cm256cc 1.1.0: Fast GF(256) Cauchy MDS Block Erasure Codec in C++
 dev-libs/serialDV 1.1.4: C++ library to encode/decode audio with AMBE3000
 dev-util/iaito 5.3.1: A Qt and C++ GUI for radare2 reverse engineering framework
@@ -21,6 +22,7 @@ net-wireless/dsdcc 1.9.3: Digital Speech Decoder (DSD) rewritten as a C++ librar
 net-wireless/sdrangel 6.16.2: SDR Rx/Tx software
 sci-astronomy/siril 0.99.10.1: A free astronomical image processing software
 sci-astronomy/strf 9999: Radio Frequency Satellite Tracking
+sci-electronics/xnecview 1.37: 
 sci-libs/indilib 1.9.1-r1 9999: INDI Astronomical Control Protocol library
 sci-libs/indilib-driver-aagcloudwatcher 1.9.1 9999: INDI driver for the AAG Cloud Watcher (AAGware - http://www.aagware.eu/)
 sci-libs/indilib-driver-aagcloudwatcher-ng 1.9.1 9999: INDI driver for the AAG Cloud Watcher (AAGware - http://www.aagware.eu/)
