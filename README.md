@@ -17,12 +17,16 @@ branch as of 2021-08-12 into the upstreams Python 3 branch combined with
 patches from [atpage](https://github.com/atpage/chirp). In contains some
 further patches by myself. THIS SOFRWARE COMES WITH ABSOLUTELY NOT WARRANTY.
 
-Acknowledgements: The ebuild is on the work of the Pentoo project. Patches of
-  [atpage](https://github.com/atpage/chirp) are applied.
+Acknowledgements: The ebuild is based on the work of the Pentoo project.
+  Patches of [atpage](https://github.com/atpage/chirp) are applied.
 
 ### CQRLOG
 
 A logging program.
+
+### GPS SDR SIM
+
+Generates GPS baseband signals for various SDR transceivers.
 
 ### Fldigi Suite
 
@@ -31,6 +35,10 @@ radio utilities. Some of these programs are included in the gentoo standard
 repository. This repo provides the remaining utilities. The ebuilds from this
 repo provide the `xmlrpc` USE flag. But it seems support for this library is
 broken, since some tools require a more recent version than publicly available.
+
+### Pat
+
+Pat is a Winlink 2000 protocol client.
 
 ### SDRangel
 
@@ -91,3 +99,9 @@ Acknowledgement: The ebuild is based on the [sft](https://github.com/SFTtech/gen
 
 It's a graphical frontend for radare2, which is available in the main gentoo
 portage tree.
+
+### Volatility 3
+
+Volatility is a framework for volatile memory analysis.
+
+Acknowledgements: The ebuilds are based on the work of the Pentoo project.
