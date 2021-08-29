@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DEPEND=media-libs/alsa-lib
+DESCRIPTION=ARDOP Software Modem
+EAPI=8
+HOMEPAGE=https://www.cantab.net/users/john.wiseman/Documents/ARDOPC.html https://github.com/hamarituc/ardop
+INHERIT=git-r3
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=media-libs/alsa-lib
+SLOT=0
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_md5_=03ce56bc29c2a87d871dd9ef4722960a
