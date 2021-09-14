@@ -2,6 +2,10 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+media-video/aravis:fast-heartbeat - Enable faster heartbeat rate.
+media-video/aravis:gstreamer - Build the GStreamer plugin.
+media-video/aravis:packet-socket - Enable packet socket support.
+media-video/aravis:viewer - Build the GTK+-based video viewer.
 sci-libs/indilib:drivers - Installs sci-libs/indilib-drivers which is a metapackage for indilib 3rd party drivers.
 sci-libs/indilib:websocket - Enable support for WebSocket protocol
 sci-libs/indilib-drivers:aagcloudwatcher - Installs sci-libs/indilib-driver-aagcloudwatcher
@@ -37,7 +41,9 @@ sci-libs/indilib-drivers:mgen - Installs sci-libs/indilib-driver-mgen
 sci-libs/indilib-drivers:mi - Installs sci-libs/indilib-driver-mi
 sci-libs/indilib-drivers:nexdome - Installs sci-libs/indilib-driver-nexdome
 sci-libs/indilib-drivers:nightscape - Installs sci-libs/indilib-driver-nightscape
+sci-libs/indilib-drivers:orion-ssg3 - Installs sci-libs/indilib-driver-orion-ssg3
 sci-libs/indilib-drivers:pentax - Installs sci-libs/indilib-driver-pentax
+sci-libs/indilib-drivers:playerone - Installs sci-libs/indilib-driver-playerone
 sci-libs/indilib-drivers:qhy - Installs sci-libs/indilib-driver-qhy
 sci-libs/indilib-drivers:qsi - Installs sci-libs/indilib-driver-qsi
 sci-libs/indilib-drivers:rtklib - Installs sci-libs/indilib-driver-rtklib
