@@ -5,7 +5,6 @@ sci-libs/indilib-driver-aok
 sci-libs/indilib-driver-apogee
 sci-libs/indilib-driver-armadillo-platypus
 sci-libs/indilib-driver-asi
-sci-libs/indilib-driver-asi-power
 sci-libs/indilib-driver-astrolink4
 sci-libs/indilib-driver-astromechfoc
 sci-libs/indilib-driver-atik
@@ -31,7 +30,9 @@ sci-libs/indilib-driver-mgen
 sci-libs/indilib-driver-mi
 sci-libs/indilib-driver-nexdome
 sci-libs/indilib-driver-nightscape
+sci-libs/indilib-driver-orion-ssg3
 sci-libs/indilib-driver-pentax
+sci-libs/indilib-driver-playerone
 sci-libs/indilib-driver-qhy
 sci-libs/indilib-driver-qsi
 sci-libs/indilib-driver-rtklib

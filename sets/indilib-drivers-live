@@ -5,7 +5,6 @@
 =sci-libs/indilib-driver-apogee-9999
 =sci-libs/indilib-driver-armadillo-platypus-9999
 =sci-libs/indilib-driver-asi-9999
-=sci-libs/indilib-driver-asi-power-9999
 =sci-libs/indilib-driver-astrolink4-9999
 =sci-libs/indilib-driver-astromechfoc-9999
 =sci-libs/indilib-driver-atik-9999
@@ -31,7 +30,9 @@
 =sci-libs/indilib-driver-mi-9999
 =sci-libs/indilib-driver-nexdome-9999
 =sci-libs/indilib-driver-nightscape-9999
+=sci-libs/indilib-driver-orion-ssg3-9999
 =sci-libs/indilib-driver-pentax-9999
+=sci-libs/indilib-driver-playerone-9999
 =sci-libs/indilib-driver-qhy-9999
 =sci-libs/indilib-driver-qsi-9999
 =sci-libs/indilib-driver-rtklib-9999
