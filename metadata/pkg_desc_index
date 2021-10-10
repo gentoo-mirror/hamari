@@ -32,6 +32,7 @@ net-wireless/dsdcc 1.9.3: Digital Speech Decoder (DSD) rewritten as a C++ librar
 net-wireless/sdrangel 6.16.2: SDR Rx/Tx software
 sci-astronomy/pysiril 0.0.9: Python library to interface Python to a SiriL script
 sci-astronomy/siril 0.99.10.1: A free astronomical image processing software
+sci-astronomy/sirilic 1.13.11: Preparing acquisition files for processing with the SiriL software
 sci-astronomy/strf 9999: Radio Frequency Satellite Tracking
 sci-electronics/xnecview 1.37: 
 sci-libs/indilib 1.9.1-r1 1.9.2 9999: INDI Astronomical Control Protocol library
