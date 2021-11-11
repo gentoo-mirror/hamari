@@ -8,7 +8,6 @@ media-video/aravis:packet-socket - Enable packet socket support.
 media-video/aravis:viewer - Build the GTK+-based video viewer.
 sci-libs/indilib:drivers - Installs sci-libs/indilib-drivers which is a metapackage for indilib 3rd party drivers.
 sci-libs/indilib:websocket - Enable support for WebSocket protocol
-sci-libs/indilib-drivers:aagcloudwatcher - Installs sci-libs/indilib-driver-aagcloudwatcher
 sci-libs/indilib-drivers:aagcloudwatcherng - Installs sci-libs/indilib-driver-aagcloudwatcherng
 sci-libs/indilib-drivers:ahpxc - Installs sci-libs/indilib-driver-ahp-xc
 sci-libs/indilib-drivers:aok - Installs sci-libs/indilib-driver-aok
