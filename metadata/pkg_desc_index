@@ -42,7 +42,7 @@ sci-astronomy/sirilic 1.13.11: Preparing acquisition files for processing with t
 sci-astronomy/strf 9999: Radio Frequency Satellite Tracking
 sci-electronics/xnecview 1.37: 
 sci-libs/indilib 1.9.1-r1 1.9.2 1.9.3 9999: INDI Astronomical Control Protocol library
-sci-libs/indilib-driver-aagcloudwatcher 1.9.1 1.9.2 9999: INDI driver for the AAG Cloud Watcher (AAGware - http://www.aagware.eu/)
+sci-libs/indilib-driver-aagcloudwatcher 1.9.1 1.9.2: INDI driver for the AAG Cloud Watcher (AAGware - http://www.aagware.eu/)
 sci-libs/indilib-driver-aagcloudwatcher-ng 1.9.1 1.9.2 1.9.3 9999: INDI driver for the AAG Cloud Watcher (AAGware - http://www.aagware.eu/)
 sci-libs/indilib-driver-ahp-xc 1.9.1 1.9.2 1.9.3 9999: Indilib driver to control the AHP XC8 Telescope Array Correlator
 sci-libs/indilib-driver-aok 1.9.1 1.9.2 1.9.3 9999: INDI driver to control the AOK Skywalker mounts
