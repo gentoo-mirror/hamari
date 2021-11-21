@@ -34,7 +34,9 @@ media-radio/pat 0.11.0 0.12.0: Cross platform Winlink client
 media-video/aravis 0.6.4: Library for video acquisition using Genicam cameras
 net-wireless/chirp 99999999: Free open-source tool for programming your amateur radio
 net-wireless/dsdcc 1.9.3: Digital Speech Decoder (DSD) rewritten as a C++ library
+net-wireless/libfreefare 0.4.0 9999: a library for high level manipulation of MIFARE tags
 net-wireless/sdrangel 6.16.2: SDR Rx/Tx software
+sci-astronomy/astrometry 0.85: Automated astrometric calibration programs and service
 sci-astronomy/erfa 2.0.0: Essential Routines for Fundamental Astronomy
 sci-astronomy/pysiril 0.0.9: Python library to interface Python to a SiriL script
 sci-astronomy/siril 0.99.10.1-r1: A free astronomical image processing software
