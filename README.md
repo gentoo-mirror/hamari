@@ -64,6 +64,15 @@ antenna simulation software.
 Astronomy :telescope:
 ---------------------
 
+### Astrometry.net
+
+Astrometry.net create astrometrical solutions of astronomical images by
+matching star patterns.
+
+Acknowledgement: The ebuild is based on the
+  [benzene-overlay](https://github.com/Universebenzene/benzene-overlay)
+  overlay.
+
 ### Astropy
 
 A feature rich astronomical package for Python.
@@ -130,3 +139,13 @@ simavr is an AVR microcontroller simulator. Don't confuse it with simulavr.
 ### simulavr
 
 simulavr is an AVR microcontroller simulator. Don't confuse it with simavr.
+
+
+Miscellaneous :toolbox:
+-----------------------
+
+### libfreefare
+
+A library on top of `libnfc` for accessing various Mifare NFC tags.
+
+Acknowledgement: The ebuild is based on the [Pentoo](https://www.pentoo.ch/).
