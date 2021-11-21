@@ -38,6 +38,7 @@ net-wireless/dsdcc 1.9.3: Digital Speech Decoder (DSD) rewritten as a C++ librar
 net-wireless/libfreefare 0.4.0 9999: a library for high level manipulation of MIFARE tags
 net-wireless/sdrangel 6.16.2: SDR Rx/Tx software
 sci-astronomy/astrometry 0.85: Automated astrometric calibration programs and service
+sci-astronomy/astrometry-data 20130527: Astrometry.net index files
 sci-astronomy/erfa 2.0.0: Essential Routines for Fundamental Astronomy
 sci-astronomy/pysiril 0.0.9: Python library to interface Python to a SiriL script
 sci-astronomy/siril 0.99.10.1-r1: A free astronomical image processing software
