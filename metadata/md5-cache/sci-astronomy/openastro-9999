@@ -1,0 +1,14 @@
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure prepare unpack
+DEPEND=app-arch/bzip2 app-arch/lzma dev-embedded/libftdi >=dev-libs/hidapi-0.8.0 >=dev-libs/libusb-1.0.21 dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 >=media-libs/libdc1394-2.2.4 media-libs/libpng media-libs/libraw >=media-libs/libuvc-0.0.5 >=media-libs/tiff-4 media-video/ffmpeg sci-libs/cfitsio sys-libs/zlib virtual/jpeg virtual/libudev gphoto2? ( media-libs/libgphoto2 ) v4l? ( media-libs/libv4l ) gige? ( =media-video/aravis-0.6* ) asi? ( sci-libs/libasi ) atik? ( sci-libs/libatik ) toupbase? ( sci-libs/libtoupcam sci-libs/libaltaircam sci-libs/libstarshootg sci-libs/libnncam sci-libs/libmallincam ) qhy? ( sci-libs/libqhy )
+DESCRIPTION=Open Astro Project
+EAPI=8
+HOMEPAGE=https://www.openastroproject.org
+INHERIT=autotools git-r3
+IUSE=asi atik gige gphoto2 toupbase qhy v4l
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=app-arch/bzip2 app-arch/lzma dev-embedded/libftdi >=dev-libs/hidapi-0.8.0 >=dev-libs/libusb-1.0.21 dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 >=media-libs/libdc1394-2.2.4 media-libs/libpng media-libs/libraw >=media-libs/libuvc-0.0.5 >=media-libs/tiff-4 media-video/ffmpeg sci-libs/cfitsio sys-libs/zlib virtual/jpeg virtual/libudev gphoto2? ( media-libs/libgphoto2 ) v4l? ( media-libs/libv4l ) gige? ( =media-video/aravis-0.6* ) asi? ( sci-libs/libasi ) atik? ( sci-libs/libatik ) toupbase? ( sci-libs/libtoupcam sci-libs/libaltaircam sci-libs/libstarshootg sci-libs/libnncam sci-libs/libmallincam ) qhy? ( sci-libs/libqhy )
+SLOT=0
+_eclasses_=gnuconfig	262062cef0ba4f22b397193da514a350	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	libtool	241a8f577b9781a42a7421e53448a44e	autotools	c9df06c186913b43eb211100ef5fe2cf	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_md5_=31c0f3e722010a523c780126966842d9
