@@ -5,8 +5,6 @@ EAPI=8
 
 inherit cmake
 
-GHIDRA_COMMIT="3eb45fdeb01a1404c2f92db9a33e04faf0c57800"
-
 DESCRIPTION="Deep ghidra decompiler and sleigh disassembler integration for rizin"
 HOMEPAGE="https://github.com/rizinorg/rz-ghidra"
 
@@ -17,6 +15,8 @@ if [[ ${PV} == "9999" ]] ; then
     KEYWORDS=""
 else
 	EGIT_COMMIT="v${PV}"
+	GHIDRA_COMMIT="3eb45fdeb01a1404c2f92db9a33e04faf0c57800"
+
 	SRC_URI="
 		https://github.com/rizinorg/rz-ghidra/archive/v${PV}.tar.gz -> ${P}.tar.gz
 		https://github.com/rizinorg/ghidra/archive/${GHIDRA_COMMIT}.tar.gz -> ghidra-${PN}-${GHIDRA_COMMIT}.tar.gz
