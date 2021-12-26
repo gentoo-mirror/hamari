@@ -137,10 +137,6 @@ repo.
 
 rz-ghidra is an integration of the Ghidra decompiler into rizin and cutter.
 
-### rz-ghidra
-
-rz-ghidra is an integration of the Ghidra decompiler into rizin and cutter.
-
 ### Volatility 3
 
 Volatility is a framework for volatile memory analysis.

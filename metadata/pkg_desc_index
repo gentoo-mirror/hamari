@@ -15,7 +15,7 @@ dev-python/python-jplephem 2.16: Python version of NASA DE4xx ephemerides
 dev-python/python-sgp4 2.20: Satellite position calculation library
 dev-python/python-skyfield 1.39: Astronomical Computation Library
 dev-python/yara-python 4.1.0: Python interface for a malware identification and classification tool
-dev-util/iaito 5.3.1: A Qt and C++ GUI for radare2 reverse engineering framework
+dev-util/iaito 5.3.1 5.3.1-r1 5.5.0_beta 5.5.0_beta-r1: A Qt and C++ GUI for radare2 reverse engineering framework
 dev-util/radare2 5.5.4: unix-like reverse engineering framework and commandline tools
 dev-util/rz-ghidra 0.3.0: Deep ghidra decompiler and sleigh disassembler integration for rizin
 media-libs/librtprocess 0.11.0: Algorithms for RAW processing from RawTherapee
