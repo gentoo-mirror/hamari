@@ -121,3 +121,4 @@ sci-libs/libsbig 1.9.1 1.9.2 1.9.3 9999: Driver for the Santa Barbara Instrument
 sci-libs/libstarshootg 1.9.1 1.9.2 1.9.3 9999: This is the Orion Starshoot G Library SDK for Linux & MacOS
 sci-libs/libsv305 1.9.1 1.9.2 1.9.3 9999: SDK and firmware for the Moravian MI CCD cameras
 sci-libs/libtoupcam 1.9.1 1.9.2 1.9.3 9999: This is the Toupcam Library SDK
+sci-libs/sgp4 20210111: Simplified perturbations models
