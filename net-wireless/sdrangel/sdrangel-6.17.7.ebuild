@@ -65,10 +65,6 @@ DEPEND="${RDEPEND}
 	doc? ( app-doc/doxygen )
 	"
 
-PATCHES=(
-	"${FILESDIR}/${PN}-boost-barycentric.patch"
-)
-
 src_configure() {
 	# error: invalid conversion from ‘long int’ to ‘QDebug::Stream*’ [-fpermissive]
 	export CFLAGS='-fpermissive'
