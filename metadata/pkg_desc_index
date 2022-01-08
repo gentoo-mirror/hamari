@@ -1,6 +1,7 @@
 acct-group/indiserver 0: Group for sci-libs/indilib
 acct-user/indiserver 0: User for sci-libs/indilib
 app-editors/hyx 2021.06.09: a minimalistic console hex editor with vim-like controls
+app-exploits/ropgadget 6.5 6.6: Search for gadgets in binaries to facilitate your ROP exploitation
 app-exploits/ropper 1.13.6 9999: Use to display information about binary files in different file formats
 app-forensics/volatility3 1.0.1: Framework for analyzing volatile memory
 app-forensics/yara 4.1.1 4.1.3: A malware identification and classification tool
@@ -15,6 +16,7 @@ dev-python/filebytes 0.10.2: Classes to parse the following file formats
 dev-python/pefile 2021.5.24 2021.9.3: Module to read and work with Portable Executable (PE) files
 dev-python/pyerfa 2.0.0.1: Astronomical Computation Library
 dev-python/python-jplephem 2.16: Python version of NASA DE4xx ephemerides
+dev-python/python-ptrace 0.9.8: A Python binding of ptrace library
 dev-python/python-sgp4 2.20: Satellite position calculation library
 dev-python/python-skyfield 1.39: Astronomical Computation Library
 dev-python/yara-python 4.1.0 4.1.3: Python interface for a malware identification and classification tool
@@ -126,3 +128,4 @@ sci-libs/libsv305 1.9.3 9999: SDK and firmware for the Moravian MI CCD cameras
 sci-libs/libtoupcam 1.9.3 9999: This is the Toupcam Library SDK
 sci-libs/sgp4 20210111: Simplified perturbations models
 sys-devel/gef 2021.10 9999: A GDB Enhanced Features for exploit devs & reversers
+sys-devel/pwndbg 20200723 20210622 20220105 99999999: A GDB plug-in that makes debugging with GDB suck less
