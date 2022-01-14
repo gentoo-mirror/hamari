@@ -24,7 +24,7 @@ dev-python/python-skyfield 1.39: Astronomical Computation Library
 dev-python/yara-python 4.1.0 4.1.3: Python interface for a malware identification and classification tool
 dev-util/iaito 5.3.1 5.3.1-r1 5.5.0_beta 5.5.0_beta-r1: A Qt and C++ GUI for radare2 reverse engineering framework
 dev-util/radare2 5.5.4: unix-like reverse engineering framework and commandline tools
-dev-util/rz-ghidra 0.3.0: Deep ghidra decompiler and sleigh disassembler integration for rizin
+dev-util/rz-ghidra 0.3.0-r1: Deep ghidra decompiler and sleigh disassembler integration for rizin
 dev-util/unicorn 2.0.0_rc5: A lightweight multi-platform, multi-architecture CPU emulator framework
 media-libs/librtprocess 0.11.0: Algorithms for RAW processing from RawTherapee
 media-libs/mbelib 1.3.0 9999: P25 Phase 1 and ProVoice vocoder
@@ -52,7 +52,7 @@ sci-astronomy/astrometry-data 20130527: Astrometry.net index files
 sci-astronomy/erfa 2.0.0: Essential Routines for Fundamental Astronomy
 sci-astronomy/openastro 1.8.0 9999: Open Astro Project
 sci-astronomy/pysiril 0.0.9: Python library to interface Python to a SiriL script
-sci-astronomy/siril 0.99.10.1-r1: A free astronomical image processing software
+sci-astronomy/siril 0.99.10.1-r2: A free astronomical image processing software
 sci-astronomy/sirilic 1.13.11: Preparing acquisition files for processing with the SiriL software
 sci-astronomy/strf 9999: Radio Frequency Satellite Tracking
 sci-electronics/xnecview 1.37: 
