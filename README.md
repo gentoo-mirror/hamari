@@ -122,6 +122,24 @@ GEF is an extension package to the GNU Debugger.
 Acknowledgement: The ebuild is based on the [Pentoo](https://www.pentoo.ch/)
   Project.
 
+### Ghidra
+
+Citing from https://github.com/NationalSecurityAgency/ghidra:
+
+> Ghidra is a software reverse engineering (SRE) framework created and
+> maintained by the National Security Agency Research Directorate. This
+> framework includes a suite of full-featured, high-end software analysis tools
+> that enable users to analyze compiled code on a variety of platforms
+> including Windows, macOS, and Linux. Capabilities include disassembly,
+> assembly, decompilation, graphing, and scripting, along with hundreds of
+> other features. Ghidra supports a wide variety of processor instruction sets
+> and executable formats and can be run in both user-interactive and automated
+> modes. Users may also develop their own Ghidra extension components and/or
+> scripts using Java or Python.
+
+Acknowledgement: The ebuild is based on the [Pentoo](https://www.pentoo.ch/)
+  Project.
+
 ### hyx
 
 hyx is a vim-like terminal hex editor.
@@ -150,6 +168,13 @@ Acknowledgement: The ebuild is based on the [Pentoo](https://www.pentoo.ch/)
 ### rz-ghidra
 
 rz-ghidra is an integration of the Ghidra decompiler into rizin and cutter.
+
+### Termshark
+
+Termshark is a terminal UI for tshark, inspired by Wireshark.
+
+Acknowledgement: The ebuild is based on the [Pentoo](https://www.pentoo.ch/)
+  Project.
 
 ### Triton
 
