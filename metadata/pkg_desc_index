@@ -58,7 +58,7 @@ sci-astronomy/astrometry-data 20130527: Astrometry.net index files
 sci-astronomy/erfa 2.0.0: Essential Routines for Fundamental Astronomy
 sci-astronomy/openastro 1.8.0-r1 9999: Open Astro Project
 sci-astronomy/pysiril 0.0.9 0.0.12: Python library to interface Python to a SiriL script
-sci-astronomy/siril 0.99.10.1-r2 1.0.0_rc2: A free astronomical image processing software
+sci-astronomy/siril 0.99.10.1-r2 1.0.0_rc2 9999: A free astronomical image processing software
 sci-astronomy/sirilic 1.13.11 1.14.2: Preparing acquisition files for processing with the SiriL software
 sci-astronomy/strf 9999: Radio Frequency Satellite Tracking
 sci-astronomy/wcslib 7.7: Astronomical World Coordinate System transformations library
