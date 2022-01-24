@@ -24,6 +24,7 @@ dev-python/yara-python 4.1.3-r1: Python interface for a malware identification a
 dev-util/gef 2021.10-r1 9999: A GDB Enhanced Features for exploit devs & reversers
 dev-util/ghidra 10.0.4 10.1.1: A software reverse engineering framework
 dev-util/iaito 5.3.1 5.3.1-r1 5.5.0_beta 5.5.0_beta-r1: A Qt and C++ GUI for radare2 reverse engineering framework
+dev-util/peda 1.2 9999: Python Exploit Development Assistance for GDB
 dev-util/pwndbg 20220105 99999999: A GDB plug-in that makes debugging with GDB suck less
 dev-util/radare2 5.5.4: unix-like reverse engineering framework and commandline tools
 dev-util/ropgadget 6.6: Search for gadgets in binaries to facilitate your ROP exploitation
@@ -52,7 +53,7 @@ net-wireless/desfsh 1.0 9999: An interactive application for accessing Mifare DE
 net-wireless/dsdcc 1.9.3: Digital Speech Decoder (DSD) rewritten as a C++ library
 net-wireless/libfreefare 0.4.0 9999: a library for high level manipulation of MIFARE tags
 net-wireless/proxmark3 4.14434 4.14831 9999: A general purpose RFID tool for Proxmark3 hardware
-net-wireless/sdrangel 6.17.7 6.18.0 9999: SDR Rx/Tx software
+net-wireless/sdrangel 6.17.7 6.18.0 6.18.1 9999: SDR Rx/Tx software
 sci-astronomy/astrometry 0.85: Automated astrometric calibration programs and service
 sci-astronomy/astrometry-data 20130527: Astrometry.net index files
 sci-astronomy/erfa 2.0.0: Essential Routines for Fundamental Astronomy
