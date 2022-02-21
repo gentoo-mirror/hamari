@@ -2,6 +2,7 @@ acct-group/indiserver 0: Group for sci-libs/indilib
 acct-user/indiserver 0: User for sci-libs/indilib
 app-editors/hyx 2021.06.09: a minimalistic console hex editor with vim-like controls
 app-forensics/volatility3 1.0.1 2.0.0: Framework for analyzing volatile memory
+dev-db/sqlmap 1.6.2 9999: An automatic SQL injection and database takeover tool
 dev-embedded/simavr 1.7 9999: Atmel AVR simulator
 dev-embedded/simulavr 1.1.0: Atmel AVR simulator
 dev-libs/LeechCore 2.10: Direct Memory Access (DMA) Attack Software
