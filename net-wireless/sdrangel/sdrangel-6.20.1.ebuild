@@ -26,6 +26,7 @@ IUSE="airspy bladerf cpu_flags_x86_ssse3 cpu_flags_x86_sse4_1 faad fcd -debug -d
 RDEPEND="
 	dev-libs/boost
 	dev-libs/cm256cc
+	dev-libs/hidapi
 	dev-libs/serialDV
 	>=dev-qt/qtcore-5.6.0
 	>=dev-qt/qtwidgets-5.6.0
