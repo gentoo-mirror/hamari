@@ -20,7 +20,7 @@ dev-python/python-jplephem 2.16: Python version of NASA DE4xx ephemerides
 dev-python/python-ptrace 0.9.8 9999: A Python binding of ptrace library
 dev-python/python-sgp4 2.20: Satellite position calculation library
 dev-python/python-skyfield 1.39: Astronomical Computation Library
-dev-util/ROPgadget 6.6 9999: Search for gadgets in binaries to facilitate your ROP exploitation
+dev-util/ROPgadget 6.6 6.7 9999: Search for gadgets in binaries to facilitate your ROP exploitation
 dev-util/ghidra 10.0.4 10.1.1: A software reverse engineering framework
 dev-util/iaito 5.3.1 5.3.1-r1 5.5.0_beta 5.5.0_beta-r1: A Qt and C++ GUI for radare2 reverse engineering framework
 dev-util/peda 1.2 9999: Python Exploit Development Assistance for GDB
