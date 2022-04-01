@@ -9,7 +9,7 @@ dev-libs/LeechCore 2.10 2.11: Direct Memory Access (DMA) Attack Software
 dev-libs/cm256cc 1.1.0: Fast GF(256) Cauchy MDS Block Erasure Codec in C++
 dev-libs/serialDV 1.1.4: C++ library to encode/decode audio with AMBE3000
 dev-libs/triton 0.8.1-r2 0.9: Triton is a Dynamic Binary Analysis (DBA) framework
-dev-python/astropy 4.3.1 5.0 5.0.1 5.0.2 5.0.3: Python astronomy package
+dev-python/astropy 4.3.1 5.0 5.0.1 5.0.2 5.0.3 5.0.4: Python astronomy package
 dev-python/colored-traceback 0.3.0: Automatically color Python's uncaught exception tracebacks
 dev-python/extension-helpers 0.1: Helpers to assist with building Python pkgs with compiled C/Cython extensions
 dev-python/leechcorepyc 2.10.2: Python binding for LeechCore Physical Memory Acquisition Library
@@ -50,7 +50,7 @@ net-wireless/desfsh 1.0.1 9999: An interactive application for accessing Mifare 
 net-wireless/dsdcc 1.9.3: Digital Speech Decoder (DSD) rewritten as a C++ library
 net-wireless/libfreefare 0.4.0 9999: a library for high level manipulation of MIFARE tags
 net-wireless/proxmark3 4.14434 4.14831 9999: A general purpose RFID tool for Proxmark3 hardware
-net-wireless/sdrangel 6.20.0 6.20.1 9999: SDR Rx/Tx software
+net-wireless/sdrangel 6.20.0 6.20.1 6.20.2 9999: SDR Rx/Tx software
 sci-astronomy/astrometry 0.85: Automated astrometric calibration programs and service
 sci-astronomy/astrometry-data 20130527: Astrometry.net index files
 sci-astronomy/erfa 2.0.0: Essential Routines for Fundamental Astronomy
