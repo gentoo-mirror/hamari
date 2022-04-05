@@ -158,13 +158,6 @@ peda is an extension package to the GNU Debugger.
 Acknowledgement: The ebuild is based on the [Pentoo](https://www.pentoo.ch/)
   Project.
 
-### pwndbg
-
-pwndbg is a GDB frontend.
-
-Acknowledgement: The ebuild is based on the [Pentoo](https://www.pentoo.ch/)
-  Project.
-
 ### pwntools
 
 Citing from https://github.com/Gallopsled/pwntools:
@@ -179,17 +172,6 @@ Acknowledgement: The ebuild is based on the [Pentoo](https://www.pentoo.ch/)
 ### rz-ghidra
 
 rz-ghidra is an integration of the Ghidra decompiler into rizin and cutter.
-
-### sqlmap
-
-Citing from https://github.com/sqlmapproject/sqlmap:
-
-> sqlmap is an open source penetration testing tool that automates the process
-> of detecting and exploiting SQL injection flaws and taking over of database
-> servers.
-
-Acknowledgement: The ebuild is based on the [Pentoo](https://www.pentoo.ch/)
-  Project.
 
 ### Termshark
 
@@ -209,13 +191,6 @@ Citing from https://github.com/JonathanSalwan/Triton/:
 > interface and, the last but not least, Python bindings. Based on these
 > components, you are able to build program analysis tools, automate reverse
 > engineering and perform software verification.
-
-### Volatility 3
-
-Volatility is a framework for volatile memory analysis.
-
-Acknowledgement: The ebuild is based on the [Pentoo](https://www.pentoo.ch/)
-  Project.
 
 
 Electronic Engineering :electric_plug:
@@ -267,9 +242,12 @@ Ebuilds made it into `::gentoo` :tada:
 
 The following ebuilds are now in the Gentoo mainline repository.
 
+ * `app-forensics/volatility3`
  * `app-forensics/yara`
+ * `dev-db/sqlmap`
  * `dev-python/filebytes`
  * `dev-python/yara-python`
  * `dev-util/gef`
+ * `dev-util/pwndbg`
  * `dev-util/ropper`
  * `dev-util/unicorn`
