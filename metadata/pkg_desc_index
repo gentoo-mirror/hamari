@@ -18,7 +18,7 @@ dev-python/python-skyfield 1.39: Astronomical Computation Library
 dev-util/ghidra 10.0.4 10.1.1: A software reverse engineering framework
 dev-util/iaito 5.3.1 5.3.1-r1 5.5.0_beta 5.5.0_beta-r1: A Qt and C++ GUI for radare2 reverse engineering framework
 dev-util/peda 1.2 9999: Python Exploit Development Assistance for GDB
-dev-util/pwntools 4.7.0: CTF framework and exploit development library
+dev-util/pwntools 4.7.0 4.7.1: CTF framework and exploit development library
 dev-util/radare2 5.5.4 5.6.0 5.6.2 5.6.4-r1 5.6.6-r1 5.6.8: unix-like reverse engineering framework and commandline tools
 dev-util/rz-ghidra 0.3.0-r1: Deep ghidra decompiler and sleigh disassembler integration for rizin
 media-libs/librtprocess 0.11.0 0.12.0: Algorithms for RAW processing from RawTherapee
