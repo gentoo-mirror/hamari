@@ -33,7 +33,7 @@ REQUIRED_USE="
 
 DEPEND="
 	>=dev-libs/boost-1.68:=
-	>=dev-libs/capstone-4.0
+	>=dev-libs/capstone-4.0:=
 	z3? ( >=sci-mathematics/z3-4.6.0 )
 "
 RDEPEND="
@@ -51,6 +51,7 @@ BDEPEND=""
 
 PATCHES=(
 	"${FILESDIR}/${P}-installdir.patch"
+	"${FILESDIR}/${P}-capstone.patch"
 )
 
 pkg_setup() {
@@ -60,7 +61,7 @@ pkg_setup() {
 src_configure() {
 	local mycmakeargs=(
 		-DPYTHON_BINDINGS="$(usex python)"
-		-DSTATICLIB="$(usex static-libs)"
+		-DBUILD_SHARED_LIBS="$(usex static-libs OFF ON)"
 		-DZ3_INTERFACE="$(usex z3)"
 	)
 	cmake_src_configure
