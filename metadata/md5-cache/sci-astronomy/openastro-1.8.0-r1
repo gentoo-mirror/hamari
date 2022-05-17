@@ -11,5 +11,5 @@ LICENSE=GPL-3
 RDEPEND=app-arch/bzip2 app-arch/lzma dev-embedded/libftdi >=dev-libs/hidapi-0.8.0 >=dev-libs/libusb-1.0.21 dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtnetwork:5 dev-qt/qtwidgets:5 >=media-libs/libdc1394-2.2.4 media-libs/libpng media-libs/libraw >=media-libs/libuvc-0.0.5 >=media-libs/tiff-4 media-video/ffmpeg sci-libs/cfitsio sys-libs/zlib virtual/jpeg virtual/libudev gphoto2? ( media-libs/libgphoto2 ) indilib_drivers_asi? ( sci-libs/libasi ) indilib_drivers_atik? ( sci-libs/libatik ) indilib_drivers_qhy? ( sci-libs/libqhy ) indilib_drivers_toupbase? ( sci-libs/libtoupcam sci-libs/libaltaircam sci-libs/libstarshootg sci-libs/libnncam sci-libs/libmallincam ) v4l? ( media-libs/libv4l )
 SLOT=0
 SRC_URI=https://github.com/openastroproject/openastro/archive/refs/tags/v1.8.0.tar.gz -> openastro-1.8.0.tar.gz
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	libtool	241a8f577b9781a42a7421e53448a44e	autotools	136117fb43a9bf5598530e9cc642f710
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	libtool	241a8f577b9781a42a7421e53448a44e	autotools	136117fb43a9bf5598530e9cc642f710
 _md5_=64c30d06f7cec1695120efe7618c6727
