@@ -28,7 +28,7 @@ media-radio/flaa 1.0.2: Control Program for RigExpert Antenna Analyzers
 media-radio/flamp 2.2.07: Amateur Radio Multicast Protocol
 media-radio/flcluster 1.0.7: Amateur Radio DX Cluster Viewer
 media-radio/fllog 1.2.7: Amateur Radio Logging Program
-media-radio/flmsg 4.0.19: Simple forms management editor for the amateur radio supported standard message formats
+media-radio/flmsg 4.0.19 4.0.20: Simple forms management editor for the amateur radio supported standard message formats
 media-radio/flnet 7.4.0: Amateur Radio Net Control Program
 media-radio/flwkey 1.2.3: A simple interface to the Winkeyer series of CW code generators
 media-radio/flwrap 1.3.5: Reliable File Transfer Programm for Amateur Radio Use
