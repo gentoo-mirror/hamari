@@ -6,4 +6,4 @@ KEYWORDS=~amd64 ~arm ~x86
 LICENSE=MIT
 SLOT=0
 SRC_URI=https://yx7.cc/code/hyx/hyx-2021.06.09.tar.xz
-_md5_=0cd3c954451e6f48d547a14ce71f38ea
+_md5_=e3bcd95a0c243201b3cf864855a7de3a

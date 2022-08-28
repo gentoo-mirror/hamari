@@ -1,14 +1,14 @@
 BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
 DEFINED_PHASES=prepare
-DEPEND=dev-libs/libnfc dev-libs/openssl:= virtual/libusb:0
-DESCRIPTION=a library for high level manipulation of MIFARE tags
+DEPEND=x11-libs/fltk:= x11-libs/libX11:= x11-misc/xdg-utils virtual/pkgconfig
+DESCRIPTION=Amateur Radio Net Control Program
 EAPI=8
-HOMEPAGE=https://github.com/nfc-tools/libfreefare
+HOMEPAGE=http://w1hkj.com/Net-help/index.html
 INHERIT=autotools
-KEYWORDS=~amd64
-LICENSE=GPL-3
-RDEPEND=dev-libs/libnfc dev-libs/openssl:= virtual/libusb:0
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=x11-libs/fltk:= x11-libs/libX11:= x11-misc/xdg-utils
 SLOT=0
-SRC_URI=https://github.com/nfc-tools/libfreefare/archive/libfreefare-0.4.0.tar.gz
+SRC_URI=https://github.com/w1hkj/flnet/archive/refs/tags/v7.5.0.tar.gz -> flnet-7.5.0.tar.gz
 _eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	9e6965bfaa00f52cc61e0d4bc44c87b3
-_md5_=b141fc2343a89e0ee43d62eeb53e0cfe
+_md5_=f94681a8ae173f0e670877f4edffd791
