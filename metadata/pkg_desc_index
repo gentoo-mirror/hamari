@@ -50,7 +50,7 @@ sci-astronomy/astrometry-data 20130527: Astrometry.net index files
 sci-astronomy/erfa 2.0.0: Essential Routines for Fundamental Astronomy
 sci-astronomy/openastro 1.8.0-r1 9999: Open Astro Project
 sci-astronomy/strf 9999: Radio Frequency Satellite Tracking
-sci-electronics/xnecview 1.37: 
+sci-electronics/xnecview 1.37: A program for visualizing NEC2 input and output data
 sci-geosciences/gdal-grass 3.4.1: GDAL plugin to access GRASS data
 sci-libs/indilib 1.9.6 1.9.7 9999: INDI Astronomical Control Protocol library
 sci-libs/indilib-driver-aagcloudwatcher-ng 1.9.6 1.9.7 9999: INDI driver for the AAG Cloud Watcher (AAGware - http://www.aagware.eu/)

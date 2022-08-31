@@ -1,6 +1,7 @@
 BDEPEND=virtual/pkgconfig
 DEFINED_PHASES=install
 DEPEND=>=media-libs/libpng-1.6 x11-libs/gtk+
+DESCRIPTION=A program for visualizing NEC2 input and output data
 EAPI=8
 HOMEPAGE=https://www.pa3fwm.nl/software/xnecview/
 KEYWORDS=~amd64 ~x86
@@ -8,4 +9,4 @@ LICENSE=GPL-2
 RDEPEND=>=media-libs/libpng-1.6 x11-libs/gtk+
 SLOT=0
 SRC_URI=https://www.pa3fwm.nl/software/xnecview/xnecview-1.37.tgz
-_md5_=aed442409366a6d79f7ca888a8b7e96a
+_md5_=a1b4a802f652494260aebf547d3f1574
