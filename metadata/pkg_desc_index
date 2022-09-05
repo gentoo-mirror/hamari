@@ -18,7 +18,7 @@ dev-python/python-jplephem 2.16: Python version of NASA DE4xx ephemerides
 dev-python/python-registry 1.4 9999: Pure Python parser for Windows Registry hives
 dev-python/python-sgp4 2.20: Satellite position calculation library
 dev-python/python-skyfield 1.39: Astronomical Computation Library
-dev-util/ghidra 10.0.4 10.1.1: A software reverse engineering framework
+dev-util/ghidra 10.0.4 10.1.1 10.1.5-r1: A software reverse engineering framework
 dev-util/iaito 5.3.1 5.3.1-r1 5.5.0_beta 5.5.0_beta-r1 5.7.0 5.7.2: A Qt and C++ GUI for radare2 reverse engineering framework
 dev-util/pwntools 4.7.0 4.7.1 4.8.0 4.9.0_beta0: CTF framework and exploit development library
 dev-util/qiling 1.4.3 9999: Advanced binary emulation framework
@@ -41,6 +41,8 @@ media-video/aravis 0.6.4: Library for video acquisition using Genicam cameras
 net-wireless/chirp 99999999: Free open-source tool for programming your amateur radio
 net-wireless/desfsh 1.0.1 9999: An interactive application for accessing Mifare DESFire NFC tags
 net-wireless/dsdcc 1.9.3-r1: Digital Speech Decoder (DSD) rewritten as a C++ library
+net-wireless/gr-satellites 3.14.0: GNU Radio decoder for Amateur satellites
+net-wireless/gr-satnogs 2.3.1.1 9999: GNU Radio decoder for various scientific and academic sattelites
 net-wireless/libfreefare 0.4.0 9999: a library for high level manipulation of MIFARE tags
 net-wireless/proxmark3 4.14434 4.14831 9999: A general purpose RFID tool for Proxmark3 hardware
 net-wireless/sdrangel 7.6.0-r1 7.6.1-r1 7.6.2 7.6.3 9999: SDR Rx/Tx software
