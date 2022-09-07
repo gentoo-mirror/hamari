@@ -6,11 +6,18 @@ EAPI=8
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{8..11} )
 
-inherit distutils-r1 git-r3
+inherit distutils-r1
 
-DESCRIPTION="A offensive security tool for reconnaissance and vulnerability scanning"
-HOMEPAGE="https://github.com/evyatarmeged/Raccoon"
-EGIT_REPO_URI="https://github.com/evyatarmeged/Raccoon.git"
+DESCRIPTION=""
+HOMEPAGE="https://commixproject.com/"
+
+if [[ ${PV} == 9999 ]]; then
+	inherit git-r3
+	EGIT_REPO_URI="https://github.com/commixproject/commix.git"
+else
+	SRC_URI="https://github.com/commixproject/commix/archive/refs/tags/v${PV}.tar.gz -> ${P}.gh.tar.gz"
+	KEYWORDS="~amd64 ~x86"
+fi
 
 LICENSE="MIT"
 SLOT="0"
@@ -26,11 +33,4 @@ RDEPEND="
 	dev-python/fake-useragent[${PYTHON_USEDEP}]
 "
 
-distutils_enable_tests pytest
-
-src_prepare()
-{
-	default
-
-	sed -e '/    packages=find_packages(exclude="tests"),/d' -i "${S}/setup.py" || die
-}
+RESTRICT="test"
