@@ -24,7 +24,7 @@ dev-util/heaptrace 2.2.8 9999: Visualize heap operations for pwn and debugging
 dev-util/iaito 5.3.1 5.3.1-r1 5.5.0_beta 5.5.0_beta-r1 5.7.0 5.7.2: A Qt and C++ GUI for radare2 reverse engineering framework
 dev-util/pwntools 4.7.0 4.7.1 4.8.0 4.9.0_beta0: CTF framework and exploit development library
 dev-util/qiling 1.4.3 9999: Advanced binary emulation framework
-dev-util/radare2 5.7.0 5.7.2 5.7.4 5.7.6: unix-like reverse engineering framework and commandline tools
+dev-util/radare2 5.7.0 5.7.2 5.7.4 5.7.6 5.7.8: unix-like reverse engineering framework and commandline tools
 dev-util/rz-ghidra 0.3.0-r1 0.4.0-r1: Deep ghidra decompiler and sleigh disassembler integration for rizin
 media-libs/mbelib 1.3.0-r1 9999: P25 Phase 1 and ProVoice vocoder
 media-radio/ardop 20210828: ARDOP Software Modem
