@@ -28,11 +28,11 @@ RDEPEND="
 	dev-libs/cm256cc:=
 	dev-libs/hidapi:=
 	dev-libs/serialDV:=
-	>=dev-qt/qtcore-5.6.0:=
-	>=dev-qt/qtwidgets-5.6.0:=
-	>=dev-qt/qtwebsockets-5.6.0:=
-	>=dev-qt/qtmultimedia-5.6.0[widgets]:=
-	dev-qt/qtserialport:=
+	>=dev-qt/qtcore-5.6.0:5
+	>=dev-qt/qtwidgets-5.6.0:5
+	>=dev-qt/qtwebsockets-5.6.0:5
+	>=dev-qt/qtmultimedia-5.6.0:5[widgets]
+	dev-qt/qtserialport:5
 	>=media-libs/codec2-1.0.5:=
 	media-libs/opus:=
 	media-libs/opencv:=
@@ -49,7 +49,7 @@ RDEPEND="
 		dev-qt/qtpositioning:5
 		dev-qt/qtspeech:5
 		dev-qt/qtwebengine:5
-		>=dev-qt/qtopengl-5.6.0
+		>=dev-qt/qtopengl-5.6.0:5
 	)
 	airspy? ( net-wireless/airspy:= )
 	bladerf? ( net-wireless/bladerf:= )
