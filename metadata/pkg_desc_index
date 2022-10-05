@@ -54,6 +54,7 @@ sci-astronomy/astrometry 0.85: Automated astrometric calibration programs and se
 sci-astronomy/astrometry-data 20130527: Astrometry.net index files
 sci-astronomy/erfa 2.0.0: Essential Routines for Fundamental Astronomy
 sci-astronomy/openastro 1.8.0-r1 9999: Open Astro Project
+sci-astronomy/space-command 0.7.1 9999: Satellite tracking command line
 sci-astronomy/strf 9999: Radio Frequency Satellite Tracking
 sci-electronics/xnecview 1.37: A program for visualizing NEC2 input and output data
 sci-geosciences/gdal-grass 1.0.1: GDAL plugin to access GRASS data
