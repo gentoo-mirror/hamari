@@ -46,7 +46,7 @@ net-analyzer/raccoon 9999: A offensive security tool for reconnaissance and vuln
 net-wireless/chirp 99999999: Free open-source tool for programming your amateur radio
 net-wireless/desfsh 1.0.1 1.0.2 9999: An interactive application for accessing Mifare DESFire NFC tags
 net-wireless/dsdcc 1.9.3-r1: Digital Speech Decoder (DSD) rewritten as a C++ library
-net-wireless/gr-satellites 3.14.0 5.0.0 9999: GNU Radio decoder for Amateur satellites
+net-wireless/gr-satellites 3.14.0 3.15.0 5.0.0 5.1.0 9999: GNU Radio decoder for Amateur satellites
 net-wireless/gr-satnogs 2.3.1.1 9999: GNU Radio decoder for various scientific and academic sattelites
 net-wireless/libfreefare 0.4.0 9999: a library for high level manipulation of MIFARE tags
 net-wireless/proxmark3 4.14434 4.14831 9999: A general purpose RFID tool for Proxmark3 hardware
