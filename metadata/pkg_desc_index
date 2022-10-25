@@ -43,6 +43,8 @@ media-radio/pat 0.11.0 0.12.0 0.12.1 0.13.0: Cross platform Winlink client
 media-video/aravis 0.6.4: Library for video acquisition using Genicam cameras
 net-analyzer/commix 3.5 9999: 
 net-analyzer/raccoon 9999: A offensive security tool for reconnaissance and vulnerability scanning
+net-analyzer/shodan 1.28.0 9999: The official Python library for Shodan
+net-analyzer/wtfis 0.2.2 9999: Passive hostname, domain and IP lookup tool for non-robots
 net-wireless/chirp 99999999: Free open-source tool for programming your amateur radio
 net-wireless/desfsh 1.0.1 1.0.2 9999: An interactive application for accessing Mifare DESFire NFC tags
 net-wireless/dsdcc 1.9.3-r1: Digital Speech Decoder (DSD) rewritten as a C++ library
