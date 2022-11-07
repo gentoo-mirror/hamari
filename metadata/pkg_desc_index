@@ -60,7 +60,7 @@ sci-astronomy/openastro 1.8.0-r1 9999: Open Astro Project
 sci-astronomy/space-command 0.7.1 0.7.2 9999: Satellite tracking command line
 sci-astronomy/strf 9999: Radio Frequency Satellite Tracking
 sci-electronics/xnecview 1.37: A program for visualizing NEC2 input and output data
-sci-geosciences/gdal-grass 1.0.1: GDAL plugin to access GRASS data
+sci-geosciences/gdal-grass 1.0.1 1.0.2: GDAL plugin to access GRASS data
 sci-geosciences/grass 7.8.6-r1 7.8.7-r2: A free GIS with raster and vector functionality, as well as 3D vizualization
 sci-libs/indilib 1.9.6 1.9.7 1.9.8 9999: INDI Astronomical Control Protocol library
 sci-libs/indilib-driver-aagcloudwatcher-ng 1.9.6 1.9.7 1.9.8 9999: INDI driver for the AAG Cloud Watcher (AAGware - http://www.aagware.eu/)
