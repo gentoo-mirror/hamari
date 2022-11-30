@@ -1,0 +1,16 @@
+BDEPEND=doc? ( app-doc/doxygen[dot] dev-python/sphinx dev-texlive/texlive-latexextra ) >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
+DEFINED_PHASES=compile configure install test
+DEPEND=dev-libs/libyaml:= dev-python/jinja dev-python/ply dev-python/yaml || ( net-libs/gnutls:= dev-libs/openssl:= ) debug? ( dev-libs/elfutils:= ) gstreamer? ( media-libs/gstreamer:= ) libevent? ( dev-libs/libevent:= drm? ( x11-libs/libdrm:= ) jpeg? ( virtual/jpeg:= ) sdl? ( media-libs/libsdl2:= ) ) qt5? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 ) tiff? ( media-libs/tiff:= ) trace? ( dev-util/lttng-ust:= ) udev? ( virtual/libudev:= ) unwind? ( sys-libs/libunwind:= )
+DESCRIPTION=A complex camera support library for Linux, Android, and ChromeOS
+EAPI=8
+HOMEPAGE=https://libcamera.org/
+INHERIT=meson
+IUSE=debug doc drm gnutls gstreamer jpeg libevent openssl qt5 sdl tiff trace udev unwind v4l2
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1+
+RDEPEND=dev-libs/libyaml:= dev-python/jinja dev-python/ply dev-python/yaml || ( net-libs/gnutls:= dev-libs/openssl:= ) debug? ( dev-libs/elfutils:= ) gstreamer? ( media-libs/gstreamer:= ) libevent? ( dev-libs/libevent:= drm? ( x11-libs/libdrm:= ) jpeg? ( virtual/jpeg:= ) sdl? ( media-libs/libsdl2:= ) ) qt5? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 ) tiff? ( media-libs/tiff:= ) trace? ( dev-util/lttng-ust:= ) udev? ( virtual/libudev:= ) unwind? ( sys-libs/libunwind:= ) trace? ( dev-util/lttng-tools )
+REQUIRED_USE=qt5? ( tiff )
+SLOT=0
+SRC_URI=https://github.com/kbingham/libcamera/archive/refs/tags/v0.0.2.tar.gz -> libcamera-0.0.2.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	8ed38f92fe095be374d6c4c8d4c0dda7	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	25c880c1db58e21b80b684bacc964958	meson	1994a5aef5d4f5798b92f64d6f9a6003
+_md5_=7d51a413b5050f97b16f3de932916d67
