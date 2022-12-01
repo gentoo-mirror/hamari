@@ -52,7 +52,7 @@ net-wireless/gr-satellites 3.14.0 3.15.0 3.15.1 5.0.0 5.1.0 5.1.1 9999: GNU Radi
 net-wireless/gr-satnogs 2.3.1.1 9999: GNU Radio decoder for various scientific and academic sattelites
 net-wireless/libfreefare 0.4.0 9999: a library for high level manipulation of MIFARE tags
 net-wireless/proxmark3 4.14434 4.14831 9999: A general purpose RFID tool for Proxmark3 hardware
-net-wireless/sdrangel 7.6.4 7.7.0 7.8.0 7.8.1 7.8.2 7.8.3 9999: SDR Rx/Tx software
+net-wireless/sdrangel 7.6.4 7.7.0 7.8.0 7.8.1 7.8.2 7.8.3 7.8.4 9999: SDR Rx/Tx software
 sci-astronomy/astrometry 0.85: Automated astrometric calibration programs and service
 sci-astronomy/astrometry-data 20130527: Astrometry.net index files
 sci-astronomy/erfa 2.0.0: Essential Routines for Fundamental Astronomy
