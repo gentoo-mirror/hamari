@@ -20,7 +20,7 @@ dev-python/python-jplephem 2.17 9999: Python version of NASA DE4xx ephemerides
 dev-python/python-registry 1.4 9999: Pure Python parser for Windows Registry hives
 dev-python/python-sgp4 2.21 9999: Satellite position calculation library
 dev-python/python-skyfield 1.43.1 9999: Astronomical Computation Library
-dev-util/ghidra 10.0.4 10.1.1 10.1.5-r1: A software reverse engineering framework
+dev-util/ghidra 10.0.4 10.1.1 10.1.5-r1 10.2.2-r1: A software reverse engineering framework
 dev-util/heaptrace 2.2.8 9999: Visualize heap operations for pwn and debugging
 dev-util/iaito 5.7.0 5.7.2 5.7.6 5.7.8: A Qt and C++ GUI for radare2 reverse engineering framework
 dev-util/pwntools 4.7.0 4.7.1 4.8.0 4.9.0_beta0: CTF framework and exploit development library
