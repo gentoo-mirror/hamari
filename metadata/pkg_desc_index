@@ -6,7 +6,7 @@ dev-libs/LeechCore 2.10 2.11 2.12 2.13 2.14: Direct Memory Access (DMA) Attack S
 dev-libs/cm256cc 1.1.0-r1: Fast GF(256) Cauchy MDS Block Erasure Codec in C++
 dev-libs/serialDV 1.1.4-r1: C++ library to encode/decode audio with AMBE3000
 dev-libs/triton 0.9-r2: Triton is a Dynamic Binary Analysis (DBA) framework
-dev-python/astropy 5.0.5 5.1 5.1.1: Python astronomy package
+dev-python/astropy 5.0.5 5.1 5.1.1 5.2: Python astronomy package
 dev-python/beyond 0.7.4 0.7.5 9999: Flight Dynamic Library
 dev-python/colored-traceback 0.3.0: Automatically color Python's uncaught exception tracebacks
 dev-python/extension-helpers 0.1: Helpers to assist with building Python pkgs with compiled C/Cython extensions
@@ -62,6 +62,7 @@ sci-astronomy/strf 9999: Radio Frequency Satellite Tracking
 sci-electronics/xnecview 1.37: A program for visualizing NEC2 input and output data
 sci-geosciences/gdal-grass 1.0.1 1.0.2: GDAL plugin to access GRASS data
 sci-geosciences/grass 7.8.6-r1 7.8.7-r2: A free GIS with raster and vector functionality, as well as 3D vizualization
+sci-libs/cfitsio 4.2.0: C and Fortran library for manipulating FITS files
 sci-libs/indilib 1.9.6 1.9.7 1.9.8 1.9.9 9999: INDI Astronomical Control Protocol library
 sci-libs/indilib-driver-aagcloudwatcher-ng 1.9.6 1.9.7 1.9.8 1.9.9 9999: INDI driver for the AAG Cloud Watcher (AAGware - http://www.aagware.eu/)
 sci-libs/indilib-driver-ahp-xc 1.9.6 1.9.7 1.9.8 1.9.9 9999: INDI driver to control the AHP XC8 Telescope Array Correlator
