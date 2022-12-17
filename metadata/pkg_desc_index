@@ -53,7 +53,7 @@ net-wireless/gr-satnogs 2.3.1.1 9999: GNU Radio decoder for various scientific a
 net-wireless/libfreefare 0.4.0 9999: a library for high level manipulation of MIFARE tags
 net-wireless/proxmark3 4.14434 4.14831 9999: A general purpose RFID tool for Proxmark3 hardware
 net-wireless/sdrangel 7.6.4 7.7.0 7.8.0 7.8.1 7.8.2 7.8.3 7.8.4 9999: SDR Rx/Tx software
-sci-astronomy/astrometry 0.85: Automated astrometric calibration programs and service
+sci-astronomy/astrometry 0.85 0.92 9999: Automated astrometric calibration programs and service
 sci-astronomy/astrometry-data 20130527: Astrometry.net index files
 sci-astronomy/erfa 2.0.0: Essential Routines for Fundamental Astronomy
 sci-astronomy/openastro 1.8.0-r1 9999: Open Astro Project
@@ -62,7 +62,7 @@ sci-astronomy/strf 9999: Radio Frequency Satellite Tracking
 sci-electronics/xnecview 1.37: A program for visualizing NEC2 input and output data
 sci-geosciences/gdal-grass 1.0.1 1.0.2: GDAL plugin to access GRASS data
 sci-geosciences/grass 7.8.6-r1 7.8.7-r2: A free GIS with raster and vector functionality, as well as 3D vizualization
-sci-libs/cfitsio 4.2.0: C and Fortran library for manipulating FITS files
+sci-libs/cfitsio 4.2.0-r1: C and Fortran library for manipulating FITS files
 sci-libs/indilib 1.9.6 1.9.7 1.9.8 1.9.9 9999: INDI Astronomical Control Protocol library
 sci-libs/indilib-driver-aagcloudwatcher-ng 1.9.6 1.9.7 1.9.8 1.9.9 9999: INDI driver for the AAG Cloud Watcher (AAGware - http://www.aagware.eu/)
 sci-libs/indilib-driver-ahp-xc 1.9.6 1.9.7 1.9.8 1.9.9 9999: INDI driver to control the AHP XC8 Telescope Array Correlator
