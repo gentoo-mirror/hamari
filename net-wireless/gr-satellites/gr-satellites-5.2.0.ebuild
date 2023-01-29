@@ -3,12 +3,12 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{9..11} )
+PYTHON_COMPAT=( python3_{9..10} )
 
 if [[ ${PV} == 9999* ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/daniestevez/gr-satellites/${PN}"
-	EGIT_BRANCH="maint-3.8"
+	EGIT_BRANCH="maint-3.10"
 else
 	KEYWORDS="~amd64 ~x86"
 	SRC_URI="https://github.com/daniestevez/gr-satellites/archive/v${PV}.tar.gz -> ${P}.tar.gz"
@@ -27,7 +27,9 @@ REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 RDEPEND="${PYTHON_DEPS}
 	>=dev-lang/orc-0.4:=
-	=net-wireless/gnuradio-3.8*:=[${PYTHON_SINGLE_USEDEP}]
+	dev-libs/spdlog:=
+	media-libs/libsndfile:=
+	=net-wireless/gnuradio-3.10*:=[${PYTHON_SINGLE_USEDEP}]
 	$(python_gen_cond_dep '
 		>=dev-python/construct-2.9[${PYTHON_USEDEP}]
 		dev-python/pybind11[${PYTHON_USEDEP}]
@@ -36,7 +38,6 @@ RDEPEND="${PYTHON_DEPS}
 "
 DEPEND="${RDEPEND}"
 BDEPEND="
-	dev-lang/swig
 	doc? ( app-doc/doxygen )
 "
 
