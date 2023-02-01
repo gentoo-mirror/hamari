@@ -2,8 +2,5 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-media-video/aravis:fast-heartbeat - Enable faster heartbeat rate.
-media-video/aravis:gstreamer - Build the GStreamer plugin.
-media-video/aravis:packet-socket - Enable packet socket support.
 sci-libs/indilib:drivers - Installs sci-libs/indilib-drivers which is a metapackage for indilib 3rd party drivers.
 sci-libs/indilib:websocket - Enable support for WebSocket protocol
