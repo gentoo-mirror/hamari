@@ -57,6 +57,7 @@ net-wireless/sdrpp 1.0.4 9999: a cross-platform SDR software with the aim of bei
 sci-astronomy/astrometry 0.93 9999: Automated astrometric calibration programs and service
 sci-astronomy/astrometry-data 20130527-r1 20201114: Astrometry.net index files
 sci-astronomy/erfa 2.0.0: Essential Routines for Fundamental Astronomy
+sci-astronomy/kstars 3.6.3: Desktop Planetarium
 sci-astronomy/openastro 1.8.0-r2 9999: Open Astro Project
 sci-astronomy/space-command 0.7.2 9999: Satellite tracking command line
 sci-astronomy/strf 9999: Radio Frequency Satellite Tracking
