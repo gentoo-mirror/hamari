@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{9..11} )
 
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Automated All-in-One OS Command Injection Exploitation Tool"
 HOMEPAGE="https://commixproject.com/"
 
 if [[ ${PV} == 9999 ]]; then
@@ -34,3 +34,13 @@ RDEPEND="
 "
 
 RESTRICT="test"
+
+src_prepare() {
+	default
+
+	find "${S}/src" -name "*.py" | xargs sed -e "s/from src./from commix.src./" -i || die
+	sed -e "s/'commix = src.core.main:entry_point'/'commix = commix.src.core.main:entry_point'/" -i "${S}/setup.py" || die
+	mkdir "${S}/${PN}" || die
+	touch "${S}/${PN}/__init__.py" || die
+	mv "${S}/src" "${S}/${PN}" || die
+}
