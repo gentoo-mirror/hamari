@@ -25,7 +25,7 @@ dev-python/sphinx-automodapi 0.14.1: Sphinx extension for generating API documen
 dev-util/ghidra 10.2.2-r1 10.2.3: A software reverse engineering framework
 dev-util/heaptrace 2.2.8 9999: Visualize heap operations for pwn and debugging
 dev-util/iaito 5.7.8 5.8.0 5.8.2: A Qt and C++ GUI for radare2 reverse engineering framework
-dev-util/qiling 1.4.4 1.4.5 9999: Advanced binary emulation framework
+dev-util/qiling 1.4.5 9999: Advanced binary emulation framework
 dev-util/radare2 5.7.8 5.8.0 5.8.2: unix-like reverse engineering framework and commandline tools
 dev-util/rz-ghidra 0.4.0-r1 0.5.0: Deep ghidra decompiler and sleigh disassembler integration for rizin
 media-gfx/libcamera-apps 1.0.2 1.1.0 1.1.1 9999: libcamera-based apps
@@ -49,7 +49,7 @@ net-wireless/airspyhf 1.6.8 9999: User mode driver for Airspy HF+
 net-wireless/chirp 99999999: Free open-source tool for programming your amateur radio
 net-wireless/desfsh 1.0.1 1.0.2 9999: An interactive application for accessing Mifare DESFire NFC tags
 net-wireless/dsdcc 1.9.3-r1: Digital Speech Decoder (DSD) rewritten as a C++ library
-net-wireless/gr-satellites 5.1.1 5.2.0 9999: GNU Radio decoder for Amateur satellites
+net-wireless/gr-satellites 5.2.0 9999: GNU Radio decoder for Amateur satellites
 net-wireless/gr-satnogs 2.3.1.1 9999: GNU Radio decoder for various scientific and academic sattelites
 net-wireless/libfreefare 0.4.0 9999: a library for high level manipulation of MIFARE tags
 net-wireless/proxmark3 4.14434 4.14831 9999: A general purpose RFID tool for Proxmark3 hardware
