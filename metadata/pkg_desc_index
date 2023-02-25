@@ -22,7 +22,7 @@ dev-python/python-registry 1.4 9999: Pure Python parser for Windows Registry hiv
 dev-python/python-sgp4 2.21 9999: Satellite position calculation library
 dev-python/python-skyfield 1.43.1 9999: Astronomical Computation Library
 dev-python/sphinx-automodapi 0.14.1: Sphinx extension for generating API documentation
-dev-util/ghidra 10.2.2-r1: A software reverse engineering framework
+dev-util/ghidra 10.2.2-r1 10.2.3: A software reverse engineering framework
 dev-util/heaptrace 2.2.8 9999: Visualize heap operations for pwn and debugging
 dev-util/iaito 5.7.8 5.8.0 5.8.2: A Qt and C++ GUI for radare2 reverse engineering framework
 dev-util/qiling 1.4.4 1.4.5 9999: Advanced binary emulation framework
