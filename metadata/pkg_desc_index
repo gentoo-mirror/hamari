@@ -1,5 +1,6 @@
 acct-group/indiserver 0: Group for sci-libs/indilib
 acct-user/indiserver 0: User for sci-libs/indilib
+app-crypt/badkeys 0.0.5 9999: Tool to find common vulnerabilities in cryptographic public keys
 dev-embedded/simavr 1.7 9999: Atmel AVR simulator
 dev-embedded/simulavr 1.1.0: Atmel AVR simulator
 dev-libs/LeechCore 2.14: Direct Memory Access (DMA) Attack Software
