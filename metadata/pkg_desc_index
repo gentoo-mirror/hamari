@@ -19,7 +19,7 @@ dev-python/miasm 0.1.3 9999: Reverse engineering framework in Python
 dev-python/multiprocess 0.70.14 9999: Better multiprocessing and multithreading in Python
 dev-python/nextinspace 2.0.5 9999: A command-line tool for seeing the latest in space
 dev-python/oscrypto 1.3.0 9999: TLS sockets, key generation, encryption, decryption, signing, verification
-dev-python/pyerfa 2.0.0.1: Astronomical Computation Library
+dev-python/pyerfa 2.0.0.3: Astronomical Computation Library
 dev-python/pyhidapi 1.0.4 9999: Python hidapi bindings in ctypes
 dev-python/pykcs11 1.5.11 9999: PKCS#11 Wrapper for Python
 dev-python/python-jplephem 2.17 9999: Python version of NASA DE4xx ephemerides
