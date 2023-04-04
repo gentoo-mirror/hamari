@@ -15,7 +15,7 @@ if [[ ${PV} == "9999" ]]; then
 	MY_S="${EGIT_CHECKOUT_DIR}"
 else
 	SRC_URI="https://github.com/indilib/indi-3rdparty/archive/v${PV}.tar.gz -> indilib-3rdparty-${PV}.tar.gz"
-	KEYWORDS="~amd64 ~x86"
+	KEYWORDS="~amd64 ~arm"
 	MY_S="${WORKDIR}/indi-3rdparty-${PV}"
 fi
 
@@ -26,11 +26,13 @@ DEPEND="
 	~sci-libs/indilib-${PV}
 	~sci-libs/libtoupcam-${PV}
 	~sci-libs/libaltaircam-${PV}
-	~sci-libs/libstarshootg-${PV}
-	~sci-libs/libnncam-${PV}
+	~sci-libs/libbressercam-${PV}
 	~sci-libs/libmallincam-${PV}
+	~sci-libs/libnncam-${PV}
+	~sci-libs/libogmacam-${PV}
 	~sci-libs/libomegonprocam-${PV}
-	virtual/libusb:1
+	~sci-libs/libstarshootg-${PV}
+	~sci-libs/libtscam-${PV}
 "
 RDEPEND="${DEPEND}"
 
