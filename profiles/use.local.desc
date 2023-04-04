@@ -2,5 +2,5 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-sci-libs/indilib:drivers - Installs sci-libs/indilib-drivers which is a metapackage for indilib 3rd party drivers.
 sci-libs/indilib:websocket - Enable support for WebSocket protocol
+sci-libs/indilib-driver-eqmod:indilib_drivers_ahp-gt - Install AHP GT Controllers Driver
