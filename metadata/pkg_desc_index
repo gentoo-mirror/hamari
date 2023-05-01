@@ -60,7 +60,7 @@ net-wireless/libfreefare 0.4.0 9999: a library for high level manipulation of MI
 net-wireless/proxmark3 4.14434 4.14831 9999: A general purpose RFID tool for Proxmark3 hardware
 net-wireless/sdrangel 7.9.0 7.10.0 7.11.0 7.12.0 7.13.0 9999: SDR Rx/Tx software
 net-wireless/sdrpp 1.0.4 9999: a cross-platform SDR software with the aim of being bloat free and simple to use
-sci-astronomy/astrometry 0.93 9999: Automated astrometric calibration programs and service
+sci-astronomy/astrometry 0.93 0.94 9999: Automated astrometric calibration programs and service
 sci-astronomy/astrometry-data 20130527-r1 20201114: Astrometry.net index files
 sci-astronomy/erfa 2.0.0: Essential Routines for Fundamental Astronomy
 sci-astronomy/kstars 3.6.3: Desktop Planetarium
