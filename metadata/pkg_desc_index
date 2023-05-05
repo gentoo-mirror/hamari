@@ -31,7 +31,7 @@ dev-util/ghidra 10.2.2-r1 10.2.3: A software reverse engineering framework
 dev-util/heaptrace 2.2.8 9999: Visualize heap operations for pwn and debugging
 dev-util/iaito 5.7.8 5.8.0 5.8.2 5.8.4: A Qt and C++ GUI for radare2 reverse engineering framework
 dev-util/qiling 1.4.5 9999: Advanced binary emulation framework
-dev-util/radare2 5.7.8 5.8.0 5.8.2-r1 5.8.4 5.8.6: unix-like reverse engineering framework and commandline tools
+dev-util/radare2 5.7.8 5.8.0 5.8.2-r1 5.8.4 5.8.6-r1: unix-like reverse engineering framework and commandline tools
 dev-util/rz-ghidra 0.4.0-r1 0.5.0: Deep ghidra decompiler and sleigh disassembler integration for rizin
 media-gfx/libcamera-apps 1.0.2 1.1.0 1.1.1 1.1.2 9999: libcamera-based apps
 media-libs/libcamera 0.0.2 0.0.3 9999: A complex camera support library for Linux, Android, and ChromeOS
