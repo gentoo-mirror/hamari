@@ -78,11 +78,6 @@ Acknowledgement: These ebuild are based on the work of
  * [AlexandreFournier](https://github.com/AlexandreFournier/gentoo-overlay)
  * [Pentoo](https://www.pentoo.ch/).
 
-### Xnecview
-
-Xnecview is a software for visualizing the input and output files of the NEC
-antenna simulation software.
-
 
 Astronomy :telescope:
 ---------------------
@@ -110,10 +105,6 @@ The repo contains a recent version of INDI including all 3rd-party drivers.
 
 Acknowledgement: These ebuilds are based on the work of Ctibor Brančík whose
 repo disappeared unfortunately.
-
-### Nextinspace
-
-A command-line tool for seeing the latest in space.
 
 ### Open Astro Project
 
@@ -277,6 +268,7 @@ The following ebuilds are now in the Gentoo mainline repository.
  * `app-forensics/yara`
  * `dev-db/sqlmap`
  * `dev-python/filebytes`
+ * `dev-python/nextinspace`
  * `dev-python/yara-python`
  * `dev-util/gef`
  * `dev-util/peda`
@@ -291,3 +283,4 @@ The following ebuilds are now in the Gentoo mainline repository.
  * `sci-astronomy/pysiril`
  * `sci-astronomy/siril`
  * `sci-astronomy/sirilic`
+ * `sci-electronics/xnecview`
