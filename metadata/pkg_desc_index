@@ -7,7 +7,7 @@ dev-libs/LeechCore 2.14: Direct Memory Access (DMA) Attack Software
 dev-libs/capstone 5.0_rc2_p20221203 5.0_rc2_p20230308 5.0_rc2_p20230319: disassembly/disassembler framework + bindings
 dev-libs/cm256cc 1.1.0-r1: Fast GF(256) Cauchy MDS Block Erasure Codec in C++
 dev-libs/serialDV 1.1.4-r1: C++ library to encode/decode audio with AMBE3000
-dev-libs/triton 0.9-r2: Triton is a Dynamic Binary Analysis (DBA) framework
+dev-libs/triton 0.9-r3 9999: Triton is a Dynamic Binary Analysis (DBA) framework
 dev-python/astropy 5.1 5.1.1 5.2 5.2.1 5.2.2: Python astronomy package
 dev-python/beyond 0.7.5 9999: Flight Dynamic Library
 dev-python/certvalidator 0.11.1 9999: Python library for validating X.509 certificates and paths
