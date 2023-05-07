@@ -16,7 +16,6 @@ dev-python/extension-helpers 0.1-r2 1.0.0-r1: Helpers to assist with building Py
 dev-python/fake-useragent 1.1.1 1.1.2 1.1.3 9999: Up to date simple useragent faker with real world database
 dev-python/gevent 22.10.2-r1: Coroutine-based network library
 dev-python/miasm 0.1.3 9999: Reverse engineering framework in Python
-dev-python/multiprocess 0.70.14 9999: Better multiprocessing and multithreading in Python
 dev-python/oscrypto 1.3.0 9999: TLS sockets, key generation, encryption, decryption, signing, verification
 dev-python/pyerfa 2.0.0.3: Astronomical Computation Library
 dev-python/pyhidapi 1.0.4 9999: Python hidapi bindings in ctypes
