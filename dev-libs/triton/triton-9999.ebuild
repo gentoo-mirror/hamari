@@ -47,11 +47,6 @@ RDEPEND="
 "
 BDEPEND=""
 
-PATCHES=(
-	"${FILESDIR}/${P}-installdir.patch"
-	"${FILESDIR}/${P}-capstone.patch"
-)
-
 pkg_setup() {
 	use python && python-single-r1_pkg_setup
 }
