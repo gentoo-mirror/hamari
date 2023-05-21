@@ -1,0 +1,15 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install unpack
+DEPEND=>=dev-libs/nanopb-0.4.5[pb-malloc] qt5? ( dev-qt/qtconcurrent:5= dev-qt/qtcore:5= dev-qt/qtdeclarative:5= dev-qt/qtgui:5= dev-qt/qtnetwork:5= dev-qt/qtquickcontrols:5= dev-qt/qtquickcontrols2:5= dev-qt/qtserialport:5= dev-qt/qtsvg:5= dev-qt/qtwidgets:5= ) sys-libs/zlib:= virtual/libusb:1
+DESCRIPTION=Desktop application for updating Flipper Zero firmware via PC
+EAPI=8
+HOMEPAGE=https://update.flipperzero.one/
+INHERIT=qmake-utils git-r3
+IUSE=+qt5
+LICENSE=GPL-3+
+PROPERTIES=live
+RDEPEND=>=dev-libs/nanopb-0.4.5[pb-malloc] qt5? ( dev-qt/qtconcurrent:5= dev-qt/qtcore:5= dev-qt/qtdeclarative:5= dev-qt/qtgui:5= dev-qt/qtnetwork:5= dev-qt/qtquickcontrols:5= dev-qt/qtquickcontrols2:5= dev-qt/qtserialport:5= dev-qt/qtsvg:5= dev-qt/qtwidgets:5= ) sys-libs/zlib:= virtual/libusb:1
+REQUIRED_USE=^^ ( qt5 )
+SLOT=0
+_eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	qmake-utils	59420c906278d16deaaa629f9d115707	git-r3	27e13c09a4c7e4c78ac812f74727e676
+_md5_=4b57ed4f31e5eb81ee8c6097b8dadfcb
