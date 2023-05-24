@@ -18,12 +18,13 @@ SLOT="0"
 IUSE="hdf5"
 
 # TODO: wcslib
+# TODO: remove cfitsio?
 RDEPEND="
-	>=dev-python/numpy-1.20[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.21[${PYTHON_USEDEP}]
 	>=dev-python/pyerfa-2.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
 	>=dev-python/scipy-1.5[${PYTHON_USEDEP}]
-	>=dev-python/matplotlib-3.1[${PYTHON_USEDEP}]
+	>=dev-python/matplotlib-3.3[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/mpmath[${PYTHON_USEDEP}]
@@ -38,5 +39,3 @@ BDEPEND="
 "
 
 RESTRICT="test"
-
-distutils_enable_sphinx skyfield/documentation
