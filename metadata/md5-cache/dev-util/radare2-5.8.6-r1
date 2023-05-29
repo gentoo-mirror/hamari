@@ -12,5 +12,5 @@ RDEPEND=app-arch/lz4:= dev-libs/libzip:= dev-libs/xxhash sys-apps/file sys-libs/
 RESTRICT=!test? ( test )
 SLOT=0/5.8.0
 SRC_URI=mirror+https://github.com/radareorg/radare2/archive/5.8.6.tar.gz -> radare2-5.8.6.tar.gz mirror+https://github.com/radareorg/vector35-arch-arm64/archive/55d73c6bbb94448a5c615933179e73ac618cf876.tar.gz -> radare2-5.8.6-vector35-arm64.tar.gz mirror+https://github.com/radareorg/vector35-arch-armv7/archive/f270a6cc99644cb8e76055b6fa632b25abd26024.tar.gz -> radare2-5.8.6-vector35-armv7.tar.gz test? ( https://github.com/radareorg/radare2-testbins/archive/5746f74f58d0473472d231c1b522dee17241177f.tar.gz -> radare2-testbins-5746f74f58d0473472d231c1b522dee17241177f.tar.gz )
-_eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff
+_eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff
 _md5_=4b814f3f4c98ad73252f69c611275eb3
