@@ -1,0 +1,16 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=configure install prepare test
+DEPEND=app-arch/lz4:= dev-libs/libzip:= dev-libs/xxhash sys-apps/file sys-libs/zlib ~dev-libs/capstone-5.0_rc2_p20230528:0= ssl? ( dev-libs/openssl:0= ) dev-util/gperf
+DESCRIPTION=unix-like reverse engineering framework and commandline tools
+EAPI=8
+HOMEPAGE=https://www.radare.org
+INHERIT=bash-completion-r1 toolchain-funcs
+IUSE=ssl test
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=GPL-2
+RDEPEND=app-arch/lz4:= dev-libs/libzip:= dev-libs/xxhash sys-apps/file sys-libs/zlib ~dev-libs/capstone-5.0_rc2_p20230528:0= ssl? ( dev-libs/openssl:0= )
+RESTRICT=!test? ( test )
+SLOT=0/5.8.0
+SRC_URI=mirror+https://github.com/radareorg/radare2/archive/5.8.8.tar.gz -> radare2-5.8.8.tar.gz mirror+https://github.com/radareorg/vector35-arch-arm64/archive/55d73c6bbb94448a5c615933179e73ac618cf876.tar.gz -> radare2-5.8.8-vector35-arm64.tar.gz mirror+https://github.com/radareorg/vector35-arch-armv7/archive/f270a6cc99644cb8e76055b6fa632b25abd26024.tar.gz -> radare2-5.8.8-vector35-armv7.tar.gz test? ( https://github.com/radareorg/radare2-testbins/archive/5746f74f58d0473472d231c1b522dee17241177f.tar.gz -> radare2-testbins-5746f74f58d0473472d231c1b522dee17241177f.tar.gz )
+_eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff
+_md5_=915e4794dd64ae8e83af5f2a89c407c7
