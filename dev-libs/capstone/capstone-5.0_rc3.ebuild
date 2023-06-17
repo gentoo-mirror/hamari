@@ -3,8 +3,9 @@
 
 EAPI=8
 
-DISTUTILS_OPTIONAL=1
 PYTHON_COMPAT=( python3_{9..11} )
+DISTUTILS_EXT=1
+DISTUTILS_OPTIONAL=1
 DISTUTILS_USE_PEP517=setuptools
 
 inherit cmake distutils-r1 toolchain-funcs
@@ -17,9 +18,8 @@ if [[ ${PV} == 9999 ]]; then
 	EGIT_REPO_URI="https://github.com/capstone-engine/capstone.git"
 	EGIT_REPO_BRANCH="next"
 else
-	CAPSTONE_COMMIT=12e8258f60647a997ffa72702a9e5b37bd622044
-	SRC_URI="https://github.com/capstone-engine/capstone/archive/${CAPSTONE_COMMIT}.tar.gz -> ${P}.tar.gz"
-	S="${WORKDIR}/${PN}-${CAPSTONE_COMMIT}"
+	SRC_URI="https://github.com/capstone-engine/capstone/archive/${PV/_rc/-rc}.tar.gz -> ${P}.tar.gz"
+	S=${WORKDIR}/${P/_rc/-rc}
 	KEYWORDS="~amd64 ~arm ~arm64 ~loong ~ppc ~ppc64 ~riscv ~x86"
 fi
 
