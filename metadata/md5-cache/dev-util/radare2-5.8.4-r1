@@ -12,5 +12,5 @@ RDEPEND=app-arch/lz4:= >=dev-libs/capstone-5.0_rc3:0= dev-libs/libzip:= dev-libs
 RESTRICT=!test? ( test )
 SLOT=0/5.8.0
 SRC_URI=mirror+https://github.com/radareorg/radare2/archive/5.8.4.tar.gz -> radare2-5.8.4.tar.gz mirror+https://github.com/radareorg/vector35-arch-arm64/archive/55d73c6bbb94448a5c615933179e73ac618cf876.tar.gz -> radare2-5.8.4-vector35-arm64.tar.gz mirror+https://github.com/radareorg/vector35-arch-armv7/archive/f270a6cc99644cb8e76055b6fa632b25abd26024.tar.gz -> radare2-5.8.4-vector35-armv7.tar.gz test? ( https://github.com/radareorg/radare2-testbins/archive/d4e7f73808b730b71123bdebcb2f94e1fbc90ba1.tar.gz -> radare2-testbins-d4e7f73808b730b71123bdebcb2f94e1fbc90ba1.tar.gz )
-_eclasses_=toolchain-funcs	fc2af1957597c539ae6e48f82bd43125	multilib	c19072c3cd7ac5cb21de013f7e9832e0	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff
+_eclasses_=toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff
 _md5_=db022ddb131281c1fb47f173d1b373e5
