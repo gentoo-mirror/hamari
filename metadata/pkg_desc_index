@@ -50,7 +50,7 @@ net-analyzer/commix 3.7 9999: Automated All-in-One OS Command Injection Exploita
 net-analyzer/raccoon 9999: A offensive security tool for reconnaissance and vulnerability scanning
 net-wireless/airspyhf 1.6.8 9999: User mode driver for Airspy HF+
 net-wireless/chirp 99999999: Free open-source tool for programming your amateur radio
-net-wireless/desfsh 1.0.1 1.0.2 9999: An interactive application for accessing Mifare DESFire NFC tags
+net-wireless/desfsh 1.0.2-r1 9999: An interactive application for accessing Mifare DESFire NFC tags
 net-wireless/dsdcc 1.9.3-r1 1.9.4: Digital Speech Decoder (DSD) rewritten as a C++ library
 net-wireless/gr-satellites 5.2.0 5.3.0 9999: GNU Radio decoder for Amateur satellites
 net-wireless/gr-satnogs 2.3.1.1 9999: GNU Radio decoder for various scientific and academic sattelites

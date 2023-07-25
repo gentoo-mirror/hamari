@@ -1,6 +1,6 @@
 BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install setup unpack
-DEPEND=lua_single_target_lua5-1? ( dev-lang/lua:5.1 ) lua_single_target_lua5-3? ( dev-lang/lua:5.3 ) lua_single_target_lua5-4? ( dev-lang/lua:5.4 ) dev-libs/libnfc:= dev-libs/openssl:= net-wireless/libfreefare:= sys-libs/ncurses:= sys-libs/readline:= sys-libs/zlib:=
+DEPEND=lua_single_target_lua5-1? ( dev-lang/lua:5.1 ) lua_single_target_lua5-3? ( dev-lang/lua:5.3 ) lua_single_target_lua5-4? ( dev-lang/lua:5.4 ) dev-libs/libnfc:= dev-libs/openssl:0/1.1 net-wireless/libfreefare:= sys-libs/readline:= sys-libs/zlib:=
 DESCRIPTION=An interactive application for accessing Mifare DESFire NFC tags
 EAPI=8
 HOMEPAGE=https://github.com/hamarituc/desfsh
@@ -8,8 +8,8 @@ INHERIT=lua-single toolchain-funcs git-r3
 IUSE=lua_single_target_lua5-1 lua_single_target_lua5-3 lua_single_target_lua5-4
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=lua_single_target_lua5-1? ( dev-lang/lua:5.1 ) lua_single_target_lua5-3? ( dev-lang/lua:5.3 ) lua_single_target_lua5-4? ( dev-lang/lua:5.4 ) dev-libs/libnfc:= dev-libs/openssl:= net-wireless/libfreefare:= sys-libs/ncurses:= sys-libs/readline:= sys-libs/zlib:=
+RDEPEND=lua_single_target_lua5-1? ( dev-lang/lua:5.1 ) lua_single_target_lua5-3? ( dev-lang/lua:5.3 ) lua_single_target_lua5-4? ( dev-lang/lua:5.4 ) dev-libs/libnfc:= dev-libs/openssl:0/1.1 net-wireless/libfreefare:= sys-libs/readline:= sys-libs/zlib:=
 REQUIRED_USE=^^ ( lua_single_target_lua5-1 lua_single_target_lua5-3 lua_single_target_lua5-4 )
 SLOT=0
 _eclasses_=toolchain-funcs	8e3fb781f3258ae2757d1dfc2c7c170e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	lua-utils	d37a16dbcc1f07f71bc48da75ed7a0cb	lua-single	86d497a20c93c7ce83af442f627515c1	git-r3	97f7f638070d17e4c2b6542589bb4575
-_md5_=974eb18f789fff7a24d650a4ff315d1e
+_md5_=edb9fcf882d0cced6154ff5627d8144c
