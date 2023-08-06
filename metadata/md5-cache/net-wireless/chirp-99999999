@@ -1,16 +1,16 @@
-BDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) >=dev-python/setuptools-67.8.0-r1[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=test? ( >=dev-python/pytest-7.3.1[python_targets_python3_10(-)?,python_targets_python3_11(-)?] ) python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) >=dev-python/gpep517-13[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/setuptools-67.8.0-r1[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst postrm prepare test unpack
-DEPEND=dev-python/pygobject[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/pyserial[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-libs/libxml2[python] dev-python/suds-community[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/future[python_targets_python3_10(-)?,python_targets_python3_11(-)?]
+DEPEND=dev-python/pyserial[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/requests[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/six[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/suds-community[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/wxpython:4.0[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/yattag[python_targets_python3_10(-)?,python_targets_python3_11(-)?]
 DESCRIPTION=Free open-source tool for programming your amateur radio
-EAPI=7
+EAPI=8
 HOMEPAGE=http://chirp.danplanet.com
 INHERIT=distutils-r1 xdg-utils git-r3
-IUSE=radioreference python_targets_python3_10 python_targets_python3_11
+IUSE=test python_targets_python3_10 python_targets_python3_11
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=dev-python/pygobject[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/pyserial[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-libs/libxml2[python] dev-python/suds-community[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/future[python_targets_python3_10(-)?,python_targets_python3_11(-)?] radioreference? ( dev-python/suds-community[python_targets_python3_10(-)?,python_targets_python3_11(-)?] ) python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 )
+RDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 )
 REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 )
-RESTRICT=test
+RESTRICT=!test? ( test )
 SLOT=0
-_eclasses_=toolchain-funcs	0c8a0b0d318eb5d5180d114bd3f6592b	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	ad475baa777c9978fa035216c8264a10	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	f3010c780f65d1bb5aea15a9af1adc9c	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	python-utils-r1	753cb70b9daf5c8c1e373d68dee61efb	python-r1	b3f874304c1bda6ffc3450ebb4ae5169	distutils-r1	b7cd5736a595ec0df9b164d5aec6f228	xdg-utils	baea6080dd821f5562d715887954c9d3	git-r3	2358a7b20091609e24bd3a83b3ac5991
-_md5_=fc83fd295a4301d36c7224daa594cca4
+_eclasses_=toolchain-funcs	0c8a0b0d318eb5d5180d114bd3f6592b	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	ad475baa777c9978fa035216c8264a10	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	f3010c780f65d1bb5aea15a9af1adc9c	python-utils-r1	753cb70b9daf5c8c1e373d68dee61efb	python-r1	b3f874304c1bda6ffc3450ebb4ae5169	distutils-r1	b7cd5736a595ec0df9b164d5aec6f228	xdg-utils	baea6080dd821f5562d715887954c9d3	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_md5_=0896cb364e2c4ddee843401271094160
