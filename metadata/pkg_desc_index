@@ -46,7 +46,7 @@ media-radio/flxmlrpc 0.1.4: XmlRpc library used by fldigi, flrig, flnet, flmsg, 
 media-radio/gps-sdr-sim 1.0 9999: GPS baseband signal generator
 media-radio/lbgpsdo 1.0.0 9999: Configuration Utility for Leo Bodnar GPSDO
 media-radio/pat 0.14.0 0.14.1 0.15.0: Cross platform Winlink client
-net-analyzer/commix 3.7 9999: Automated All-in-One OS Command Injection Exploitation Tool
+net-analyzer/commix 3.7 3.8 9999: Automated All-in-One OS Command Injection Exploitation Tool
 net-analyzer/raccoon 9999: A offensive security tool for reconnaissance and vulnerability scanning
 net-wireless/airspyhf 1.6.8 9999: User mode driver for Airspy HF+
 net-wireless/chirp 99999999: Free open-source tool for programming your amateur radio
@@ -64,10 +64,9 @@ sci-astronomy/astrometry-data 20130527-r1 20201114: Astrometry.net index files
 sci-astronomy/erfa 2.0.0: Essential Routines for Fundamental Astronomy
 sci-astronomy/kstars 3.6.3: Desktop Planetarium
 sci-astronomy/openastro 1.8.0-r2 9999: Open Astro Project
-sci-astronomy/space-command 0.7.2 9999: Satellite tracking command line
+sci-astronomy/space-command 0.7.2 0.7.3 9999: Satellite tracking command line
 sci-astronomy/strf 9999: Radio Frequency Satellite Tracking
 sci-geosciences/gdal-grass 1.0.1 1.0.2: GDAL plugin to access GRASS data
-sci-geosciences/grass 7.8.7-r3: A free GIS with raster and vector functionality, as well as 3D vizualization
 sci-libs/indilib 2.0.1 2.0.2 2.0.3 9999: INDI Astronomical Control Protocol library
 sci-libs/indilib-driver-aagcloudwatcher-ng 2.0.1 2.0.2 2.0.3 9999: INDI driver for the AAG Cloud Watcher (AAGware - http://www.aagware.eu/)
 sci-libs/indilib-driver-ahp-xc 2.0.1 2.0.2 2.0.3 9999: INDI driver to control the AHP XC8 Telescope Array Correlator
