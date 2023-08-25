@@ -49,7 +49,7 @@ media-radio/pat 0.14.0 0.14.1 0.15.0: Cross platform Winlink client
 net-analyzer/commix 3.7 3.8 9999: Automated All-in-One OS Command Injection Exploitation Tool
 net-analyzer/raccoon 9999: A offensive security tool for reconnaissance and vulnerability scanning
 net-vpn/eduvpn-client 4.1.1: Linux client and Python client API for eduVPN
-net-vpn/eduvpn-common 1.1.0: Linux client and Python client API for eduVPN
+net-vpn/eduvpn-common 1.1.0-r1: Linux client and Python client API for eduVPN
 net-wireless/airspyhf 1.6.8 9999: User mode driver for Airspy HF+
 net-wireless/chirp 99999999: Free open-source tool for programming your amateur radio
 net-wireless/desfsh 1.0.2-r1 1.1.0 9999: An interactive application for accessing Mifare DESFire NFC tags
