@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure install unpack
+DEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5
+DESCRIPTION=A tool that supports reconstructing useful images out of RDP cache bitmaps.
+EAPI=8
+HOMEPAGE=https://github.com/BSI-Bund/RdpCacheStitcher
+INHERIT=qmake-utils git-r3
+IUSE=doc
+LICENSE=GPL-3+ LGPL-3+
+PROPERTIES=live
+RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5
+SLOT=0
+_eclasses_=toolchain-funcs	862d337d98edb576796827be2c6b11ca	multilib	c19072c3cd7ac5cb21de013f7e9832e0	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_md5_=b4635ebc72dcd66904f79ac0ffca4276
