@@ -1,4 +1,4 @@
-# Copyright 2020-2022 Gentoo Authors
+# Copyright 2020-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -13,7 +13,7 @@ if [[ ${PV} == "9999" ]]; then
 	EGIT_REPO_URI="https://github.com/f4exb/sdrangel.git"
 else
 	SRC_URI="https://github.com/f4exb/sdrangel/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="~amd64 ~x86"
+	KEYWORDS="~amd64"
 fi
 
 LICENSE="GPL-3"
@@ -30,6 +30,7 @@ RDEPEND="
 	dev-libs/hidapi:=
 	dev-libs/serialDV:=
 	>=media-libs/codec2-1.0.5:=
+	media-libs/hamlib:=
 	media-libs/opus:=
 	media-libs/opencv:=
 	media-video/ffmpeg:=
@@ -45,6 +46,7 @@ RDEPEND="
 		>=dev-qt/qtwebsockets-5.15.0:5
 		>=dev-qt/qtwidgets-5.15.0:5
 		gui? (
+			>=dev-qt/qtgamepad-5.15.0:5
 			>=dev-qt/qtlocation-5.15.0:5
 			>=dev-qt/qtspeech-5.15.0:5
 			>=dev-qt/qtwebengine-5.15.0:5[widgets]
@@ -88,6 +90,7 @@ src_configure() {
 
 	local mycmakeargs=(
 		-DDEBUG_OUTPUT="$(usex debug)" \
+		-DENABLE_EXTERNAL_LIBRARIES=OFF \
 		-DSANITIZE_ADDRESS=OFF \
 		-DRX_SAMPLE_24BIT=ON \
 		-DBUILD_SERVER="$(usex server)" \
