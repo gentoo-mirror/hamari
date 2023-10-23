@@ -1,0 +1,51 @@
+commit 69fbd966a54a5199c96ccead9035e64b53f8db0e
+Author: Mario Haustein <mario.haustein@hrz.tu-chemnitz.de>
+Date:   Mon Oct 23 00:16:27 2023 +0200
+Upstream: https://github.com/m32/endesive/pull/153
+
+    use relative imports for tests
+
+--- a/tests/test_email.py
++++ b/tests/test_email.py
+@@ -15,7 +15,7 @@ from endesive import email
+ import hashlib
+ from asn1crypto import cms, algos, core, pem
+ 
+-import test_cert
++from . import test_cert
+ 
+ tests_root = os.path.dirname(__file__)
+ fixtures_dir = os.path.join(tests_root, 'fixtures')
+--- a/tests/test_hsm.py
++++ b/tests/test_hsm.py
+@@ -20,7 +20,7 @@ from cryptography.hazmat.primitives.serialization import pkcs12
+ from endesive import hsm, signer, verifier
+ import PyKCS11 as PK11
+ 
+-import test_cert
++from . import test_cert
+ 
+ tests_root = os.path.dirname(__file__)
+ fixtures_dir = os.path.join(tests_root, 'fixtures')
+--- a/tests/test_pdf.py
++++ b/tests/test_pdf.py
+@@ -12,7 +12,7 @@ tests_root = os.path.dirname(__file__)
+ fixtures_dir = os.path.join(tests_root, 'fixtures')
+ 
+ 
+-import test_cert
++from . import test_cert
+ 
+ def fixture(fname):
+     return os.path.join(fixtures_dir, fname)
+--- a/tests/test_plain.py
++++ b/tests/test_plain.py
+@@ -10,7 +10,7 @@ from cryptography.hazmat import backends
+ from cryptography.hazmat.primitives.serialization import pkcs12
+ from endesive import plain
+ 
+-import test_cert
++from . import test_cert
+ 
+ tests_root = os.path.dirname(__file__)
+ fixtures_dir = os.path.join(tests_root, 'fixtures')
