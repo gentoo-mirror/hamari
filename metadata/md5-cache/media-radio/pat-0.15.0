@@ -11,5 +11,5 @@ RDEPEND=dev-libs/libax25
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/la5nta/pat/archive/refs/tags/v0.15.0.tar.gz -> pat-0.15.0.tar.gz https://www.mariohaustein.de/gentoo/distfiles/pat-0.15.0-deps.tar.xz
-_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	go-module	8624eede24936fd7666e5298e5332f22
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	70ec42843fec87d20fd94c67e77cdbff	multilib	c19072c3cd7ac5cb21de013f7e9832e0	go-module	8624eede24936fd7666e5298e5332f22
 _md5_=b3cb137afe51f068e941e74770b8d461
