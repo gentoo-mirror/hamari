@@ -101,7 +101,7 @@ sci-libs/indilib-driver-gphoto 2.0.4 2.0.5 9999: INDI driver for the gphoto2 com
 sci-libs/indilib-driver-gpsd 2.0.4 2.0.5 9999: INDI driver for GPS daemon
 sci-libs/indilib-driver-gpsnmea 2.0.4 2.0.5 9999: INDI driver for GPS NMEA data sources.
 sci-libs/indilib-driver-inovaplx 2.0.4 2.0.5 9999: INDI driver for the i.Nova PLx series CCD/CMOS cameras
-sci-libs/indilib-driver-libcamera 2.0.4 2.0.5 9999: INDI driver for libcamera devices
+sci-libs/indilib-driver-libcamera 2.0.4 2.0.5-r1 9999: INDI driver for libcamera devices
 sci-libs/indilib-driver-limesdr 2.0.4 2.0.5 9999: INDI driver for the LimeSDR series receivers.
 sci-libs/indilib-driver-maxdomeii 2.0.4 2.0.5 9999: INDI driver for the Maxdome II
 sci-libs/indilib-driver-mgen 2.0.4 2.0.5 9999: INDI driver for Lacerta MGen standalone autoguider
