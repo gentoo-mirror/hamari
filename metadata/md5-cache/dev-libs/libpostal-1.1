@@ -1,0 +1,14 @@
+BDEPEND=virtual/pkgconfig sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+DEFINED_PHASES=configure install prepare
+DESCRIPTION=Parsing/normalizing street addresses around the world
+EAPI=8
+HOMEPAGE=https://github.com/openvenues/libpostal
+INHERIT=autotools
+IUSE=+data static-libs
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=net-misc/curl
+SLOT=0
+SRC_URI=https://github.com/openvenues/libpostal/archive/refs/tags/v1.1.tar.gz -> libpostal-1.1.tar.gz data? ( https://github.com/openvenues/libpostal/releases/download/v1.0.0/parser.tar.gz -> libpostal-1.0.0-parser.tar.gz https://github.com/openvenues/libpostal/releases/download/v1.0.0/libpostal_data.tar.gz -> libpostal-1.0.0-libpostal_data.tar.gz https://github.com/openvenues/libpostal/releases/download/v1.0.0/language_classifier.tar.gz -> libpostal-1.0.0-language_classifier.tar.gz )
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde
+_md5_=a649caab1f7fd47e9037758adcf26bbc
