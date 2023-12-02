@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig >=dev-util/meson-1.2.1 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
+DEFINED_PHASES=compile configure install test
+DEPEND=dev-libs/boost:= media-libs/libcamera:= media-libs/libexif:= media-libs/libjpeg-turbo:= media-libs/libpng:= media-libs/tiff:= drm? ( x11-libs/libdrm:= ) egl? ( media-libs/libepoxy:= ) ffmpeg? ( media-video/ffmpeg:= ) opencv? ( media-libs/opencv:= ) qt5? ( dev-qt/qtcore:5 dev-qt/qtwidgets:5 )
+DESCRIPTION=libcamera-based applications to drive the cameras on a Raspberry Pi platform
+EAPI=8
+HOMEPAGE=https://github.com/raspberrypi/rpicam-apps
+INHERIT=meson
+IUSE=drm egl ffmpeg opencv qt5
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD-2
+RDEPEND=dev-libs/boost:= media-libs/libcamera:= media-libs/libexif:= media-libs/libjpeg-turbo:= media-libs/libpng:= media-libs/tiff:= drm? ( x11-libs/libdrm:= ) egl? ( media-libs/libepoxy:= ) ffmpeg? ( media-video/ffmpeg:= ) opencv? ( media-libs/opencv:= ) qt5? ( dev-qt/qtcore:5 dev-qt/qtwidgets:5 )
+SLOT=0
+SRC_URI=https://github.com/raspberrypi/rpicam-apps/archive/refs/tags/v1.2.1.tar.gz -> rpicam-apps-1.2.1.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	39e7a84b06eff4efd9f2e0c3d1668b98	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	e989dbdcbb647bd8655857c1f95be244	meson	576e6bbef90e9753368f8b4ad0bd5383
+_md5_=8082552013eb3468ec463508dbee4ef6
