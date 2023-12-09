@@ -4,6 +4,7 @@ app-admin/laps4linux 1.7.2 9999: Local Administrator Password Solution (LAPS) - 
 app-crypt/badkeys 0.0.5 9999: Tool to find common vulnerabilities in cryptographic public keys
 app-crypt/gpg-tui 0.10.0: Terminal User Interface for GnuPG
 app-forensics/RdpCacheStitcher 1.1 9999: A tool that supports reconstructing useful images out of RDP cache bitmaps.
+dev-db/litecli 1.10.0: CLI for SQLite with auto-completion and syntax highlighting
 dev-embedded/simavr 1.7 9999: Atmel AVR simulator
 dev-embedded/simulavr 1.1.0: Atmel AVR simulator
 dev-libs/LeechCore 2.14: Direct Memory Access (DMA) Attack Software
