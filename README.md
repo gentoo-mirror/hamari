@@ -250,6 +250,11 @@ Acknowledgement: The ebuild is based on the
 Electronic Engineering :electric_plug:
 --------------------------------------
 
+### minipro
+
+minipro is a program for controlling the MiniPRO TL866xx series of chip
+programmers.
+
 ### pasmo
 
 Pasmo is a Z80 cross assembler.
@@ -262,6 +267,13 @@ simavr is an AVR microcontroller simulator. Don't confuse it with simulavr.
 
 simulavr is an AVR microcontroller simulator. Don't confuse it with simavr.
 
+### z80asm
+
+z80asm is an assembler for the Z80 microprcessor.
+
+### z80dasm
+
+z80dasm is a disassembler for the Zilog Z80 microprocessor and compatibles.
 
 Geographic Data Processing :globe_with_meridians:
 -------------------------------------------------
