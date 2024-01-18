@@ -6,9 +6,12 @@ app-crypt/gpg-tui 0.10.0: Terminal User Interface for GnuPG
 app-forensics/RdpCacheStitcher 1.1 9999: A tool that supports reconstructing useful images out of RDP cache bitmaps.
 dev-cpp/pngpp 0.2.9: A simple but powerful C++ interface to libpng
 dev-db/litecli 1.10.0: CLI for SQLite with auto-completion and syntax highlighting
+dev-embedded/minipro 0.6 9999: A program for controlling the MiniPRO TL866xx series of chip programmers
+dev-embedded/pasmo 0.5.5: Z80 assembler
 dev-embedded/simavr 1.7 9999: Atmel AVR simulator
 dev-embedded/simulavr 1.1.0: Atmel AVR simulator
-dev-lang/pasmo 0.5.5: Z80 assembler
+dev-embedded/z80asm 1.8 9999: Assembler for the Z80 microprcessor
+dev-embedded/z80dasm 1.2.0 9999: z80dasm is a disassembler for the Zilog Z80 microprocessor and compatibles
 dev-libs/LeechCore 2.14: Direct Memory Access (DMA) Attack Software
 dev-libs/cm256cc 1.1.0-r1: Fast GF(256) Cauchy MDS Block Erasure Codec in C++
 dev-libs/libpostal 1.1: Parsing/normalizing street addresses around the world
