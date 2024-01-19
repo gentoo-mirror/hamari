@@ -65,7 +65,7 @@ media-radio/flxmlrpc 0.1.4: XmlRpc library used by fldigi, flrig, flnet, flmsg, 
 media-radio/gps-sdr-sim 1.0 9999: GPS baseband signal generator
 media-radio/lbgpsdo 1.1.1 9999: Configuration Utility for Leo Bodnar GPSDO
 media-radio/pat 0.14.0 0.14.1 0.15.0 0.15.1: Cross platform Winlink client
-net-analyzer/commix 3.7 3.8 9999: Automated All-in-One OS Command Injection Exploitation Tool
+net-analyzer/commix 3.7 3.8 3.9 9999: Automated All-in-One OS Command Injection Exploitation Tool
 net-analyzer/raccoon 9999: A offensive security tool for reconnaissance and vulnerability scanning
 net-wireless/airspyhf 1.6.8 9999: User mode driver for Airspy HF+
 net-wireless/desfsh 1.0.2-r1 1.1.0 9999: An interactive application for accessing Mifare DESFire NFC tags
