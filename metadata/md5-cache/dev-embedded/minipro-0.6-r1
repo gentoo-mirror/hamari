@@ -4,11 +4,11 @@ DEPEND=virtual/libusb:=
 DESCRIPTION=A program for controlling the MiniPRO TL866xx series of chip programmers
 EAPI=8
 HOMEPAGE=https://gitlab.com/DavidGriffith/minipro/
-INHERIT=bash-completion-r1 udev
+INHERIT=bash-completion-r1 toolchain-funcs udev
 KEYWORDS=amd64 x86
 LICENSE=GPL-3+
 RDEPEND=virtual/libusb:=
 SLOT=0
 SRC_URI=https://gitlab.com/DavidGriffith/minipro/-/archive/0.6/minipro-0.6.tar.bz2
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	udev	eec0bbab06977f1cfc5597269c1fa152
-_md5_=2b6b30703c1670b6fc9ec68a2d312973
+_md5_=768d94faeb67f87ee343ccc6cac363b7
