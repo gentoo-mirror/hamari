@@ -15,7 +15,7 @@ dev-embedded/simulavr 1.1.0: Atmel AVR simulator
 dev-embedded/z80asm 1.8 9999: Assembler for the Z80 microprcessor
 dev-embedded/z80dasm 1.2.0 9999: z80dasm is a disassembler for the Zilog Z80 microprocessor and compatibles
 dev-libs/LeechCore 2.14: Direct Memory Access (DMA) Attack Software
-dev-libs/cm256cc 1.1.0-r1: Fast GF(256) Cauchy MDS Block Erasure Codec in C++
+dev-libs/cm256cc 1.1.0-r1 1.1.1: Fast GF(256) Cauchy MDS Block Erasure Codec in C++
 dev-libs/libpostal 1.1: Parsing/normalizing street addresses around the world
 dev-libs/nanopb 0.4.7 9999: plain-C Protocol Buffers for embedded/memory-constrained systems
 dev-libs/nativefiledialog-extended 1.1.1-r1: File dialog library with C and C++ bindings, based on nativefiledialog
