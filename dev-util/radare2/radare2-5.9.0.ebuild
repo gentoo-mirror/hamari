@@ -9,11 +9,11 @@ DESCRIPTION="unix-like reverse engineering framework and commandline tools"
 HOMEPAGE="https://www.radare.org"
 
 # From libr/arch/p/arm/v35/Makefile
-ARM64_COMMIT=c9e7242972837ac11fc94db05fabcb801a8269c9
+ARM64_COMMIT=55d73c6bbb94448a5c615933179e73ac618cf876
 ARMV7_COMMIT=f270a6cc99644cb8e76055b6fa632b25abd26024
 
 # Most recent commit from https://github.com/radareorg/radare2-testbins
-BINS_COMMIT=1f0ea409f2af83fc4d0b685855de9d3b0f9eee41
+BINS_COMMIT=669f957394c729a271964ad98959a94a8fbae915
 
 if [[ ${PV} == *9999 ]]; then
 	inherit git-r3
@@ -29,7 +29,7 @@ else
 fi
 
 LICENSE="GPL-2"
-SLOT="0/5.8.0"
+SLOT="0/5.9.0"
 IUSE="ssl test"
 RESTRICT="!test? ( test )"
 
