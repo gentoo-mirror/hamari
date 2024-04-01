@@ -47,7 +47,7 @@ dev-util/cutter 2.3.4: A Qt and C++ GUI for rizin reverse engineering framework
 dev-util/ghidra 10.4 11.0 11.0.1: A software reverse engineering framework
 dev-util/ghidra-bin 11.0-r1 11.0.1 11.0.2: A software reverse engineering framework
 dev-util/heaptrace 2.2.8 9999: Visualize heap operations for pwn and debugging
-dev-util/iaito 5.7.8 5.8.0 5.8.2 5.8.4 5.8.6 5.8.8: A Qt and C++ GUI for radare2 reverse engineering framework
+dev-util/iaito 5.8.8 5.9.0: A Qt and C++ GUI for radare2 reverse engineering framework
 dev-util/lief 0.13.2: Library to instrument executable formats
 dev-util/plasma 0_p20190304 9999: An interactive disassembler for x86/ARM/MIPS
 dev-util/qiling 1.4.5 1.4.6 9999: Advanced binary emulation framework
