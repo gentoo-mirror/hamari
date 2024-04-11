@@ -44,8 +44,8 @@ dev-python/python-skyfield 1.43.1 9999: Astronomical Computation Library
 dev-python/sphinx-automodapi 0.14.1: Sphinx extension for generating API documentation
 dev-util/cemu 0.7 9999: Cheap EMUlator: lightweight multi-architecture assembly playground
 dev-util/cutter 2.3.4: A Qt and C++ GUI for rizin reverse engineering framework
-dev-util/ghidra 10.4 11.0 11.0.1: A software reverse engineering framework
-dev-util/ghidra-bin 11.0-r1 11.0.1 11.0.2: A software reverse engineering framework
+dev-util/ghidra 10.4 11.0 11.0.1 11.0.2: A software reverse engineering framework
+dev-util/ghidra-bin 11.0-r1 11.0.1 11.0.2 11.0.3: A software reverse engineering framework
 dev-util/heaptrace 2.2.8 9999: Visualize heap operations for pwn and debugging
 dev-util/iaito 5.8.8 5.9.0: A Qt and C++ GUI for radare2 reverse engineering framework
 dev-util/lief 0.13.2: Library to instrument executable formats
