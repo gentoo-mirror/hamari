@@ -2,7 +2,6 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-#EGO_PN=github.com/la5nta/pat
 
 inherit go-module
 
@@ -19,7 +18,6 @@ KEYWORDS="~amd64 ~x86"
 
 DEPEND="dev-libs/libax25"
 RDEPEND="${DEPEND}"
-BDEPEND=""
 
 src_compile() {
 	set -- go build -tags libax25 ${EGO_PN}
