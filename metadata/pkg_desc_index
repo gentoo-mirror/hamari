@@ -178,3 +178,4 @@ sci-libs/libsvbony 2.0.6 2.0.7 9999: SDK and firmware for the Moravian MI CCD ca
 sci-libs/libtoupcam 2.0.6 2.0.7 9999: This is the Toupcam Library SDK
 sci-libs/libtscam 2.0.6 2.0.7 9999: This is the Altair Library SDK
 sci-libs/sgp4 20210111-r1: Simplified perturbations models
+sys-fs/ddrescueview 0.4.5: Graphical viewer for GNU ddrescue mapfiles
