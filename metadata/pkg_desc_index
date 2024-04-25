@@ -1,7 +1,7 @@
 acct-group/indiserver 0: Group for sci-libs/indilib
 acct-user/indiserver 0: User for sci-libs/indilib
 app-admin/laps4linux 1.7.2 9999: Local Administrator Password Solution (LAPS) - implementation for Linux
-app-crypt/badkeys 0.0.6 0.0.7 9999: Tool to find common vulnerabilities in cryptographic public keys
+app-crypt/badkeys 0.0.6 0.0.7 0.0.7-r1 9999: Tool to find common vulnerabilities in cryptographic public keys
 app-crypt/gpg-tui 0.10.0 0.11.0: Terminal User Interface for GnuPG
 app-editors/imhex 1.32.2 1.33.0: A hex editor for reverse engineers, programmers, and eyesight
 app-emulation/kcemu 0.5.2 9999: Emulator for KC85 and other Z80 based home computers
