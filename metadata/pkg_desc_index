@@ -1,7 +1,7 @@
 acct-group/indiserver 0: Group for sci-libs/indilib
 acct-user/indiserver 0: User for sci-libs/indilib
 app-admin/laps4linux 1.7.2 9999: Local Administrator Password Solution (LAPS) - implementation for Linux
-app-crypt/badkeys 0.0.6 0.0.7 0.0.7-r1 0.0.8 9999: Tool to find common vulnerabilities in cryptographic public keys
+app-crypt/badkeys 0.0.8 0.0.9 9999: Tool to find common vulnerabilities in cryptographic public keys
 app-crypt/gpg-tui 0.10.0 0.11.0: Terminal User Interface for GnuPG
 app-editors/imhex 1.32.2 1.33.0: A hex editor for reverse engineers, programmers, and eyesight
 app-emulation/kcemu 0.5.2 9999: Emulator for KC85 and other Z80 based home computers
@@ -88,7 +88,7 @@ sci-astronomy/astrometry 0.93 0.94 9999: Automated astrometric calibration progr
 sci-astronomy/astrometry-data 20130527-r1 20201114: Astrometry.net index files
 sci-astronomy/erfa 2.0.0 2.0.1: Essential Routines for Fundamental Astronomy
 sci-astronomy/openastro 1.8.0-r2 9999: Open Astro Project
-sci-astronomy/space-command 0.7.2 0.7.3 9999: Satellite tracking command line
+sci-astronomy/space-command 0.7.3-r1 9999: Satellite tracking command line
 sci-astronomy/strf 9999: Radio Frequency Satellite Tracking
 sci-geosciences/gdal-grass 1.0.1 1.0.2: GDAL plugin to access GRASS data
 sci-libs/indilib 2.0.6-r1 2.0.7 9999: INDI Astronomical Control Protocol library
