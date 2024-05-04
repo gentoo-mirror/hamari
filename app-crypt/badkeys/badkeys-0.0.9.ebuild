@@ -5,7 +5,7 @@ EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{10..12} )
-inherit distutils-r1 pypi
+inherit distutils-r1
 
 DESCRIPTION="Tool to find common vulnerabilities in cryptographic public keys"
 HOMEPAGE="
@@ -17,7 +17,7 @@ if [[ ${PV} == "9999" ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/badkeys/badkeys.git"
 else
-	SRC_URI="https://github.com/badkeys/badkeys/archive/refs/tags/v${PV}.tar.gz -> ${P}.gh.tar.gz"
+	inherit pypi
 	KEYWORDS="~amd64 ~x86"
 fi
 
@@ -27,19 +27,8 @@ SLOT="0"
 RDEPEND="
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/gmpy[${PYTHON_USEDEP}]
+	dev-python/dnspython[${PYTHON_USEDEP}]
+	dev-python/paramiko[${PYTHON_USEDEP}]
 "
-
-PATCHES=(
-	"${FILESDIR}/${PN}-0.0.7-data.patch"
-)
-
-src_prepare()
-{
-	default
-
-	# These tests require access to the online blocklist.
-	rm "${S}/tests/test_ecbl.py" || die
-	rm "${S}/tests/test_rsabl.py" || die
-}
 
 distutils_enable_tests pytest
