@@ -5,7 +5,7 @@ EAPI=8
 
 inherit cmake udev
 
-DESCRIPTION="This is the Altair Library SDK"
+DESCRIPTION="This is the Teleskop Library SDK"
 HOMEPAGE="http://indilib.org"
 
 if [[ ${PV} == "9999" ]]; then
@@ -22,7 +22,9 @@ fi
 LICENSE="LGPL-2.1"
 SLOT="0/1"
 
-DEPEND=""
+DEPEND="
+	virtual/udev
+"
 RDEPEND="${DEPEND}"
 
 pkg_postinst() {

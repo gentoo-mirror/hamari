@@ -19,6 +19,8 @@ else
 	MY_S="${WORKDIR}/indi-3rdparty-${PV}"
 fi
 
+S="${MY_S}/indi-${PN##*-driver-}"
+
 LICENSE="LGPL-2"
 SLOT="0/1"
 
@@ -31,10 +33,9 @@ DEPEND="
 	sci-libs/cfitsio:0=
 	~sci-libs/indilib-${PV}
 	virtual/libusb:1
+	virtual/udev
 "
 RDEPEND="${DEPEND}"
-
-S="${MY_S}/indi-${PN##*-driver-}"
 
 pkg_postinst() {
 	udev_reload
