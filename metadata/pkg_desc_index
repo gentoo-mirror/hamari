@@ -157,15 +157,15 @@ sci-libs/libapogee 2.0.6 2.0.7 9999: Driver for the Apogee ALTA device drivers
 sci-libs/libasi 2.0.6 2.0.7 9999: Udev rules and firmware for ZWO Optics ASI cameras.
 sci-libs/libastroasis 2.0.6 2.0.7 9999: Driver for the Oasis Focuser
 sci-libs/libatik 2.0.6 2.0.7 9999: Driver for the for the ATIK cameras and filter wheels
-sci-libs/libbressercam 2.0.6 2.0.7 9999: This is the Altair Library SDK
+sci-libs/libbressercam 2.0.6 2.0.7 9999: This is the Bresser Library SDK
 sci-libs/libfishcamp 2.0.6 2.0.7 9999: Firmware for the Fishcamp Engineering's Starfish CMOS autoguider
 sci-libs/libfli 2.0.6 2.0.7 9999: Driver for the Finger Lakes Instruments CCD and Focuser
 sci-libs/libinovasdk 2.0.6 2.0.7 9999: SDK and firmware for the i.Nova PLx series CCD/CMOS cameras
 sci-libs/libmallincam 2.0.6 2.0.7 9999: This is the Mallincam Library SDK
-sci-libs/libmeadecam 2.0.6 2.0.7 9999: This is the Toupcam Library SDK
+sci-libs/libmeadecam 2.0.6 2.0.7 9999: This is the library that supports the Meade-branded Touptek camers
 sci-libs/libmicam 2.0.6 2.0.7 9999: SDK and firmware for the Moravian MI CCD cameras
 sci-libs/libnncam 2.0.6 2.0.7 9999: This is the NN Library SDK for Linux & MacOS
-sci-libs/libogmacam 2.0.6 2.0.7 9999: This is the Altair Library SDK
+sci-libs/libogmacam 2.0.6 2.0.7 9999: This is the Teleskop Library SDK
 sci-libs/libomegonprocam 2.0.6 2.0.7 9999: This is the Omegan Pro Library SDK
 sci-libs/libpktriggercord 2.0.6 2.0.7 9999: Shared library wrapper for pktriggercord by Karl Rees (2020)
 sci-libs/libplayerone 2.0.6 2.0.7 9999: Driver for the Player One Astronomy's Camera Driver
@@ -174,8 +174,8 @@ sci-libs/libqsi 2.0.6 2.0.7 9999: Driver for the Quantum Scientific Imaging CCDs
 sci-libs/libricohcamerasdk 2.0.6 2.0.7 9999: RICOH Camera USB SDK for C++
 sci-libs/libsbig 2.0.6 2.0.7 9999: Driver for the Santa Barbara Instruments Group line of CCDs & Filter Wheels
 sci-libs/libstarshootg 2.0.6 2.0.7 9999: This is the Orion Starshoot G Library SDK for Linux & MacOS
-sci-libs/libsvbony 2.0.6 2.0.7 9999: SDK and firmware for the Moravian MI CCD cameras
+sci-libs/libsvbony 2.0.6 2.0.7 9999: SDK and firmware for the SvBony cameras
 sci-libs/libtoupcam 2.0.6 2.0.7 9999: This is the Toupcam Library SDK
-sci-libs/libtscam 2.0.6 2.0.7 9999: This is the Altair Library SDK
+sci-libs/libtscam 2.0.6 2.0.7 9999: This is the Teleskop Library SDK
 sci-libs/sgp4 20210111-r1: Simplified perturbations models
 sys-fs/ddrescueview 0.4.5: Graphical viewer for GNU ddrescue mapfiles
