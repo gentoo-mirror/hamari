@@ -19,7 +19,7 @@ dev-libs/libpostal 1.1: Parsing/normalizing street addresses around the world
 dev-libs/nanopb 0.4.7-r1 9999: plain-C Protocol Buffers for embedded/memory-constrained systems
 dev-libs/nativefiledialog-extended 1.1.1-r1: File dialog library with C and C++ bindings, based on nativefiledialog
 dev-libs/serialDV 1.1.4-r1: C++ library to encode/decode audio with AMBE3000
-dev-libs/triton 0.9-r3 9999: Triton is a Dynamic Binary Analysis (DBA) framework
+dev-libs/triton 0.9-r4 9999: Triton is a Dynamic Binary Analysis (DBA) framework
 dev-libs/z80ex 1.1.21: ZiLOG Z80 CPU emulation library
 dev-python/astropy 6.0.0 6.0.1 6.0.1-r1 6.1.0: Python astronomy package
 dev-python/astropy-iers-data 0.2023.11.27.0.30.38 0.2024.3.25.0.29.50 0.2024.4.29.0.28.48: International earth rotation data for Astropy
