@@ -1,9 +1,9 @@
 acct-group/indiserver 0: Group for sci-libs/indilib
 acct-user/indiserver 0: User for sci-libs/indilib
-app-admin/laps4linux 1.7.2 1.8.0 9999: Local Administrator Password Solution (LAPS) - implementation for Linux
+app-admin/laps4linux 1.7.2 1.8.0 1.9.0 9999: Local Administrator Password Solution (LAPS) - implementation for Linux
 app-crypt/badkeys 0.0.8 0.0.9 0.0.11 9999: Tool to find common vulnerabilities in cryptographic public keys
 app-crypt/gpg-tui 0.10.0 0.11.0: Terminal User Interface for GnuPG
-app-editors/imhex 1.32.2 1.33.0 1.34.0 1.35.3: A hex editor for reverse engineers, programmers, and eyesight
+app-editors/imhex 1.32.2 1.33.0 1.34.0 1.35.3 1.35.4: A hex editor for reverse engineers, programmers, and eyesight
 app-emulation/kcemu 0.5.2 9999: Emulator for KC85 and other Z80 based home computers
 app-forensics/RdpCacheStitcher 1.1 9999: A tool that supports reconstructing useful images out of RDP cache bitmaps.
 dev-cpp/pngpp 0.2.9: A simple but powerful C++ interface to libpng
@@ -17,7 +17,7 @@ dev-libs/LeechCore 2.14 2.17: Direct Memory Access (DMA) Attack Software
 dev-libs/cm256cc 1.1.0-r1 1.1.1: Fast GF(256) Cauchy MDS Block Erasure Codec in C++
 dev-libs/libpostal 1.1: Parsing/normalizing street addresses around the world
 dev-libs/nanopb 0.4.7-r2 9999: plain-C Protocol Buffers for embedded/memory-constrained systems
-dev-libs/nativefiledialog-extended 1.1.1-r1: File dialog library with C and C++ bindings, based on nativefiledialog
+dev-libs/nativefiledialog-extended 1.1.1-r1 1.2.0: File dialog library with C and C++ bindings, based on nativefiledialog
 dev-libs/serialDV 1.1.4-r1: C++ library to encode/decode audio with AMBE3000
 dev-libs/triton 0.9-r4 9999: Triton is a Dynamic Binary Analysis (DBA) framework
 dev-libs/z80ex 1.1.21: ZiLOG Z80 CPU emulation library
@@ -44,8 +44,8 @@ dev-python/python-skyfield 1.43.1 9999: Astronomical Computation Library
 dev-python/sphinx-automodapi 0.14.1: Sphinx extension for generating API documentation
 dev-util/cemu 0.7 9999: Cheap EMUlator: lightweight multi-architecture assembly playground
 dev-util/cutter 2.3.4: A Qt and C++ GUI for rizin reverse engineering framework
-dev-util/ghidra 11.0.3 11.1 11.1.1: A software reverse engineering framework
-dev-util/ghidra-bin 11.0.3 11.1 11.1.1: A software reverse engineering framework
+dev-util/ghidra 11.0.3 11.1 11.1.1 11.1.2: A software reverse engineering framework
+dev-util/ghidra-bin 11.0.3 11.1 11.1.1 11.1.2: A software reverse engineering framework
 dev-util/heaptrace 2.2.8 9999: Visualize heap operations for pwn and debugging
 dev-util/iaito 5.8.8 5.9.0 5.9.2: A Qt and C++ GUI for radare2 reverse engineering framework
 dev-util/lief 0.13.2: Library to instrument executable formats
