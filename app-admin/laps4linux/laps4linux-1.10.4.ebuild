@@ -4,7 +4,10 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..12} )
-inherit python-single-r1
+DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_SINGLE_IMPL=1
+
+inherit distutils-r1
 
 MY_PN="LAPS4LINUX"
 MY_P="${MY_PN}-${PV}"
@@ -17,38 +20,56 @@ if [[ ${PV} == "9999" ]]; then
 	EGIT_REPO_URI="https://github.com/schorschii/LAPS4LINUX.git"
 else
 	SRC_URI="https://github.com/schorschii/LAPS4LINUX/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="~amd64 ~x86"
+	KEYWORDS="~amd64"
 	S="${WORKDIR}/${MY_P}"
 fi
 
 LICENSE="GPL-3+"
 SLOT="0"
-IUSE="gui"
-REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 RDEPEND="
-	${PYTHON_DEPS}
 	$(python_gen_cond_dep '
 		dev-python/cryptography[${PYTHON_USEDEP}]
 		dev-python/dnspython[${PYTHON_USEDEP}]
 		>=dev-python/dpapi-ng-0.2.0[${PYTHON_USEDEP}]
 		dev-python/gssapi[${PYTHON_USEDEP}]
-		dev-python/ldap3[${PYTHON_USEDEP}]
-		gui?
-		(
-			dev-python/PyQt5[${PYTHON_USEDEP}]
-		)
+		>=dev-python/ldap3-2.9.1[${PYTHON_USEDEP}]
 		dev-python/pycryptodome[${PYTHON_USEDEP}]
+		dev-python/PyQt5[${PYTHON_USEDEP}]
+		dev-python/qrcode[${PYTHON_USEDEP}]
 	')
 "
 DEPEND="${RDEPEND}"
-BDEPEND="${RDEPEND}"
 
-src_install()
-{
-	python_newscript laps-cli.py laps-cli
-	if use gui; then
-		python_newscript laps-gui.py laps-gui
-	fi
-	python_newscript laps-runner.py laps-runner
+RESTRICT="test"
+
+wrap_python() {
+	local BUILD_DIR="${S}/laps-client"
+	pushd "laps-client" >/dev/null || die
+	distutils-r1_${1} "$@"
+	popd >/dev/null
+
+	local BUILD_DIR="${S}/laps-runner"
+	pushd "laps-runner" >/dev/null || die
+	distutils-r1_${1} "$@"
+	popd >/dev/null
+}
+
+src_prepare() {
+	sed -i -e "s/laps4linux_client/laps_client/g" laps-client/setup.py || die
+	sed -i -e "s/laps4linux_runner/laps_runner/g" laps-runner/setup.py || die
+
+	wrap_python ${FUNCNAME}
+}
+
+src_configure() {
+	wrap_python ${FUNCNAME}
+}
+
+src_compile() {
+	wrap_python ${FUNCNAME}
+}
+
+src_install() {
+	wrap_python ${FUNCNAME}
 }
