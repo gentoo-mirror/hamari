@@ -21,8 +21,8 @@ dev-libs/nativefiledialog-extended 1.1.1-r1 1.2.0: File dialog library with C an
 dev-libs/serialDV 1.1.4-r1: C++ library to encode/decode audio with AMBE3000
 dev-libs/triton 0.9-r4 9999: Triton is a Dynamic Binary Analysis (DBA) framework
 dev-libs/z80ex 1.1.21: ZiLOG Z80 CPU emulation library
-dev-python/astropy 6.1.0 6.1.1 6.1.2 6.1.3: Python astronomy package
-dev-python/astropy-iers-data 0.2023.11.27.0.30.38 0.2024.3.25.0.29.50 0.2024.4.29.0.28.48 0.2024.7.1.0.34.3 0.2024.7.29.0.32.7: International earth rotation data for Astropy
+dev-python/astropy 6.1.0 6.1.1 6.1.2 6.1.3 6.1.4: Python astronomy package
+dev-python/astropy-iers-data 0.2023.11.27.0.30.38 0.2024.3.25.0.29.50 0.2024.4.29.0.28.48 0.2024.7.1.0.34.3 0.2024.7.29.0.32.7 0.2024.8.27.10.28.29: International earth rotation data for Astropy
 dev-python/beyond 0.7.5 9999: Flight Dynamic Library
 dev-python/certvalidator 0.11.1 9999: Python library for validating X.509 certificates and paths
 dev-python/dpapi-ng 0.2.0 9999: Python DPAPI NG Decryptor for non-Windows Platforms
@@ -86,7 +86,7 @@ net-wireless/proxmark3 4.14434 4.14831 9999: A general purpose RFID tool for Pro
 net-wireless/qflipper 1.3.0 1.3.2 1.3.3 9999: Desktop application for updating Flipper Zero firmware via PC
 net-wireless/sdrangel 7.21.1 7.21.2 7.21.3 7.21.4 7.22.0 9999: SDR Rx/Tx software
 net-wireless/sdrpp 1.0.4 9999: a cross-platform SDR software with the aim of being bloat free and simple to use
-sci-astronomy/astrometry 0.95 0.96 9999: Automated astrometric calibration programs and service
+sci-astronomy/astrometry 0.95-r1 0.96 9999: Automated astrometric calibration programs and service
 sci-astronomy/astrometry-data 20130527-r1 20201114: Astrometry.net index files
 sci-astronomy/erfa 2.0.0 2.0.1: Essential Routines for Fundamental Astronomy
 sci-astronomy/openastro 1.8.0-r2 9999: Open Astro Project
