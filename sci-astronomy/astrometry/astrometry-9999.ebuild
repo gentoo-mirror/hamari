@@ -10,8 +10,6 @@ PYTHON_COMPAT=( python3_{10..12} )
 
 inherit toolchain-funcs python-single-r1
 
-MYP=${PN}.net-${PV}
-
 DESCRIPTION="Automated astrometric calibration programs and service"
 HOMEPAGE="http://astrometry.net"
 
@@ -19,11 +17,11 @@ if [[ ${PV} = "9999" ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/dstndstn/astrometry.net.git"
 else
+	MYP=${PN}.net-${PV}
 	SRC_URI="https://github.com/dstndstn/astrometry.net/releases/download/${PV}/${MYP}.tar.gz"
 	KEYWORDS="~amd64 ~x86"
+	S="${WORKDIR}/${MYP}"
 fi
-
-S="${WORKDIR}/${MYP}"
 
 LICENSE="BSD GPL-2 GPL-3"
 SLOT="0"
@@ -124,7 +122,7 @@ src_install() {
 
 	# remove duplicates and non installable libraries
 	# cfitsio
-	rm "${ED}"/usr/bin/{fitscopy,imcopy,listhead} || die
+	rm "${ED}"/usr/bin/listhead || die
 	# cfitsio utilities
 	#rm "${ED}"/usr/bin/{fitsverify,imarith,imstat,liststruc,modhead,tablist,tabmerge} || die
 	#rm "${ED}"/usr/$(get_libdir)/lib*.a || die
