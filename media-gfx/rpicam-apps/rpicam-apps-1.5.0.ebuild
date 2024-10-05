@@ -13,7 +13,7 @@ if [[ ${PV} == "9999" ]]; then
 	EGIT_REPO_URI="https://github.com/raspberrypi/rpicam-apps.git"
 else
 	SRC_URI="https://github.com/raspberrypi/rpicam-apps/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="~amd64 ~x86"
+	KEYWORDS=""
 fi
 
 LICENSE="BSD-2"

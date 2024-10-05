@@ -13,7 +13,7 @@ if [[ ${PV} == "9999" ]]; then
 	EGIT_REPO_URI="https://github.com/raspberrypi/rpicam-apps.git"
 else
 	SRC_URI="https://github.com/raspberrypi/rpicam-apps/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="~amd64 ~x86"
+	KEYWORDS=""
 fi
 
 LICENSE="BSD-2"
@@ -23,7 +23,7 @@ IUSE="drm egl ffmpeg opencv qt5"
 
 DEPEND="
 	dev-libs/boost:=
-	>=media-libs/libcamera-0.3.0:=
+	media-libs/libcamera:=
 	media-libs/libexif:=
 	media-libs/libjpeg-turbo:=
 	media-libs/libpng:=
@@ -44,18 +44,10 @@ BDEPEND="
 
 src_configure() {
 	local emesonargs=(
-		$(meson_feature drm enable_drm)
-		$(meson_feature ffmpeg enable_libav)
-		$(meson_feature opencv enable_opencv)
-		$(meson_feature qt5 enable_qt)
-		-Denable_egl=disabled
-		-Denable_tflite=disabled
-		-Denable_hailo=disabled
-		-Ddownload_hailo_models=false
+		$(meson_use drm enable_drm)
+		$(meson_use ffmpeg enable_libav)
+		$(meson_use opencv enable_opencv)
+		$(meson_use qt5 enable_qt)
 	)
 	meson_src_configure
 }
-
-PATCHES=(
-	"${FILESDIR}/rpicam-apps-1.5-includedirs.patch"
-)
