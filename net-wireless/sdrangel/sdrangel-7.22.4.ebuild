@@ -30,6 +30,7 @@ RDEPEND="
 	dev-libs/hidapi:=
 	dev-libs/serialDV:=
 	>=media-libs/codec2-1.0.5:=
+	media-libs/flac:=
 	media-libs/hamlib:=
 	media-libs/opus:=
 	media-libs/opencv:=
@@ -95,6 +96,7 @@ src_configure() {
 
 	local mycmakeargs=(
 		-DDEBUG_OUTPUT="$(usex debug)" \
+		-DBUILD_SHARED_LIBS=ON \
 		-DENABLE_EXTERNAL_LIBRARIES=OFF \
 		-DSANITIZE_ADDRESS=OFF \
 		-DRX_SAMPLE_24BIT=ON \
