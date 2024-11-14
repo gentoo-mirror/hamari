@@ -4,7 +4,8 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{9..11} )
+DISTUTILS_EXT=1
+PYTHON_COMPAT=( python3_{10..13} )
 
 inherit distutils-r1
 
@@ -26,7 +27,7 @@ LICENSE="BSD"
 SLOT="0"
 
 RDEPEND="
-	>=dev-python/numpy-1.17[${PYTHON_USEDEP}]
+	>=dev-python/numpy-2[${PYTHON_USEDEP}]
 	=sci-astronomy/erfa-$(ver_cut 1-3)*
 "
 
