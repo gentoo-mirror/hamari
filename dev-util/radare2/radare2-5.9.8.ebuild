@@ -13,7 +13,7 @@ ARM64_COMMIT=55d73c6bbb94448a5c615933179e73ac618cf876
 ARMV7_COMMIT=f270a6cc99644cb8e76055b6fa632b25abd26024
 
 # Most recent commit from https://github.com/radareorg/radare2-testbins
-BINS_COMMIT=669f957394c729a271964ad98959a94a8fbae915
+BINS_COMMIT=d9b3a642d41edb5ca4860e57163cac1aa7a431c3
 
 if [[ ${PV} == *9999 ]]; then
 	inherit git-r3
@@ -35,7 +35,7 @@ RESTRICT="!test? ( test )"
 
 RDEPEND="
 	app-arch/lz4:=
-	>=dev-libs/capstone-5.0_rc3:0=
+	>=dev-libs/capstone-5.0.3:0=
 	dev-libs/libzip:=
 	dev-libs/xxhash
 	sys-apps/file
@@ -77,11 +77,12 @@ src_configure() {
 	econf \
 		--with-syscapstone \
 		--with-syslz4 \
-		--without-libuv \
 		--with-sysmagic \
 		--with-sysxxhash \
 		--with-syszip \
-		$(use_with ssl openssl)
+		$(use_with ssl openssl) \
+		--without-libuv \
+		--without-sqsh
 }
 
 src_test() {
