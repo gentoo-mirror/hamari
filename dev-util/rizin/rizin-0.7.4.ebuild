@@ -1,9 +1,9 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_{10..13} )
 
 # This is the commit that the CI for the release commit used
 BINS_COMMIT="1203a9a2f51e32337c8434d9f4f7c4543552e271"
@@ -15,10 +15,11 @@ HOMEPAGE="https://rizin.re/"
 
 SRC_URI="mirror+https://github.com/rizinorg/rizin/releases/download/v${PV}/rizin-src-v${PV}.tar.xz
 	test? ( https://github.com/rizinorg/rizin-testbins/archive/${BINS_COMMIT}.tar.gz -> rizin-testbins-${BINS_COMMIT}.tar.gz )"
-KEYWORDS="amd64 ~arm64 ~x86"
+S="${WORKDIR}/${PN}-v${PV}"
 
 LICENSE="Apache-2.0 BSD LGPL-3 MIT"
 SLOT="0/${PV}"
+KEYWORDS="amd64 ~arm64 ~x86"
 IUSE="test"
 
 # Need to audit licenses of the binaries used for testing
@@ -26,15 +27,15 @@ RESTRICT="test? ( fetch ) !test? ( test )"
 
 # TODO: unbundle dev-libs/blake3
 RDEPEND="
-	app-arch/zstd:=
 	app-arch/lz4:0=
 	app-arch/xz-utils
+	app-arch/zstd:=
 	>=dev-libs/capstone-5:0=
-	dev-libs/libmspack:=
-	dev-libs/libpcre2:=
+	dev-libs/libmspack
+	dev-libs/libpcre2:0=[jit]
 	dev-libs/libzip:0=
 	dev-libs/openssl:0=
-	>=dev-libs/tree-sitter-0.19.0
+	>=dev-libs/tree-sitter-0.19.0:=
 	dev-libs/xxhash
 	sys-apps/file
 	sys-libs/zlib:0=
@@ -44,9 +45,9 @@ BDEPEND="${PYTHON_DEPS}"
 
 PATCHES=(
 	"${FILESDIR}/${PN}-0.4.0-never-rebuild-parser.patch"
+	"${FILESDIR}/${PN}-0.7.3-force-local-tree-sitter-c.patch"
+	"${FILESDIR}/${PN}-0.7.3-tree-sitter-underlinking.patch"
 )
-
-S="${WORKDIR}/${PN}-v${PV}"
 
 src_prepare() {
 	default
