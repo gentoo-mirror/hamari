@@ -5,8 +5,9 @@ EAPI=8
 
 CMAKE_BUILD_TYPE="Release"
 CMAKE_MAKEFILE_GENERATOR="emake"
+LLVM_COMPAT=( {15..19} )
 
-inherit cmake llvm toolchain-funcs desktop
+inherit cmake llvm-r1 toolchain-funcs desktop
 
 DESCRIPTION="A hex editor for reverse engineers, programmers, and eyesight"
 HOMEPAGE="https://github.com/WerWolv/ImHex"
@@ -21,7 +22,8 @@ LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="amd64"
 IUSE="+system-llvm test"
-RESTRICT="test" # the tests need the shared library to work
+RESTRICT="!test? ( test )"
+#RESTRICT="test" # the tests need the shared library to work
 
 DEPEND="
 	app-arch/zstd[zlib]
@@ -44,11 +46,9 @@ DEPEND="
 "
 RDEPEND="${DEPEND}"
 BDEPEND="
-	system-llvm? ( sys-devel/llvm )
 	app-admin/chrpath
 	gnome-base/librsvg
-	sys-devel/lld
-	dev-util/ccache
+	system-llvm? ( $(llvm_gen_dep 'llvm-core/llvm:${LLVM_SLOT}=' ) )
 "
 
 pkg_pretend() {
@@ -58,18 +58,12 @@ pkg_pretend() {
 }
 
 src_configure() {
-	if use test; then
-		sed -ie "s/tests EXCLUDE_FROM_ALL/tests ALL/" "${S}/CMakeLists.txt"
-	fi
+#	if use test; then
+#		sed -ie "s/tests EXCLUDE_FROM_ALL/tests ALL/" "${S}/CMakeLists.txt"
+#	fi
 
 	local mycmakeargs=(
 		-D CMAKE_BUILD_TYPE="Release" \
-		-D CMAKE_C_COMPILER_LAUNCHER=ccache \
-		-D CMAKE_CXX_COMPILER_LAUNCHER=ccache \
-		-D CMAKE_C_FLAGS="-fuse-ld=lld ${CFLAGS}" \
-		-D CMAKE_CXX_FLAGS="-fuse-ld=lld ${CXXFLAGS}" \
-		-D CMAKE_OBJC_COMPILER_LAUNCHER=ccache \
-		-D CMAKE_OBJCXX_COMPILER_LAUNCHER=ccache \
 		-D CMAKE_SKIP_RPATH=ON \
 		-D IMHEX_PLUGINS_IN_SHARE=OFF \
 		-D IMHEX_STRIP_RELEASE=OFF \
@@ -82,6 +76,7 @@ src_configure() {
 		-D IMHEX_USE_DEFAULT_BUILD_SETTINGS=OFF \
 		-D IMHEX_STRICT_WARNINGS=OFF \
 		-D IMHEX_VERSION="${PV}" \
+		-D IMHEX_ENABLE_UNIT_TESTS="$(use test)"
 		-D PROJECT_VERSION="${PV}" \
 		-D USE_SYSTEM_CAPSTONE=ON \
 		-D USE_SYSTEM_FMT=ON \
