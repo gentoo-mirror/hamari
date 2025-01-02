@@ -6,7 +6,7 @@ EAPI=8
 HOMEPAGE=https://github.com/WerWolv/ImHex
 INHERIT=cmake desktop llvm-r1 toolchain-funcs xdg-utils
 IUSE=+system-llvm test +llvm_slot_19 llvm_slot_15 llvm_slot_16 llvm_slot_17 llvm_slot_18
-KEYWORDS=~amd64
+KEYWORDS=amd64
 LICENSE=GPL-2
 RDEPEND=app-arch/bzip2 app-arch/lzma app-arch/lz4 app-arch/zstd[zlib] app-forensics/yara >=dev-cpp/nlohmann_json-3.10.2 dev-libs/boost:= dev-libs/capstone >=dev-libs/nativefiledialog-extended-1.2.0 >=dev-libs/libfmt-8.0.0:= media-libs/freetype media-libs/glfw media-libs/glm net-libs/libssh2 net-libs/mbedtls net-misc/curl sys-apps/dbus sys-apps/file sys-apps/xdg-desktop-portal virtual/libiconv virtual/libintl
 REQUIRED_USE=^^ ( llvm_slot_15 llvm_slot_16 llvm_slot_17 llvm_slot_18 llvm_slot_19 )
@@ -14,4 +14,4 @@ RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/WerWolv/ImHex/releases/download/v1.36.2/Full.Sources.tar.gz -> imhex-1.36.2.tar.gz https://github.com/WerWolv/ImHex-Patterns/archive/refs/tags/ImHex-v1.36.2.tar.gz -> imhex-patterns-1.36.2.tar.gz
 _eclasses_=toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	f14aba975c94ccaa9f357a27e3b17ffe	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	10a50dfaf728b802fcfd37f8d0da9056	desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	llvm-utils	7f49c40879f833f9d07e2d5a9643077b	llvm-r1	0bd586d3786517cd63802a520b404dda
-_md5_=fb5bfe2f7f804425171bdc88aa0a21c2
+_md5_=84f0e69b55e764fdb936296b360d088f
