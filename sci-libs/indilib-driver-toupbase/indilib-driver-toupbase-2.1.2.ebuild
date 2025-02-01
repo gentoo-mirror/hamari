@@ -5,7 +5,7 @@ EAPI=8
 
 inherit cmake
 
-DESCRIPTION="the INDI driver for Astromechanics Lens Controller https://astromechanics.org"
+DESCRIPTION="INDI driver for the Touptek cameras"
 HOMEPAGE="http://indilib.org"
 
 if [[ ${PV} == "9999" ]]; then
@@ -15,14 +15,27 @@ if [[ ${PV} == "9999" ]]; then
 	MY_S="${EGIT_CHECKOUT_DIR}"
 else
 	SRC_URI="https://github.com/indilib/indi-3rdparty/archive/v${PV}.tar.gz -> indilib-3rdparty-${PV}.tar.gz"
-	KEYWORDS="~amd64 ~x86"
+	KEYWORDS="~amd64"
 	MY_S="${WORKDIR}/indi-3rdparty-${PV}"
 fi
 
 S="${MY_S}/indi-${PN##*-driver-}"
 
-LICENSE="GPL-3"
+LICENSE="LGPL-2"
 SLOT="0/1"
 
-DEPEND="~sci-libs/indilib-${PV}"
+DEPEND="
+	~sci-libs/indilib-${PV}
+	~sci-libs/libtoupcam-${PV}
+	~sci-libs/libaltaircam-${PV}
+	~sci-libs/libbressercam-${PV}
+	~sci-libs/libmallincam-${PV}
+	~sci-libs/libmeadecam-${PV}
+	~sci-libs/libnncam-${PV}
+	~sci-libs/libogmacam-${PV}
+	~sci-libs/libomegonprocam-${PV}
+	~sci-libs/libstarshootg-${PV}
+	~sci-libs/libsvbonycam-${PV}
+	~sci-libs/libtscam-${PV}
+"
 RDEPEND="${DEPEND}"

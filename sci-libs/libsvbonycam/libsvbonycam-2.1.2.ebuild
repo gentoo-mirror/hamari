@@ -3,26 +3,34 @@
 
 EAPI=8
 
-inherit cmake
+inherit cmake udev
 
-DESCRIPTION="INDI driver to control the Astrolink4 mini device"
+DESCRIPTION="SDK and firmware for the SvBony cameras"
 HOMEPAGE="http://indilib.org"
 
 if [[ ${PV} == "9999" ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/indilib/indi-3rdparty.git"
 	EGIT_CHECKOUT_DIR="${WORKDIR}/${P}"
-	MY_S="${EGIT_CHECKOUT_DIR}"
+	S="${EGIT_CHECKOUT_DIR}/${PN}"
 else
 	SRC_URI="https://github.com/indilib/indi-3rdparty/archive/v${PV}.tar.gz -> indilib-3rdparty-${PV}.tar.gz"
-	KEYWORDS="~amd64 ~x86"
-	MY_S="${WORKDIR}/indi-3rdparty-${PV}"
+	KEYWORDS="-* ~amd64 ~arm ~x86"
+	S="${WORKDIR}/indi-3rdparty-${PV}/${PN}"
 fi
 
-S="${MY_S}/indi-${PN##*-driver-}"
-
-LICENSE="GPL-3"
+LICENSE="LGPL-2.1"
 SLOT="0/1"
 
-DEPEND="~sci-libs/indilib-${PV}"
+DEPEND="
+	virtual/udev
+"
 RDEPEND="${DEPEND}"
+
+pkg_postinst() {
+	udev_reload
+}
+
+pkg_postrm() {
+	udev_reload
+}
