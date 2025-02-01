@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -6,21 +6,28 @@ EAPI=8
 inherit optfeature xdg
 
 DESCRIPTION="A menu-driven tool to draw and manipulate objects interactively in an X window"
-HOMEPAGE="http://mcj.sourceforge.net/"
-SRC_URI="https://downloads.sourceforge.net/project/mcj/${P}.tar.xz"
+HOMEPAGE="https://mcj.sourceforge.net/"
+
+if [[ ${PV} == 9999 ]]; then
+	inherit autotools git-r3
+	EGIT_REPO_URI="https://git.code.sf.net/p/mcj/xfig"
+else
+	SRC_URI="https://downloads.sourceforge.net/project/mcj/${P}.tar.xz"
+	KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ppc ~ppc64 ~riscv ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x64-solaris"
+fi
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~alpha amd64 arm ~hppa ppc ppc64 ~riscv sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x64-solaris"
 
 COMMON_DEPEND="
 	app-text/ghostscript-gpl:=
-	>=media-gfx/fig2dev-3.2.8
+	>=media-gfx/fig2dev-${PV}
 	media-libs/libjpeg-turbo:=
 	media-libs/libpng:=
 	media-libs/tiff:=
 	x11-libs/libX11
 	x11-libs/libXaw3d[unicode(+)]
+	x11-libs/libXft
 	x11-libs/libXpm
 	x11-libs/libXt
 "
@@ -33,15 +40,21 @@ RDEPEND="${COMMON_DEPEND}
 "
 
 PATCHES=(
-	"${FILESDIR}/${PN}-3.2.6a-urwfonts.patch"
 	"${FILESDIR}/${PN}-3.2.6a-solaris.patch"
-	"${FILESDIR}/${PN}-3.2.8b-app-defaults.patch"
-	"${FILESDIR}/${PN}-3.2.8b-Fix-build-with-flto.patch"
+	"${FILESDIR}/${PN}-3.2.9-app-defaults.patch"
+	"${FILESDIR}/${PN}-3.2.9a-prototypes.patch"
 )
+
+src_prepare() {
+	default
+
+	if [[ ${PV} == 9999 ]]; then
+		eautoreconf
+	fi
+}
 
 src_configure() {
 	local myeconfargs=(
-		--enable-i18n
 		--htmldir="${EPREFIX}/usr/share/doc/${PF}" # it expects docdir...
 	)
 	econf "${myeconfargs[@]}"
