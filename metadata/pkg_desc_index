@@ -20,8 +20,8 @@ dev-libs/nativefiledialog-extended 1.1.1-r1 1.2.0 1.2.1: File dialog library wit
 dev-libs/serialDV 1.1.4-r1: C++ library to encode/decode audio with AMBE3000
 dev-libs/triton 0.9-r4 9999: Triton is a Dynamic Binary Analysis (DBA) framework
 dev-libs/z80ex 1.1.21: ZiLOG Z80 CPU emulation library
-dev-python/astropy 6.1.0 6.1.1 6.1.2 6.1.3 6.1.4 6.1.5 7.0.0: Python astronomy package
-dev-python/astropy-iers-data 0.2023.11.27.0.30.38 0.2024.3.25.0.29.50 0.2024.4.29.0.28.48 0.2024.7.1.0.34.3 0.2024.7.29.0.32.7 0.2024.8.27.10.28.29 0.2024.10.28.0.34.7: International earth rotation data for Astropy
+dev-python/astropy 6.1.0 6.1.1 6.1.2 6.1.3 6.1.4 6.1.5 7.0.0 7.0.1: Python astronomy package
+dev-python/astropy-iers-data 0.2023.11.27.0.30.38 0.2024.3.25.0.29.50 0.2024.4.29.0.28.48 0.2024.7.1.0.34.3 0.2024.7.29.0.32.7 0.2024.8.27.10.28.29 0.2024.10.28.0.34.7 0.2025.1.31.12.41.4: International earth rotation data for Astropy
 dev-python/beyond 0.7.5 0.8 9999: Flight Dynamic Library
 dev-python/certvalidator 0.11.1 9999: Python library for validating X.509 certificates and paths
 dev-python/dpapi-ng 0.2.0 9999: Python DPAPI NG Decryptor for non-Windows Platforms
@@ -92,7 +92,7 @@ sci-astronomy/openastro 1.8.0-r2 9999: Open Astro Project
 sci-astronomy/space-command 0.7.3-r1 9999: Satellite tracking command line
 sci-astronomy/strf 9999: Radio Frequency Satellite Tracking
 sci-electronics/nec2c 1.3.2 1.3.3 9999: Numerical antenna analysis program
-sci-geosciences/gdal-grass 1.0.1 1.0.2: GDAL plugin to access GRASS data
+sci-geosciences/gdal-grass 1.0.1 1.0.2 1.0.3: GDAL plugin to access GRASS data
 sci-libs/indilib 2.1.1 2.1.2 9999: INDI Astronomical Control Protocol library
 sci-libs/indilib-driver-aagcloudwatcher-ng 2.1.1 2.1.2 9999: INDI driver for the AAG Cloud Watcher (AAGware - http://www.aagware.eu/)
 sci-libs/indilib-driver-ahp-xc 2.1.1 2.1.2 9999: INDI driver to control the AHP XC8 Telescope Array Correlator

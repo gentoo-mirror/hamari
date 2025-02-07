@@ -1,0 +1,15 @@
+BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=>=sci-libs/gdal-3.0.0:= sci-geosciences/grass:= postgres? ( dev-db/postgresql )
+DESCRIPTION=GDAL plugin to access GRASS data
+EAPI=8
+HOMEPAGE=https://www.gdal.org/
+INHERIT=cmake
+IUSE=postgres
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=sci-libs/gdal-3.0.0:= sci-geosciences/grass:=
+SLOT=0
+SRC_URI=https://github.com/OSGeo/gdal-grass/archive/refs/tags/1.0.3.tar.gz -> gdal-grass-1.0.3.tar.gz
+_eclasses_=toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	357f1a896fbedcd06e5ce55419c49eb9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	10a50dfaf728b802fcfd37f8d0da9056
+_md5_=4d2d04b07e692e1e76921287c52e4476
