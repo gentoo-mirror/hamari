@@ -40,6 +40,7 @@ dev-python/python-jplephem 2.17 9999: Python version of NASA DE4xx ephemerides
 dev-python/python-registry 1.4 9999: Pure Python parser for Windows Registry hives
 dev-python/python-sgp4 2.21 9999: Satellite position calculation library
 dev-python/python-skyfield 1.43.1 9999: Astronomical Computation Library
+dev-python/signxml 9999: Python XML Signature and XAdES library
 dev-python/sphinx-automodapi 0.14.1: Sphinx extension for generating API documentation
 dev-util/cemu 0.7-r1 9999: Cheap EMUlator: lightweight multi-architecture assembly playground
 dev-util/cutter 2.3.4: A Qt and C++ GUI for rizin reverse engineering framework
