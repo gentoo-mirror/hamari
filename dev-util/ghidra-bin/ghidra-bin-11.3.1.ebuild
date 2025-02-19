@@ -7,18 +7,18 @@ inherit desktop
 DESCRIPTION="A software reverse engineering framework"
 HOMEPAGE="https://ghidra-sre.org/"
 
-SRC_URI="https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_${PV}_build/ghidra_${PV}_PUBLIC_20240709.zip"
+SRC_URI="https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_${PV}_build/ghidra_${PV}_PUBLIC_20250219.zip"
 
 S="${WORKDIR}/ghidra_${PV}_PUBLIC"
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="amd64"
+KEYWORDS="~amd64"
 IUSE="doc"
 
 RDEPEND="
 	!dev-util/ghidra
-	virtual/jre:17
+	virtual/jre:21
 "
 DEPEND="
 	${RDEPEND}
