@@ -6,7 +6,6 @@ app-editors/imhex 1.36.2 1.37.0 1.37.1: A hex editor for reverse engineers, prog
 app-emulation/kcemu 0.5.2 9999: Emulator for KC85 and other Z80 based home computers
 app-forensics/RdpCacheStitcher 1.1 9999: A tool that supports reconstructing useful images out of RDP cache bitmaps.
 dev-cpp/pngpp 0.2.9: A simple but powerful C++ interface to libpng
-dev-embedded/minipro 0.6-r1 0.7.2 9999: A program for controlling the MiniPRO TL866xx series of chip programmers
 dev-embedded/pasmo 0.5.5: Z80 assembler
 dev-embedded/simavr 1.7 9999: Atmel AVR simulator
 dev-embedded/simulavr 1.1.0: Atmel AVR simulator
