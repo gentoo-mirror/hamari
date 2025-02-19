@@ -93,90 +93,90 @@ sci-astronomy/space-command 0.7.3-r1 9999: Satellite tracking command line
 sci-astronomy/strf 9999: Radio Frequency Satellite Tracking
 sci-electronics/nec2c 1.3.2 1.3.3 9999: Numerical antenna analysis program
 sci-geosciences/gdal-grass 1.0.1 1.0.2 1.0.3: GDAL plugin to access GRASS data
-sci-libs/indilib 2.1.1 2.1.2 9999: INDI Astronomical Control Protocol library
-sci-libs/indilib-driver-aagcloudwatcher-ng 2.1.1 2.1.2 9999: INDI driver for the AAG Cloud Watcher (AAGware - http://www.aagware.eu/)
-sci-libs/indilib-driver-ahp-xc 2.1.1 2.1.2 9999: INDI driver to control the AHP XC8 Telescope Array Correlator
-sci-libs/indilib-driver-aok 2.1.1 2.1.2 9999: INDI driver to control the AOK Skywalker mounts
-sci-libs/indilib-driver-apogee 2.1.1 2.1.2 9999: INDI driver for the Apogee Alta (U & E) line of CCDs
-sci-libs/indilib-driver-armadillo-platypus 2.1.1 2.1.2 9999: INDI driver for Lunatico Astronomia Armadillo & Platypus controllers.
-sci-libs/indilib-driver-asi 2.1.1 2.1.2 9999: INDI driver for the ZWO Optics ASI cameras
-sci-libs/indilib-driver-asi-power 2.1.1 2.1.2 9999: INDI driver for controlling power distribution from a Raspberry Pi usinng the GPIO pins.
-sci-libs/indilib-driver-astarbox 2.1.1 2.1.2 9999: INDI Driver for AStarBox power control
-sci-libs/indilib-driver-astroasis 2.1.1 2.1.2 9999: INDI driver for the Oasis Focuser
+sci-libs/indilib 2.1.2 2.1.2.1 9999: INDI Astronomical Control Protocol library
+sci-libs/indilib-driver-aagcloudwatcher-ng 2.1.2 2.1.2.1 9999: INDI driver for the AAG Cloud Watcher (AAGware - http://www.aagware.eu/)
+sci-libs/indilib-driver-ahp-xc 2.1.2 2.1.2.1 9999: INDI driver to control the AHP XC8 Telescope Array Correlator
+sci-libs/indilib-driver-aok 2.1.2 2.1.2.1 9999: INDI driver to control the AOK Skywalker mounts
+sci-libs/indilib-driver-apogee 2.1.2 2.1.2.1 9999: INDI driver for the Apogee Alta (U & E) line of CCDs
+sci-libs/indilib-driver-armadillo-platypus 2.1.2 2.1.2.1 9999: INDI driver for Lunatico Astronomia Armadillo & Platypus controllers.
+sci-libs/indilib-driver-asi 2.1.2 2.1.2.1 9999: INDI driver for the ZWO Optics ASI cameras
+sci-libs/indilib-driver-asi-power 2.1.2 2.1.2.1 9999: INDI driver for controlling power distribution from a Raspberry Pi usinng the GPIO pins.
+sci-libs/indilib-driver-astarbox 2.1.2 2.1.2.1 9999: INDI Driver for AStarBox power control
+sci-libs/indilib-driver-astroasis 2.1.2 2.1.2.1 9999: INDI driver for the Oasis Focuser
 sci-libs/indilib-driver-astromechfoc 9999: the INDI driver for Astromechanics Lens Controller https://astromechanics.org
-sci-libs/indilib-driver-atik 2.1.1 2.1.2 9999: the INDI driver for the ATIK cameras and filter wheels
-sci-libs/indilib-driver-avalon 2.1.1 2.1.2 9999: INDI driver to control Avalon Instruments mounts with StarGO control
-sci-libs/indilib-driver-avalonud 2.1.1 2.1.2 9999: INDI driver to control Avalon Instruments mounts with StarGO control
-sci-libs/indilib-driver-beefocus 2.1.1 2.1.2 9999: INDILIB driver for beefocus, an Open Source Hardware/ Software Telescope Focuser
-sci-libs/indilib-driver-bresserexos2 2.1.1 2.1.2 9999: INDILIB driver for Bresser Exos II GoTo Telescope Mount
-sci-libs/indilib-driver-celestronaux 2.1.1 2.1.2 9999: INDI driver for the NexStar and other Celestron AUX-protocol mounts
-sci-libs/indilib-driver-dsi 2.1.1 2.1.2 9999: INDI driver for the Meade Deep Sky Imager
-sci-libs/indilib-driver-duino 2.1.1 2.1.2 9999: INDI driver for the Arduino boards
-sci-libs/indilib-driver-eqmod 2.1.1 2.1.2 9999: INDI driver for mounts compliant to the SkyWatcher Protocol
-sci-libs/indilib-driver-ffmv 2.1.1 2.1.2 9999: INDI driver for the Point Grey FireFly MV camera
-sci-libs/indilib-driver-fishcamp 2.1.1 2.1.2 9999: INDI driver for the Fishcamp Engineering's Starfish CMOS autoguider
-sci-libs/indilib-driver-fli 2.1.1 2.1.2 9999: INDI driver for the Finger Lakes Instruments CCD and Focuser
-sci-libs/indilib-driver-gige 2.1.1 2.1.2 9999: INDI driver for the Point Grey FireFly MV camera
-sci-libs/indilib-driver-gphoto 2.1.1 2.1.2 9999: INDI driver for the gphoto2 compatible cameras
-sci-libs/indilib-driver-gpio 2.1.1 2.1.2 9999: INDI driver for Boards with GPIOs for digital inputs and outputs
-sci-libs/indilib-driver-gpsd 2.1.1 2.1.2 9999: INDI driver for GPS daemon
-sci-libs/indilib-driver-gpsnmea 2.1.1 2.1.2 9999: INDI driver for GPS NMEA data sources.
-sci-libs/indilib-driver-inovaplx 2.1.1 2.1.2 9999: INDI driver for the i.Nova PLx series CCD/CMOS cameras
-sci-libs/indilib-driver-libcamera 2.1.1 2.1.2 9999: INDI driver for libcamera devices
-sci-libs/indilib-driver-limesdr 2.1.1 2.1.2 9999: INDI driver for the LimeSDR series receivers.
-sci-libs/indilib-driver-maxdomeii 2.1.1 2.1.2 9999: INDI driver for the Maxdome II
-sci-libs/indilib-driver-mgen 2.1.1 2.1.2 9999: INDI driver for Lacerta MGen standalone autoguider
-sci-libs/indilib-driver-mi 2.1.1 2.1.2 9999: INDI driver for the Moravian MI CCD cameras
-sci-libs/indilib-driver-nexdome 2.1.1 2.1.2 9999: INDI driver for NexDome
-sci-libs/indilib-driver-nightscape 2.1.1 2.1.2 9999: INDI driver for the Celestron Nightscape 8300 line of CCDs
-sci-libs/indilib-driver-nut 2.1.1 2.1.2 9999: INDI driver for uniterrupted power supplies
-sci-libs/indilib-driver-ocs 2.1.1 2.1.2 9999: INDI driver for the Observatory Control System (OCS)
-sci-libs/indilib-driver-orion-ssg3 2.1.1 2.1.2 9999: the INDI driver for the Orion StarShoot G3 and G4 cameras
-sci-libs/indilib-driver-pentax 2.1.1 2.1.2 9999: INDI driver for the Pentax DSLR
-sci-libs/indilib-driver-playerone 2.1.1 2.1.2 9999: the INDI driver for the Player One Astronomy's Camera
-sci-libs/indilib-driver-qhy 2.1.1 2.1.2 9999: INDI driver for the QHY CCD cameras
-sci-libs/indilib-driver-qsi 2.1.1 2.1.2 9999: INDI driver for the Quantum Scientific Imaging CCDs & Filter Wheels
-sci-libs/indilib-driver-rolloffino 2.1.1 2.1.2 9999: INDI driver for the RollOff ino roof
-sci-libs/indilib-driver-rpi-gpio 2.1.1 2.1.2 9999: INDI driver for the RaspebrryPi GPIOs
-sci-libs/indilib-driver-rtklib 2.1.1 2.1.2 9999: INDI driver for the RTKLIB (GNSS positioning)
-sci-libs/indilib-driver-sbig 2.1.1 2.1.2 9999: INDI driver for the Santa Barbra Instruments Group line of CCDs & Filter Wheels
-sci-libs/indilib-driver-shelyak 2.1.1 2.1.2 9999: INDI driver for Shelyak spectrographs
-sci-libs/indilib-driver-starbook 2.1.1 2.1.2 9999: INDI driver for the Vixen Starbook telescope controllers
-sci-libs/indilib-driver-starbook-ten 2.1.1 2.1.2 9999: INDI driver for the Vixen Starbook TEN telescope controllers
-sci-libs/indilib-driver-svbony 2.1.1 2.1.2 9999: INDI driver for the SVBONY SV305 Camera
-sci-libs/indilib-driver-sx 2.1.1 2.1.2 9999: INDI driver for the SX astronomical equipement
-sci-libs/indilib-driver-talon6 2.1.1 2.1.2 9999: INDI driver for TALON6 Roll Off Roof
-sci-libs/indilib-driver-toupbase 2.1.1 2.1.2 9999: INDI driver for the Touptek cameras
-sci-libs/indilib-driver-webcam 2.1.1 2.1.2 9999: INDI driver for various types of webcameras
-sci-libs/indilib-driver-weewx-json 2.1.1 2.1.2 9999: INDI driver for WeeWX weather report
-sci-libs/indilib-drivers 2.1.1 2.1.2 9999: Metapackage containing all 3rdparty drivers for INDI library
-sci-libs/libahp-gt 2.1.1 2.1.2 9999: SDK and firmware for the AHP Telescope Controller
-sci-libs/libahp-xc 2.1.1 2.1.2 9999: SDK and firmware for the AHP Telescope Correlator
-sci-libs/libaltaircam 2.1.1 2.1.2 9999: This is the Altair Library SDK
-sci-libs/libapogee 2.1.1 2.1.2 9999: Driver for the Apogee ALTA device drivers
-sci-libs/libasi 2.1.1 2.1.2 9999: Udev rules and firmware for ZWO Optics ASI cameras.
-sci-libs/libastroasis 2.1.1 2.1.2 9999: Driver for the Oasis Focuser
-sci-libs/libatik 2.1.1 2.1.2 9999: Driver for the for the ATIK cameras and filter wheels
-sci-libs/libbressercam 2.1.1 2.1.2 9999: This is the Bresser Library SDK
-sci-libs/libfishcamp 2.1.1 2.1.2 9999: Firmware for the Fishcamp Engineering's Starfish CMOS autoguider
-sci-libs/libfli 2.1.1 2.1.2 9999: Driver for the Finger Lakes Instruments CCD and Focuser
-sci-libs/libinovasdk 2.1.1 2.1.2 9999: SDK and firmware for the i.Nova PLx series CCD/CMOS cameras
-sci-libs/libmallincam 2.1.1 2.1.2 9999: This is the Mallincam Library SDK
-sci-libs/libmeadecam 2.1.1 2.1.2 9999: This is the library that supports the Meade-branded Touptek camers
-sci-libs/libmicam 2.1.1 2.1.2 9999: SDK and firmware for the Moravian MI CCD cameras
-sci-libs/libnncam 2.1.1 2.1.2 9999: This is the NN Library SDK for Linux & MacOS
-sci-libs/libogmacam 2.1.1 2.1.2 9999: This is the Teleskop Library SDK
-sci-libs/libomegonprocam 2.1.1 2.1.2 9999: This is the Omegan Pro Library SDK
-sci-libs/libpktriggercord 2.1.1 2.1.2 9999: Shared library wrapper for pktriggercord by Karl Rees (2020)
-sci-libs/libplayerone 2.1.1 2.1.2 9999: Driver for the Player One Astronomy's Camera Driver
-sci-libs/libqhy 2.1.1 2.1.2 9999: SDK and firmware for the QHY CCD cameras
-sci-libs/libqsi 2.1.1 2.1.2 9999: Driver for the Quantum Scientific Imaging CCDs & Filter Wheels
-sci-libs/libricohcamerasdk 2.1.1 2.1.2 9999: RICOH Camera USB SDK for C++
-sci-libs/libsbig 2.1.1 2.1.2 9999: Driver for the Santa Barbara Instruments Group line of CCDs & Filter Wheels
-sci-libs/libstarshootg 2.1.1 2.1.2 9999: This is the Orion Starshoot G Library SDK for Linux & MacOS
-sci-libs/libsvbony 2.1.1 2.1.2 9999: SDK and firmware for the SvBony cameras
-sci-libs/libsvbonycam 2.1.2 9999: SDK and firmware for the SvBony cameras
-sci-libs/libtoupcam 2.1.1 2.1.2 9999: This is the Toupcam Library SDK
-sci-libs/libtscam 2.1.1 2.1.2 9999: This is the Teleskop Library SDK
+sci-libs/indilib-driver-atik 2.1.2 2.1.2.1 9999: the INDI driver for the ATIK cameras and filter wheels
+sci-libs/indilib-driver-avalon 2.1.2 2.1.2.1 9999: INDI driver to control Avalon Instruments mounts with StarGO control
+sci-libs/indilib-driver-avalonud 2.1.2 2.1.2.1 9999: INDI driver to control Avalon Instruments mounts with StarGO control
+sci-libs/indilib-driver-beefocus 2.1.2 2.1.2.1 9999: INDILIB driver for beefocus, an Open Source Hardware/ Software Telescope Focuser
+sci-libs/indilib-driver-bresserexos2 2.1.2 2.1.2.1 9999: INDILIB driver for Bresser Exos II GoTo Telescope Mount
+sci-libs/indilib-driver-celestronaux 2.1.2 2.1.2.1 9999: INDI driver for the NexStar and other Celestron AUX-protocol mounts
+sci-libs/indilib-driver-dsi 2.1.2 2.1.2.1 9999: INDI driver for the Meade Deep Sky Imager
+sci-libs/indilib-driver-duino 2.1.2 2.1.2.1 9999: INDI driver for the Arduino boards
+sci-libs/indilib-driver-eqmod 2.1.2 2.1.2.1 9999: INDI driver for mounts compliant to the SkyWatcher Protocol
+sci-libs/indilib-driver-ffmv 2.1.2 2.1.2.1 9999: INDI driver for the Point Grey FireFly MV camera
+sci-libs/indilib-driver-fishcamp 2.1.2 2.1.2.1 9999: INDI driver for the Fishcamp Engineering's Starfish CMOS autoguider
+sci-libs/indilib-driver-fli 2.1.2 2.1.2.1 9999: INDI driver for the Finger Lakes Instruments CCD and Focuser
+sci-libs/indilib-driver-gige 2.1.2 2.1.2.1 9999: INDI driver for the Point Grey FireFly MV camera
+sci-libs/indilib-driver-gphoto 2.1.2 2.1.2.1 9999: INDI driver for the gphoto2 compatible cameras
+sci-libs/indilib-driver-gpio 2.1.2 2.1.2.1 9999: INDI driver for Boards with GPIOs for digital inputs and outputs
+sci-libs/indilib-driver-gpsd 2.1.2 2.1.2.1 9999: INDI driver for GPS daemon
+sci-libs/indilib-driver-gpsnmea 2.1.2 2.1.2.1 9999: INDI driver for GPS NMEA data sources.
+sci-libs/indilib-driver-inovaplx 2.1.2 2.1.2.1 9999: INDI driver for the i.Nova PLx series CCD/CMOS cameras
+sci-libs/indilib-driver-libcamera 2.1.2 2.1.2.1 9999: INDI driver for libcamera devices
+sci-libs/indilib-driver-limesdr 2.1.2 2.1.2.1 9999: INDI driver for the LimeSDR series receivers.
+sci-libs/indilib-driver-maxdomeii 2.1.2 2.1.2.1 9999: INDI driver for the Maxdome II
+sci-libs/indilib-driver-mgen 2.1.2 2.1.2.1 9999: INDI driver for Lacerta MGen standalone autoguider
+sci-libs/indilib-driver-mi 2.1.2 2.1.2.1 9999: INDI driver for the Moravian MI CCD cameras
+sci-libs/indilib-driver-nexdome 2.1.2 2.1.2.1 9999: INDI driver for NexDome
+sci-libs/indilib-driver-nightscape 2.1.2 2.1.2.1 9999: INDI driver for the Celestron Nightscape 8300 line of CCDs
+sci-libs/indilib-driver-nut 2.1.2 2.1.2.1 9999: INDI driver for uniterrupted power supplies
+sci-libs/indilib-driver-ocs 2.1.2 2.1.2.1 9999: INDI driver for the Observatory Control System (OCS)
+sci-libs/indilib-driver-orion-ssg3 2.1.2 2.1.2.1 9999: the INDI driver for the Orion StarShoot G3 and G4 cameras
+sci-libs/indilib-driver-pentax 2.1.2 2.1.2.1 9999: INDI driver for the Pentax DSLR
+sci-libs/indilib-driver-playerone 2.1.2 2.1.2.1 9999: the INDI driver for the Player One Astronomy's Camera
+sci-libs/indilib-driver-qhy 2.1.2 2.1.2.1 9999: INDI driver for the QHY CCD cameras
+sci-libs/indilib-driver-qsi 2.1.2 2.1.2.1 9999: INDI driver for the Quantum Scientific Imaging CCDs & Filter Wheels
+sci-libs/indilib-driver-rolloffino 2.1.2 2.1.2.1 9999: INDI driver for the RollOff ino roof
+sci-libs/indilib-driver-rpi-gpio 2.1.2 2.1.2.1 9999: INDI driver for the RaspebrryPi GPIOs
+sci-libs/indilib-driver-rtklib 2.1.2 2.1.2.1 9999: INDI driver for the RTKLIB (GNSS positioning)
+sci-libs/indilib-driver-sbig 2.1.2 2.1.2.1 9999: INDI driver for the Santa Barbra Instruments Group line of CCDs & Filter Wheels
+sci-libs/indilib-driver-shelyak 2.1.2 2.1.2.1 9999: INDI driver for Shelyak spectrographs
+sci-libs/indilib-driver-starbook 2.1.2 2.1.2.1 9999: INDI driver for the Vixen Starbook telescope controllers
+sci-libs/indilib-driver-starbook-ten 2.1.2 2.1.2.1 9999: INDI driver for the Vixen Starbook TEN telescope controllers
+sci-libs/indilib-driver-svbony 2.1.2 2.1.2.1 9999: INDI driver for the SVBONY SV305 Camera
+sci-libs/indilib-driver-sx 2.1.2 2.1.2.1 9999: INDI driver for the SX astronomical equipement
+sci-libs/indilib-driver-talon6 2.1.2 2.1.2.1 9999: INDI driver for TALON6 Roll Off Roof
+sci-libs/indilib-driver-toupbase 2.1.2 2.1.2.1 9999: INDI driver for the Touptek cameras
+sci-libs/indilib-driver-webcam 2.1.2 2.1.2.1 9999: INDI driver for various types of webcameras
+sci-libs/indilib-driver-weewx-json 2.1.2 2.1.2.1 9999: INDI driver for WeeWX weather report
+sci-libs/indilib-drivers 2.1.2 2.1.2.1 9999: Metapackage containing all 3rdparty drivers for INDI library
+sci-libs/libahp-gt 2.1.2 2.1.2.1 9999: SDK and firmware for the AHP Telescope Controller
+sci-libs/libahp-xc 2.1.2 2.1.2.1 9999: SDK and firmware for the AHP Telescope Correlator
+sci-libs/libaltaircam 2.1.2 2.1.2.1 9999: This is the Altair Library SDK
+sci-libs/libapogee 2.1.2 2.1.2.1 9999: Driver for the Apogee ALTA device drivers
+sci-libs/libasi 2.1.2 2.1.2.1 9999: Udev rules and firmware for ZWO Optics ASI cameras.
+sci-libs/libastroasis 2.1.2 2.1.2.1 9999: Driver for the Oasis Focuser
+sci-libs/libatik 2.1.2 2.1.2.1 9999: Driver for the for the ATIK cameras and filter wheels
+sci-libs/libbressercam 2.1.2 2.1.2.1 9999: This is the Bresser Library SDK
+sci-libs/libfishcamp 2.1.2 2.1.2.1 9999: Firmware for the Fishcamp Engineering's Starfish CMOS autoguider
+sci-libs/libfli 2.1.2 2.1.2.1 9999: Driver for the Finger Lakes Instruments CCD and Focuser
+sci-libs/libinovasdk 2.1.2 2.1.2.1 9999: SDK and firmware for the i.Nova PLx series CCD/CMOS cameras
+sci-libs/libmallincam 2.1.2 2.1.2.1 9999: This is the Mallincam Library SDK
+sci-libs/libmeadecam 2.1.2 2.1.2.1 9999: This is the library that supports the Meade-branded Touptek camers
+sci-libs/libmicam 2.1.2 2.1.2.1 9999: SDK and firmware for the Moravian MI CCD cameras
+sci-libs/libnncam 2.1.2 2.1.2.1 9999: This is the NN Library SDK for Linux & MacOS
+sci-libs/libogmacam 2.1.2 2.1.2.1 9999: This is the Teleskop Library SDK
+sci-libs/libomegonprocam 2.1.2 2.1.2.1 9999: This is the Omegan Pro Library SDK
+sci-libs/libpktriggercord 2.1.2 2.1.2.1 9999: Shared library wrapper for pktriggercord by Karl Rees (2020)
+sci-libs/libplayerone 2.1.2 2.1.2.1 9999: Driver for the Player One Astronomy's Camera Driver
+sci-libs/libqhy 2.1.2 2.1.2.1 9999: SDK and firmware for the QHY CCD cameras
+sci-libs/libqsi 2.1.2 2.1.2.1 9999: Driver for the Quantum Scientific Imaging CCDs & Filter Wheels
+sci-libs/libricohcamerasdk 2.1.2 2.1.2.1 9999: RICOH Camera USB SDK for C++
+sci-libs/libsbig 2.1.2 2.1.2.1 9999: Driver for the Santa Barbara Instruments Group line of CCDs & Filter Wheels
+sci-libs/libstarshootg 2.1.2 2.1.2.1 9999: This is the Orion Starshoot G Library SDK for Linux & MacOS
+sci-libs/libsvbony 2.1.2 2.1.2.1 9999: SDK and firmware for the SvBony cameras
+sci-libs/libsvbonycam 2.1.2 2.1.2.1 9999: SDK and firmware for the SvBony cameras
+sci-libs/libtoupcam 2.1.2 2.1.2.1 9999: This is the Toupcam Library SDK
+sci-libs/libtscam 2.1.2 2.1.2.1 9999: This is the Teleskop Library SDK
 sci-libs/sgp4 20210111-r1: Simplified perturbations models
 sys-fs/ddrescueview 0.4.5: Graphical viewer for GNU ddrescue mapfiles
