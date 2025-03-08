@@ -49,7 +49,7 @@ dev-util/heaptrace 2.2.8 9999: Visualize heap operations for pwn and debugging
 dev-util/iaito 5.9.4 5.9.6 5.9.9: A Qt and C++ GUI for radare2 reverse engineering framework
 dev-util/lief 0.13.2: Library to instrument executable formats
 dev-util/plasma 0_p20190304 9999: An interactive disassembler for x86/ARM/MIPS
-dev-util/qiling 1.4.5 1.4.6 9999: Advanced binary emulation framework
+dev-util/qiling 1.4.5 1.4.6 1.4.7 9999: Advanced binary emulation framework
 dev-util/r2ghidra 5.9.2-r1 5.9.4 5.9.6: Integration of the Ghidra decompiler for radare2
 dev-util/radare2 5.9.4 5.9.6 5.9.8: unix-like reverse engineering framework and commandline tools
 dev-util/rizin 0.7.4: reverse engineering framework for binary analysis
