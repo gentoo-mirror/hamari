@@ -71,7 +71,7 @@ media-radio/flwrap 1.3.6: Reliable File Transfer Programm for Amateur Radio Use
 media-radio/flxmlrpc 0.1.4: XmlRpc library used by fldigi, flrig, flnet, flmsg, flarq, flamp, fllog
 media-radio/ggmorse 0.1.0_p20220718 9999: Morse code decoding library
 media-radio/gps-sdr-sim 1.0 9999: GPS baseband signal generator
-media-radio/lbgpsdo 1.1.1 9999: Configuration Utility for Leo Bodnar GPSDO
+media-radio/lbgpsdo 1.1.1 1.1.2 9999: Configuration Utility for Leo Bodnar GPSDO
 media-radio/pat 0.15.1 0.16.0: Cross platform Winlink client
 net-analyzer/commix 3.7 3.8 3.9 4.0 9999: Automated All-in-One OS Command Injection Exploitation Tool
 net-analyzer/raccoon 9999: A offensive security tool for reconnaissance and vulnerability scanning
