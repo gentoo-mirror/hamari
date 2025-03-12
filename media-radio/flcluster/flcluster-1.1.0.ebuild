@@ -7,12 +7,12 @@ inherit autotools
 
 DESCRIPTION="Amateur Radio DX Cluster Viewer"
 HOMEPAGE="http://www.w1hkj.com/flcluster-help/index.html"
-#SRC_URI="https://downloads.sourceforge.net/fldigi/${P}.tar.gz"
-SRC_URI="https://github.com/w1hkj/${PN}/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://downloads.sourceforge.net/fldigi/${P}.tar.gz"
+#SRC_URI="https://github.com/w1hkj/${PN}/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
 	x11-libs/fltk:=
