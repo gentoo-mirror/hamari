@@ -19,7 +19,7 @@ if [[ ${PV} == "9999" ]]; then
 	EGIT_REPO_URI="https://github.com/m32/endesive.git"
 else
 	SRC_URI="https://github.com/m32/endesive/archive/refs/tags/v${PV}.tar.gz -> ${P}.gh.tar.gz"
-	KEYWORDS="~amd64"
+	KEYWORDS="amd64"
 fi
 
 LICENSE="MIT LGPL-3 BSD"
