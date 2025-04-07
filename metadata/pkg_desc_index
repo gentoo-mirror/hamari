@@ -42,7 +42,6 @@ dev-python/python-skyfield 1.43.1 9999: Astronomical Computation Library
 dev-python/signxml 9999: Python XML Signature and XAdES library
 dev-python/sphinx-automodapi 0.14.1: Sphinx extension for generating API documentation
 dev-util/cemu 0.7-r1 9999: Cheap EMUlator: lightweight multi-architecture assembly playground
-dev-util/cutter 2.3.4: A Qt and C++ GUI for rizin reverse engineering framework
 dev-util/ghidra 11.2 11.2.1: A software reverse engineering framework
 dev-util/ghidra-bin 11.2 11.2.1 11.3 11.3.1: A software reverse engineering framework
 dev-util/heaptrace 2.2.8 9999: Visualize heap operations for pwn and debugging
@@ -54,7 +53,7 @@ dev-util/r2ghidra 5.9.2-r1 5.9.4 5.9.6 5.9.8: Integration of the Ghidra decompil
 dev-util/radare2 5.9.4 5.9.6 5.9.8: unix-like reverse engineering framework and commandline tools
 dev-util/rizin 0.7.4: reverse engineering framework for binary analysis
 dev-util/rp 2.1.3 2.1.4 9999: C++ ROP gadget finder
-dev-util/rz-ghidra 0.6.0 0.7.0: Deep ghidra decompiler and sleigh disassembler integration for rizin
+dev-util/rz-ghidra 0.7.0: Deep ghidra decompiler and sleigh disassembler integration for rizin
 media-gfx/fig2dev 3.2.9a 9999: Set of tools for creating TeX documents with graphics
 media-gfx/rpicam-apps 1.2.1 1.4.2 1.4.3 1.4.4 1.5.0 9999: libcamera-based applications to drive the cameras on a Raspberry Pi platform
 media-gfx/xfig 3.2.9a-r1 9999: A menu-driven tool to draw and manipulate objects interactively in an X window
@@ -70,10 +69,10 @@ media-radio/flwkey 1.2.3-r1: A simple interface to the Winkeyer series of CW cod
 media-radio/flwrap 1.3.6-r1: Reliable File Transfer Programm for Amateur Radio Use
 media-radio/flxmlrpc 0.1.4: XmlRpc library used by fldigi, flrig, flnet, flmsg, flarq, flamp, fllog
 media-radio/ggmorse 0.1.0_p20220718 9999: Morse code decoding library
-media-radio/gps-sdr-sim 1.0 9999: GPS baseband signal generator
+media-radio/gps-sdr-sim 9999: GPS baseband signal generator
 media-radio/lbgpsdo 1.1.1 1.1.2 9999: Configuration Utility for Leo Bodnar GPSDO
 media-radio/pat 0.15.1 0.16.0: Cross platform Winlink client
-net-analyzer/commix 3.7 3.8 3.9 4.0 9999: Automated All-in-One OS Command Injection Exploitation Tool
+net-analyzer/commix 4.0 9999: Automated All-in-One OS Command Injection Exploitation Tool
 net-analyzer/raccoon 9999: A offensive security tool for reconnaissance and vulnerability scanning
 net-wireless/airspyhf 1.6.8 9999: User mode driver for Airspy HF+
 net-wireless/desfsh 1.0.2-r1 1.1.0 9999: An interactive application for accessing Mifare DESFire NFC tags
