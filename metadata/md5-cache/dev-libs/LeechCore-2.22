@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install
+DEPEND=virtual/libusb:=
+DESCRIPTION=Direct Memory Access (DMA) Attack Software
+EAPI=8
+HOMEPAGE=https://github.com/ufrisk/LeechCore
+KEYWORDS=amd64 x86
+LICENSE=GPL-3
+RDEPEND=virtual/libusb:=
+SLOT=0/0
+SRC_URI=https://github.com/ufrisk/LeechCore/archive/v2.22.tar.gz -> LeechCore-2.22.tar.gz
+_md5_=d5afa4cf0a382ec13c642e8c6938465d
