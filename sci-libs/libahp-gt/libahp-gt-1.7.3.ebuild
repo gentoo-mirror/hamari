@@ -18,3 +18,7 @@ fi
 
 LICENSE="MIT"
 SLOT="0"
+
+PATCHES=(
+	"${FILESDIR}/${P}-return.patch"
+)

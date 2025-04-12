@@ -5,7 +5,7 @@ EAPI=8
 
 inherit cmake
 
-DESCRIPTION="INDI driver for the ZWO Optics ASI cameras"
+DESCRIPTION="INDI driver for mounts compliant to the SkyWatcher Protocol"
 HOMEPAGE="http://indilib.org"
 
 if [[ ${PV} == "9999" ]]; then
@@ -21,12 +21,20 @@ fi
 
 S="${MY_S}/indi-${PN##*-driver-}"
 
-LICENSE="LGPL-2.1"
+LICENSE="GPL-3"
 SLOT="0/1"
+IUSE="indilib_drivers_ahp-gt"
 
 DEPEND="
 	~sci-libs/indilib-${PV}
-	~sci-libs/libasi-${PV}
-	virtual/libudev
+	indilib_drivers_ahp-gt? ( <sci-libs/libahp-gt-2:= )
 "
 RDEPEND="${DEPEND}"
+
+src_configure() {
+	local mycmakeargs=(
+		-DWITH_AHP_GT="$(usex indilib_drivers_ahp-gt)"
+	)
+
+	cmake_src_configure
+}
