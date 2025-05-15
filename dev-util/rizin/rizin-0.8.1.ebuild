@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{10..13} )
 
 # This is the commit that the CI for the release commit used
-BINS_COMMIT="1203a9a2f51e32337c8434d9f4f7c4543552e271"
+BINS_COMMIT="71482f7194847b4ece45a9e53f28085b6bab40a4"
 
 inherit meson python-any-r1
 
@@ -45,8 +45,6 @@ BDEPEND="${PYTHON_DEPS}"
 
 PATCHES=(
 	"${FILESDIR}/${PN}-0.4.0-never-rebuild-parser.patch"
-	"${FILESDIR}/${PN}-0.7.3-force-local-tree-sitter-c.patch"
-	"${FILESDIR}/${PN}-0.7.3-tree-sitter-underlinking.patch"
 )
 
 src_prepare() {
