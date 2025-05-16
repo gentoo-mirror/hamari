@@ -4,7 +4,7 @@ DEPEND=app-arch/lz4:= >=dev-libs/capstone-5.0.3:0= dev-libs/libzip:= dev-libs/xx
 DESCRIPTION=unix-like reverse engineering framework and commandline tools
 EAPI=8
 HOMEPAGE=https://www.radare.org
-INHERIT=bash-completion-r1 toolchain-funcs
+INHERIT=toolchain-funcs shell-completion
 IUSE=ssl test
 KEYWORDS=~amd64 ~arm ~arm64 ~x86
 LICENSE=GPL-2
@@ -12,5 +12,5 @@ RDEPEND=app-arch/lz4:= >=dev-libs/capstone-5.0.3:0= dev-libs/libzip:= dev-libs/x
 RESTRICT=!test? ( test )
 SLOT=0/5.9.0
 SRC_URI=mirror+https://github.com/radareorg/radare2/archive/5.9.8.tar.gz -> radare2-5.9.8.tar.gz mirror+https://github.com/radareorg/vector35-arch-arm64/archive/55d73c6bbb94448a5c615933179e73ac618cf876.tar.gz -> radare2-5.9.8-vector35-arm64.tar.gz mirror+https://github.com/radareorg/vector35-arch-armv7/archive/f270a6cc99644cb8e76055b6fa632b25abd26024.tar.gz -> radare2-5.9.8-vector35-armv7.tar.gz test? ( https://github.com/radareorg/radare2-testbins/archive/d9b3a642d41edb5ca4860e57163cac1aa7a431c3.tar.gz -> radare2-testbins-d9b3a642d41edb5ca4860e57163cac1aa7a431c3.tar.gz )
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	bash-completion-r1	767861f3744f589ee5291c1698b1c082
-_md5_=1fce6b5f04b08074568fa5fe17b4532c
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	bash-completion-r1	767861f3744f589ee5291c1698b1c082	shell-completion	0b655d0d825e157a5e99c463bddaac16
+_md5_=90abd8ba77b2d2b3ce22b9e17ece11fd
