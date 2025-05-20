@@ -19,8 +19,8 @@ dev-libs/nativefiledialog-extended 1.1.1-r1 1.2.0 1.2.1: File dialog library wit
 dev-libs/serialDV 1.1.4-r1 1.1.5: C++ library to encode/decode audio with AMBE3000
 dev-libs/triton 0.9-r4 9999: Triton is a Dynamic Binary Analysis (DBA) framework
 dev-libs/z80ex 1.1.21: ZiLOG Z80 CPU emulation library
-dev-python/astropy 6.1.5 7.0.1: Python astronomy package
-dev-python/astropy-iers-data 0.2025.1.31.12.41.4: International earth rotation data for Astropy
+dev-python/astropy 6.1.5 7.0.1 7.0.2 7.1.0: Python astronomy package
+dev-python/astropy-iers-data 0.2025.1.31.12.41.4 0.2025.4.28.0.37.27 0.2025.5.5.0.38.14 0.2025.5.12.0.38.29 0.2025.5.19.0.38.36: International earth rotation data for Astropy
 dev-python/beyond 0.8 9999: Flight Dynamic Library
 dev-python/certvalidator 0.11.1 9999: Python library for validating X.509 certificates and paths
 dev-python/dpapi-ng 0.2.0 9999: Python DPAPI NG Decryptor for non-Windows Platforms
