@@ -1,7 +1,7 @@
 acct-group/indiserver 0: Group for sci-libs/indilib
 acct-user/indiserver 0: User for sci-libs/indilib
 app-admin/laps4linux 1.10.5-r1 1.11.3 9999: Local Administrator Password Solution (LAPS) - implementation for Linux
-app-crypt/gpg-tui 0.10.0 0.11.0: Terminal User Interface for GnuPG
+app-crypt/gpg-tui 0.10.0 0.11.0 0.11.1: Terminal User Interface for GnuPG
 app-editors/imhex 1.36.2 1.37.0 1.37.1 1.37.4: A hex editor for reverse engineers, programmers, and eyesight
 app-emulation/kcemu 0.5.2 9999: Emulator for KC85 and other Z80 based home computers
 app-forensics/RdpCacheStitcher 1.1 9999: A tool that supports reconstructing useful images out of RDP cache bitmaps.
