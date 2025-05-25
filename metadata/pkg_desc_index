@@ -35,10 +35,12 @@ dev-python/pyerfa 2.0.1.5: Astronomical Computation Library
 dev-python/pyhidapi 1.0.4 9999: Python hidapi bindings in ctypes
 dev-python/pykcs11 1.5.17 9999: PKCS#11 Wrapper for Python
 dev-python/pypostal 1.0 9999: Python bindings to libpostal
+dev-python/pyserial-asyncio 0.6: Python Serial Port extension
 dev-python/python-jplephem 2.17 9999: Python version of NASA DE4xx ephemerides
 dev-python/python-registry 1.4 9999: Pure Python parser for Windows Registry hives
 dev-python/python-sgp4 2.21 9999: Satellite position calculation library
 dev-python/python-skyfield 1.43.1 9999: Astronomical Computation Library
+dev-python/signalslot 0.2.0 9999: Simple signal slot implementation in Python
 dev-python/signxml 9999: Python XML Signature and XAdES library
 dev-python/sphinx-automodapi 0.14.1: Sphinx extension for generating API documentation
 dev-util/cemu 0.7-r1 9999: Cheap EMUlator: lightweight multi-architecture assembly playground
