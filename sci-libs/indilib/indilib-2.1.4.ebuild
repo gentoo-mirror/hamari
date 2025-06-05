@@ -19,7 +19,7 @@ fi
 
 LICENSE="BSD GPL-2+ LGPL-2+ LGPL-2.1+"
 SLOT="0/1"
-IUSE="ogg qt5 rtlsdr static-libs test websocket"
+IUSE="ogg qt5 rtlsdr static-libs test"
 
 RESTRICT="!test? ( test )"
 
@@ -47,13 +47,11 @@ RDEPEND="
 		dev-qt/qtnetwork:5
 	)
 	rtlsdr? ( net-wireless/rtl-sdr )
-	websocket? ( dev-libs/boost:= )
 "
 DEPEND="
 	${RDEPEND}
 	kernel_linux? ( sys-kernel/linux-headers )
 	test? ( >=dev-cpp/gtest-1.8.0 )
-	websocket? ( dev-cpp/websocketpp )
 "
 
 DOCS=( AUTHORS ChangeLog README )
@@ -67,16 +65,20 @@ src_configure() {
 	local mycmakeargs=(
 		-DINDI_SYSTEM_HTTPLIB=ON
 		-DINDI_SYSTEM_JSONLIB=ON
+		-DINDI_BUILD_SERVER=ON
+		-DINDI_BUILD_DRIVERS=ON
+		-DINDI_BUILD_CLIENT=ON
 		-DINDI_BUILD_QT5_CLIENT=$(usex qt5)
+		-DINDI_BUILD_UNITTESTS=$(usex test)
+		-DINDI_BUILD_INTEGTESTS=$(usex test)
 		-DINDI_BUILD_SHARED=ON
 		-DINDI_BUILD_STATIC=$(usex static-libs)
 		-DINDI_BUILD_XISF=OFF # not packaged
+		-DINDI_BUILD_EXAMPLES=OFF
+		-DINDI_INSTALL_UDEV_RULES=ON
 		-DUDEVRULES_INSTALL_DIR="${EPREFIX}$(get_udevdir)"/rules.d
 		$(cmake_use_find_package ogg OggTheora)
 		$(cmake_use_find_package rtlsdr RTLSDR)
-		-DINDI_BUILD_UNITTESTS=$(usex test)
-		-DINDI_BUILD_INTEGTESTS=$(usex test)
-		-DINDI_BUILD_WEBSOCKET=$(usex websocket)
 	)
 
 	cmake_src_configure

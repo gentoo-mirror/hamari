@@ -5,7 +5,7 @@ EAPI=8
 
 inherit cmake
 
-DESCRIPTION="INDI driver for Shelyak spectrographs"
+DESCRIPTION="INDI driver to control the AHP XC8 Telescope Array Correlator"
 HOMEPAGE="http://indilib.org"
 
 if [[ ${PV} == "9999" ]]; then
@@ -25,7 +25,7 @@ LICENSE="LGPL-2.1"
 SLOT="0/1"
 
 DEPEND="
-	media-libs/libdc1394
 	~sci-libs/indilib-${PV}
+	<sci-libs/libahp-xc-2:=
 "
 RDEPEND="${DEPEND}"
