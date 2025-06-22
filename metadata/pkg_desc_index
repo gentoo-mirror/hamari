@@ -93,7 +93,7 @@ sci-astronomy/openastro 1.8.0-r2 9999: Open Astro Project
 sci-astronomy/space-command 0.7.3-r1 9999: Satellite tracking command line
 sci-astronomy/strf 9999: Radio Frequency Satellite Tracking
 sci-electronics/nec2c 1.3.2 1.3.3 9999: Numerical antenna analysis program
-sci-geosciences/gdal-grass 1.0.1 1.0.2 1.0.3: GDAL plugin to access GRASS data
+sci-geosciences/gdal-grass 1.0.1 1.0.2 1.0.3 1.0.4: GDAL plugin to access GRASS data
 sci-libs/indilib 2.1.3 2.1.4 9999: INDI Astronomical Control Protocol library
 sci-libs/indilib-driver-aagcloudwatcher-ng 2.1.3 2.1.4 9999: INDI driver for the AAG Cloud Watcher (AAGware - http://www.aagware.eu/)
 sci-libs/indilib-driver-ahp-xc 2.1.3 2.1.4 9999: INDI driver to control the AHP XC8 Telescope Array Correlator
