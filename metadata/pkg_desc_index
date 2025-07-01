@@ -44,8 +44,8 @@ dev-python/signalslot 0.2.0 9999: Simple signal slot implementation in Python
 dev-python/signxml 9999: Python XML Signature and XAdES library
 dev-python/sphinx-automodapi 0.14.1: Sphinx extension for generating API documentation
 dev-util/cemu 0.7-r1 9999: Cheap EMUlator: lightweight multi-architecture assembly playground
-dev-util/ghidra 11.2 11.2.1 11.3.1-r1 11.3.2: A software reverse engineering framework
-dev-util/ghidra-bin 11.2 11.2.1 11.3 11.3.1 11.3.2: A software reverse engineering framework
+dev-util/ghidra 11.2 11.2.1 11.3.1-r1 11.3.2 11.4: A software reverse engineering framework
+dev-util/ghidra-bin 11.2 11.2.1 11.3 11.3.1 11.3.2 11.4: A software reverse engineering framework
 dev-util/heaptrace 2.2.8 9999: Visualize heap operations for pwn and debugging
 dev-util/iaito 5.9.4 5.9.6 5.9.9: A Qt and C++ GUI for radare2 reverse engineering framework
 dev-util/lief 0.16.5 0.16.6: Library to instrument executable formats
