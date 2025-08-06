@@ -33,7 +33,7 @@ dev-python/miasm 0.1.5 9999: Reverse engineering framework in Python
 dev-python/oscrypto 1.3.0 1.3.0-r1 9999: TLS sockets, key generation, encryption, decryption, signing, verification
 dev-python/pyerfa 2.0.1.5: Astronomical Computation Library
 dev-python/pyhidapi 1.0.4 9999: Python hidapi bindings in ctypes
-dev-python/pykcs11 1.5.17 9999: PKCS#11 Wrapper for Python
+dev-python/pykcs11 1.5.17 1.5.18 9999: PKCS#11 Wrapper for Python
 dev-python/pypostal 1.0 9999: Python bindings to libpostal
 dev-python/pyserial-asyncio 0.6: Python Serial Port extension
 dev-python/python-jplephem 2.17 9999: Python version of NASA DE4xx ephemerides
@@ -73,7 +73,7 @@ media-radio/flxmlrpc 0.1.4: XmlRpc library used by fldigi, flrig, flnet, flmsg, 
 media-radio/ggmorse 0.1.0_p20220718 9999: Morse code decoding library
 media-radio/gps-sdr-sim 9999: GPS baseband signal generator
 media-radio/lbgpsdo 1.1.1 1.1.2 9999: Configuration Utility for Leo Bodnar GPSDO
-media-radio/pat 0.15.1 0.16.0 0.17.0: Cross platform Winlink client
+media-radio/pat 0.15.1 0.16.0 0.17.0 0.18.0: Cross platform Winlink client
 net-analyzer/commix 4.0 9999: Automated All-in-One OS Command Injection Exploitation Tool
 net-analyzer/raccoon 9999: A offensive security tool for reconnaissance and vulnerability scanning
 net-wireless/airspyhf 1.6.8 9999: User mode driver for Airspy HF+
@@ -151,7 +151,7 @@ sci-libs/indilib-driver-toupbase 2.1.3 2.1.4 9999: INDI driver for the Touptek c
 sci-libs/indilib-driver-webcam 2.1.3 2.1.4 9999: INDI driver for various types of webcameras
 sci-libs/indilib-driver-weewx-json 2.1.3 2.1.4 9999: INDI driver for WeeWX weather report
 sci-libs/indilib-drivers 2.1.3 2.1.4 9999: Metapackage containing all 3rdparty drivers for INDI library
-sci-libs/libahp-gt 1.7.3 9999: SDK and firmware for the AHP Telescope Controller
+sci-libs/libahp-gt 1.7.3 1.7.8 9999: SDK and firmware for the AHP Telescope Controller
 sci-libs/libahp-xc 1.4.4 9999: SDK and firmware for the AHP Telescope Correlator
 sci-libs/libaltaircam 2.1.3 2.1.4 9999: This is the Altair Library SDK
 sci-libs/libapogee 2.1.3 2.1.4 9999: Driver for the Apogee ALTA device drivers
