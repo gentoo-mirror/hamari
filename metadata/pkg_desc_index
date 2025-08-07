@@ -41,7 +41,7 @@ dev-python/python-registry 1.4 9999: Pure Python parser for Windows Registry hiv
 dev-python/python-sgp4 2.21 9999: Satellite position calculation library
 dev-python/python-skyfield 1.43.1 9999: Astronomical Computation Library
 dev-python/signalslot 0.2.0 9999: Simple signal slot implementation in Python
-dev-python/signxml 9999: Python XML Signature and XAdES library
+dev-python/signxml 4.1.0 9999: Python XML Signature and XAdES library
 dev-python/sphinx-automodapi 0.14.1: Sphinx extension for generating API documentation
 dev-util/cemu 0.7-r1 9999: Cheap EMUlator: lightweight multi-architecture assembly playground
 dev-util/ghidra 11.2 11.2.1 11.3.1-r1 11.3.2 11.4 11.4.1: A software reverse engineering framework
