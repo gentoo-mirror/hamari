@@ -40,7 +40,6 @@ RDEPEND="
 	test?
 	(
 		dev-libs/softhsm:=
-		dev-python/unittest-or-fail[${PYTHON_USEDEP}]
 	)
 "
 
