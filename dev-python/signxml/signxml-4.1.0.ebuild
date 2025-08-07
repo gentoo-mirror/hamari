@@ -19,7 +19,7 @@ if [[ ${PV} == "9999" ]]; then
 	EGIT_REPO_URI="https://github.com/XML-Security/signxml.git"
 else
 	inherit pypi
-	KEYWORDS="~amd64"
+	KEYWORDS="amd64"
 fi
 
 LICENSE="Apache-2.0"
