@@ -1,0 +1,16 @@
+BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5 virtual/pkgconfig
+DEFINED_PHASES=compile configure install postinst postrm prepare test
+DEPEND=acct-group/indiserver acct-user/indiserver dev-cpp/cpp-httplib:= dev-cpp/nlohmann_json:= dev-libs/libev:= media-libs/libjpeg-turbo:= net-misc/curl sci-libs/cfitsio:= sci-libs/fftw:3.0= sci-libs/gsl:= sci-libs/libnova:= sys-libs/zlib:= virtual/libusb:1 virtual/udev ogg? ( media-libs/libogg media-libs/libtheora ) qt5? ( dev-qt/qtcore:5 dev-qt/qtnetwork:5 ) rtlsdr? ( net-wireless/rtl-sdr ) kernel_linux? ( sys-kernel/linux-headers ) test? ( >=dev-cpp/gtest-1.8.0 )
+DESCRIPTION=INDI Astronomical Control Protocol library
+EAPI=8
+HOMEPAGE=https://www.indilib.org/
+INHERIT=cmake flag-o-matic udev
+IUSE=ogg qt5 rtlsdr static-libs test
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD GPL-2+ LGPL-2+ LGPL-2.1+
+RDEPEND=acct-group/indiserver acct-user/indiserver dev-cpp/cpp-httplib:= dev-cpp/nlohmann_json:= dev-libs/libev:= media-libs/libjpeg-turbo:= net-misc/curl sci-libs/cfitsio:= sci-libs/fftw:3.0= sci-libs/gsl:= sci-libs/libnova:= sys-libs/zlib:= virtual/libusb:1 virtual/udev ogg? ( media-libs/libogg media-libs/libtheora ) qt5? ( dev-qt/qtcore:5 dev-qt/qtnetwork:5 ) rtlsdr? ( net-wireless/rtl-sdr )
+RESTRICT=!test? ( test )
+SLOT=0/1
+SRC_URI=https://github.com/indilib/indi/archive/v2.1.5.1.tar.gz -> indilib-2.1.5.1.tar.gz
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a	udev	f3d9a4376ebd22131726a68e1a0a058f
+_md5_=4f280b6f6139d46cb7e4383c824884ac
