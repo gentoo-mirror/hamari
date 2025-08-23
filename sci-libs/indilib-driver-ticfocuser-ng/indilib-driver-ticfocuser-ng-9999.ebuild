@@ -5,7 +5,7 @@ EAPI=8
 
 inherit cmake
 
-DESCRIPTION="INDI driver for the Pentax DSLR"
+DESCRIPTION="INDI driver for focusers driven by the Pololu Tic controller"
 HOMEPAGE="http://indilib.org"
 
 if [[ ${PV} == "9999" ]]; then
@@ -21,16 +21,35 @@ fi
 
 S="${MY_S}/indi-${PN##*-driver-}"
 
-LICENSE="LGPL-2.1"
+LICENSE="GPL-3"
 SLOT="0/1"
 
+IUSE="bluetooth"
+
 DEPEND="
+	app-misc/pololu-tic-software:=
+	dev-libs/libusbp:=
 	~sci-libs/indilib-${PV}
-	~sci-libs/libpktriggercord-${PV}
-	~sci-libs/libricohcamerasdk-${PV}
+	virtual/libusb:1
+	bluetooth? ( net-wireless/bluez:= )
 "
-RDEPEND="
-	${DEPEND}
-	app-admin/sudo
-	sys-libs/libcap[tools]
-"
+RDEPEND="${DEPEND}"
+
+PATCHES=(
+	"${FILESDIR}/${P}-libusbp.patch"
+)
+
+src_prepare() {
+	cmake_src_prepare
+
+	# remove bundled libraries
+	rm -r pololu-tic-software || die
+}
+
+src_configure() {
+	local mycmakeargs=(
+#		-DWITH_BLUETOOTH="$(usex bluetooth)"
+	)
+
+	cmake_src_configure
+}

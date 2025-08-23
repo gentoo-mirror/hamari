@@ -5,7 +5,7 @@ EAPI=8
 
 inherit cmake
 
-DESCRIPTION="the INDI driver for Astromechanics Lens Controller https://astromechanics.org"
+DESCRIPTION="INDI Driver for AStarBox power control"
 HOMEPAGE="http://indilib.org"
 
 if [[ ${PV} == "9999" ]]; then
@@ -21,8 +21,14 @@ fi
 
 S="${MY_S}/indi-${PN##*-driver-}"
 
-LICENSE="GPL-3"
+LICENSE="GPL-3+"
 SLOT="0/1"
 
-DEPEND="~sci-libs/indilib-${PV}"
+DEPEND="
+	~sci-libs/indilib-${PV}
+"
 RDEPEND="${DEPEND}"
+
+PATCHES=(
+	"${FILESDIR}/${P}-unsued-var.patch"
+)
