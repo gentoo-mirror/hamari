@@ -53,7 +53,7 @@ dev-util/lief 0.16.5 0.16.6: Library to instrument executable formats
 dev-util/plasma 0_p20190304 9999: An interactive disassembler for x86/ARM/MIPS
 dev-util/qiling 1.4.7 9999: Advanced binary emulation framework
 dev-util/rizin 0.8.1: reverse engineering framework for binary analysis
-dev-util/rp 2.1.4 9999: C++ ROP gadget finder
+dev-util/rp 2.1.4 2.1.5 9999: C++ ROP gadget finder
 dev-util/rz-ghidra 0.7.0 0.8.0: Deep ghidra decompiler and sleigh disassembler integration for rizin
 media-gfx/fig2dev 3.2.9a 9999: Set of tools for creating TeX documents with graphics
 media-gfx/rpicam-apps 1.2.1 1.4.2 1.4.3 1.4.4 1.5.0 9999: libcamera-based applications to drive the cameras on a Raspberry Pi platform
