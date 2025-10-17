@@ -1,0 +1,14 @@
+BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.28.5 virtual/pkgconfig
+DEFINED_PHASES=compile configure install postinst postrm prepare test
+DEPEND=virtual/udev
+DESCRIPTION=Udev rules and firmware for ZWO Optics ASI cameras.
+EAPI=8
+HOMEPAGE=http://indilib.org
+INHERIT=cmake udev
+KEYWORDS=-* ~amd64 ~arm ~x86
+LICENSE=zwo-asi
+RDEPEND=virtual/udev sys-apps/fxload
+SLOT=0/1
+SRC_URI=https://github.com/indilib/indi-3rdparty/archive/v2.1.6.2.tar.gz -> indilib-3rdparty-2.1.6.2.tar.gz
+_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	3d9a5fc17dadea162813d5d8918328b4	udev	f3d9a4376ebd22131726a68e1a0a058f
+_md5_=81324c8e5963bb1192b2498f34014d1a

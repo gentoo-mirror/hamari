@@ -1,13 +1,13 @@
 BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.28.5 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=~sci-libs/indilib-9999 ~sci-libs/libtoupcam-9999 ~sci-libs/libaltaircam-9999 ~sci-libs/libbressercam-9999 ~sci-libs/libmallincam-9999 ~sci-libs/libmeadecam-9999 ~sci-libs/libnncam-9999 ~sci-libs/libogmacam-9999 ~sci-libs/libomegonprocam-9999 ~sci-libs/libstarshootg-9999 ~sci-libs/libsvbonycam-9999 ~sci-libs/libtscam-9999
+DEPEND==sci-libs/indilib-9999* ~sci-libs/libtoupcam-9999 ~sci-libs/libaltaircam-9999 ~sci-libs/libbressercam-9999 ~sci-libs/libmallincam-9999 ~sci-libs/libmeadecam-9999 ~sci-libs/libnncam-9999 ~sci-libs/libogmacam-9999 ~sci-libs/libomegonprocam-9999 ~sci-libs/libstarshootg-9999 ~sci-libs/libsvbonycam-9999 ~sci-libs/libtscam-9999
 DESCRIPTION=INDI driver for the Touptek cameras
 EAPI=8
 HOMEPAGE=http://indilib.org
 INHERIT=cmake git-r3
 LICENSE=LGPL-2
 PROPERTIES=live
-RDEPEND=~sci-libs/indilib-9999 ~sci-libs/libtoupcam-9999 ~sci-libs/libaltaircam-9999 ~sci-libs/libbressercam-9999 ~sci-libs/libmallincam-9999 ~sci-libs/libmeadecam-9999 ~sci-libs/libnncam-9999 ~sci-libs/libogmacam-9999 ~sci-libs/libomegonprocam-9999 ~sci-libs/libstarshootg-9999 ~sci-libs/libsvbonycam-9999 ~sci-libs/libtscam-9999
+RDEPEND==sci-libs/indilib-9999* ~sci-libs/libtoupcam-9999 ~sci-libs/libaltaircam-9999 ~sci-libs/libbressercam-9999 ~sci-libs/libmallincam-9999 ~sci-libs/libmeadecam-9999 ~sci-libs/libnncam-9999 ~sci-libs/libogmacam-9999 ~sci-libs/libomegonprocam-9999 ~sci-libs/libstarshootg-9999 ~sci-libs/libsvbonycam-9999 ~sci-libs/libtscam-9999
 SLOT=0/1
 _eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	3d9a5fc17dadea162813d5d8918328b4	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=ab21a233a7246446c407aa0582950f74
+_md5_=d1fbd1ba554afb480168e0810b69b5c0
