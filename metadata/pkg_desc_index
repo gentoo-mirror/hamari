@@ -49,7 +49,7 @@ dev-util/cemu 0.7-r1 9999: Cheap EMUlator: lightweight multi-architecture assemb
 dev-util/ghidra 11.4 11.4.1 11.4.2: A software reverse engineering framework
 dev-util/ghidra-bin 11.4 11.4.1 11.4.2: A software reverse engineering framework
 dev-util/heaptrace 2.2.8 9999: Visualize heap operations for pwn and debugging
-dev-util/lief 0.16.5 0.16.6 0.16.7 0.17.0: Library to instrument executable formats
+dev-util/lief 0.16.5 0.16.6 0.16.7 0.17.0 0.17.1: Library to instrument executable formats
 dev-util/plasma 0_p20190304 9999: An interactive disassembler for x86/ARM/MIPS
 dev-util/qiling 1.4.7 9999: Advanced binary emulation framework
 dev-util/rizin 0.8.1: reverse engineering framework for binary analysis
@@ -92,7 +92,7 @@ sci-astronomy/space-command 0.7.3-r1 9999: Satellite tracking command line
 sci-astronomy/strf 9999: Radio Frequency Satellite Tracking
 sci-electronics/nec2c 1.3.2 1.3.3 9999: Numerical antenna analysis program
 sci-geosciences/gdal-grass 1.0.1 1.0.2 1.0.3 1.0.4: GDAL plugin to access GRASS data
-sci-libs/indilib 2.1.5.1 2.1.6 9999: INDI Astronomical Control Protocol library
+sci-libs/indilib 2.1.5.1 2.1.6 2.1.6-r1 9999: INDI Astronomical Control Protocol library
 sci-libs/indilib-driver-aagcloudwatcher-ng 2.1.5.1 2.1.6.2 9999: INDI driver for the AAG Cloud Watcher (AAGware - http://www.aagware.eu/)
 sci-libs/indilib-driver-ahp-xc 2.1.5.1 2.1.6.2 9999: INDI driver to control the AHP XC8 Telescope Array Correlator
 sci-libs/indilib-driver-aok 2.1.5.1 2.1.6.2 9999: INDI driver to control the AOK Skywalker mounts
